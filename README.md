@@ -32,6 +32,8 @@ http://127.0.0.1:5173/
 - `docs/deployment.md`
 - `docs/operations.md`
 
+GitHub Actions 定时刷新见 `.github/workflows/refresh-data.yml`。默认每天 16:30（Asia/Shanghai）刷新行情和排名；手动运行时选择 `refresh_scope=all` 可刷新候选池和证据流。
+
 ## 数据文件
 
 - `data/sectors.json`: 产业链节点。

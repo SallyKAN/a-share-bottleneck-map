@@ -1,0 +1,122 @@
+name: Refresh data snapshots
+
+on:
+  workflow_dispatch:
+    inputs:
+      refresh_scope:
+        description: "quotes refreshes quotes+ranking; all also refreshes candidates and evidence"
+        required: true
+        default: "quotes"
+        type: choice
+        options:
+          - quotes
+          - all
+  schedule:
+    # 16:30 Asia/Shanghai, every day. GitHub cron uses UTC.
+    - cron: "30 8 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data-snapshots
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+        with:
+          path: website
+
+      - name: Checkout daily_stock_analysis
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ vars.DSA_REPOSITORY }}
+          token: ${{ secrets.DSA_REPO_TOKEN || github.token }}
+          path: daily_stock_analysis
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: website/package-lock.json
+
+      - name: Install website dependencies
+        working-directory: website
+        run: npm ci
+
+      - name: Install DSA Python dependencies
+        working-directory: daily_stock_analysis
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            python -m pip install -r requirements.txt
+          elif [ -f pyproject.toml ]; then
+            python -m pip install .
+          fi
+
+      - name: Refresh quotes
+        working-directory: website
+        env:
+          DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
+        run: python scripts/refresh_quotes.py --sleep-seconds 0.05
+
+      - name: Refresh candidates
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_scope == 'all' }}
+        working-directory: website
+        env:
+          DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
+          BOCHA_API_KEY: ${{ secrets.BOCHA_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          SEARXNG_URL: ${{ secrets.SEARXNG_URL }}
+        run: python scripts/refresh_candidates.py --max-candidates 300 --max-promoted-per-sector 30 --max-queries-per-sector 4
+
+      - name: Refresh evidence
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_scope == 'all' }}
+        working-directory: website
+        env:
+          DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
+          BOCHA_API_KEY: ${{ secrets.BOCHA_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+          SEARXNG_URL: ${{ secrets.SEARXNG_URL }}
+        run: python scripts/refresh_evidence.py --max-searches 4 --results-per-dimension 2 --sleep-seconds 0.1
+
+      - name: Refresh ranking
+        working-directory: website
+        run: python scripts/refresh_ranking.py
+
+      - name: Validate data and build
+        working-directory: website
+        run: |
+          node scripts/validate-data.mjs
+          npm run build
+
+      - name: Commit refreshed snapshots
+        working-directory: website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data package-lock.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Refresh data snapshots"
+            git push
+          fi

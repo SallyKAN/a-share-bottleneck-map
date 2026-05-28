@@ -46,6 +46,48 @@ npm run build
 
 Do not expose refresh endpoints publicly until they have authentication, rate limits, and job logs.
 
+## GitHub Actions
+
+The repository includes `.github/workflows/refresh-data.yml`.
+
+Default schedule:
+
+- Runs at `08:30 UTC`, every day.
+- This is `16:30 Asia/Shanghai`, after the A-share close.
+- Scheduled runs refresh quotes and rebuild ranking.
+- Manual runs can choose `refresh_scope=all` to also refresh candidates and evidence.
+
+Required repository variable:
+
+```text
+DSA_REPOSITORY
+```
+
+Set it to the GitHub repository that contains `daily_stock_analysis`, for example:
+
+```text
+SallyKAN/daily_stock_analysis
+```
+
+If that repository is private, add a repository secret with read access:
+
+```text
+DSA_REPO_TOKEN
+```
+
+Optional search provider secrets for `refresh_scope=all`:
+
+```text
+BOCHA_API_KEY
+TAVILY_API_KEY
+BRAVE_API_KEY
+SERPAPI_API_KEY
+MINIMAX_API_KEY
+SEARXNG_URL
+```
+
+Vercel will redeploy automatically after the action commits refreshed `data/*.json` to `main`.
+
 ## Future Modules
 
 - `frontend`: public Vite site and read-only visualizations.
