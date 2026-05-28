@@ -1,0 +1,1655 @@
+[
+  {
+    "id": "zjxc",
+    "name": "中际旭创",
+    "code": "300308",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块龙头，直接受益于AI网络升级",
+    "metrics": {
+      "bottleneckStrength": 95,
+      "positionCertainty": 96,
+      "evidenceQuality": 86,
+      "financialConversion": 88,
+      "valuationDiscipline": 58,
+      "riskControl": 66
+    }
+  },
+  {
+    "id": "xys",
+    "name": "新易盛",
+    "code": "300502",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块核心供应商，弹性来自高端产品占比",
+    "metrics": {
+      "bottleneckStrength": 94,
+      "positionCertainty": 93,
+      "evidenceQuality": 84,
+      "financialConversion": 86,
+      "valuationDiscipline": 57,
+      "riskControl": 65
+    }
+  },
+  {
+    "id": "tftx",
+    "name": "天孚通信",
+    "code": "300394",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "光器件平台型公司，覆盖多个光模块上游环节",
+    "metrics": {
+      "bottleneckStrength": 91,
+      "positionCertainty": 89,
+      "evidenceQuality": 82,
+      "financialConversion": 84,
+      "valuationDiscipline": 60,
+      "riskControl": 70
+    }
+  },
+  {
+    "id": "gxkj",
+    "name": "光迅科技",
+    "code": "002281",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "光芯片与器件国产化代表，需要核验高端份额",
+    "metrics": {
+      "bottleneckStrength": 86,
+      "positionCertainty": 75,
+      "evidenceQuality": 70,
+      "financialConversion": 66,
+      "valuationDiscipline": 72,
+      "riskControl": 68
+    }
+  },
+  {
+    "id": "cdkj",
+    "name": "长电科技",
+    "code": "600584",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "国内封测龙头，关注先进封装收入占比",
+    "metrics": {
+      "bottleneckStrength": 82,
+      "positionCertainty": 78,
+      "evidenceQuality": 76,
+      "financialConversion": 70,
+      "valuationDiscipline": 74,
+      "riskControl": 70
+    }
+  },
+  {
+    "id": "tfwd",
+    "name": "通富微电",
+    "code": "002156",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "AMD链条相关封测能力，关注高端订单兑现",
+    "metrics": {
+      "bottleneckStrength": 83,
+      "positionCertainty": 76,
+      "evidenceQuality": 74,
+      "financialConversion": 68,
+      "valuationDiscipline": 70,
+      "riskControl": 68
+    }
+  },
+  {
+    "id": "hfck",
+    "name": "华峰测控",
+    "code": "688200",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "半导体测试设备，受益于复杂芯片测试需求",
+    "metrics": {
+      "bottleneckStrength": 78,
+      "positionCertainty": 73,
+      "evidenceQuality": 72,
+      "financialConversion": 64,
+      "valuationDiscipline": 76,
+      "riskControl": 74
+    }
+  },
+  {
+    "id": "xskj",
+    "name": "兴森科技",
+    "code": "002436",
+    "sectorIds": [
+      "package",
+      "pcb"
+    ],
+    "role": "IC载板国产替代，关注良率和客户验证",
+    "metrics": {
+      "bottleneckStrength": 76,
+      "positionCertainty": 66,
+      "evidenceQuality": 68,
+      "financialConversion": 58,
+      "valuationDiscipline": 75,
+      "riskControl": 64
+    }
+  },
+  {
+    "id": "hdgf",
+    "name": "沪电股份",
+    "code": "002463",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "AI服务器和交换机PCB核心标的",
+    "metrics": {
+      "bottleneckStrength": 92,
+      "positionCertainty": 91,
+      "evidenceQuality": 84,
+      "financialConversion": 86,
+      "valuationDiscipline": 62,
+      "riskControl": 72
+    }
+  },
+  {
+    "id": "shkj",
+    "name": "胜宏科技",
+    "code": "300476",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB产能，关注AI服务器订单结构",
+    "metrics": {
+      "bottleneckStrength": 88,
+      "positionCertainty": 82,
+      "evidenceQuality": 76,
+      "financialConversion": 78,
+      "valuationDiscipline": 64,
+      "riskControl": 68
+    }
+  },
+  {
+    "id": "sykj",
+    "name": "生益科技",
+    "code": "600183",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "覆铜板平台，关注高速材料突破",
+    "metrics": {
+      "bottleneckStrength": 85,
+      "positionCertainty": 80,
+      "evidenceQuality": 75,
+      "financialConversion": 74,
+      "valuationDiscipline": 70,
+      "riskControl": 72
+    }
+  },
+  {
+    "id": "hhkj",
+    "name": "宏和科技",
+    "code": "603256",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "电子级玻纤布，关注高端材料供需缺口",
+    "metrics": {
+      "bottleneckStrength": 74,
+      "positionCertainty": 58,
+      "evidenceQuality": 60,
+      "financialConversion": 52,
+      "valuationDiscipline": 78,
+      "riskControl": 60
+    }
+  },
+  {
+    "id": "jpkj",
+    "name": "金盘科技",
+    "code": "688676",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "干式变压器与数据中心供配电",
+    "metrics": {
+      "bottleneckStrength": 82,
+      "positionCertainty": 74,
+      "evidenceQuality": 72,
+      "financialConversion": 70,
+      "valuationDiscipline": 76,
+      "riskControl": 72
+    }
+  },
+  {
+    "id": "khsj",
+    "name": "科华数据",
+    "code": "002335",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "UPS、数据中心和电源系统",
+    "metrics": {
+      "bottleneckStrength": 79,
+      "positionCertainty": 74,
+      "evidenceQuality": 70,
+      "financialConversion": 66,
+      "valuationDiscipline": 78,
+      "riskControl": 70
+    }
+  },
+  {
+    "id": "ywk",
+    "name": "英维克",
+    "code": "002837",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "机房温控与液冷，关注海外客户突破",
+    "metrics": {
+      "bottleneckStrength": 86,
+      "positionCertainty": 82,
+      "evidenceQuality": 78,
+      "financialConversion": 76,
+      "valuationDiscipline": 68,
+      "riskControl": 70
+    }
+  },
+  {
+    "id": "slhj",
+    "name": "申菱环境",
+    "code": "301018",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "数据中心温控，关注液冷订单兑现",
+    "metrics": {
+      "bottleneckStrength": 78,
+      "positionCertainty": 70,
+      "evidenceQuality": 68,
+      "financialConversion": 62,
+      "valuationDiscipline": 76,
+      "riskControl": 68
+    }
+  },
+  {
+    "id": "hwj",
+    "name": "寒武纪",
+    "code": "688256",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "国产AI芯片代表，弹性大但估值敏感",
+    "metrics": {
+      "bottleneckStrength": 83,
+      "positionCertainty": 76,
+      "evidenceQuality": 72,
+      "financialConversion": 56,
+      "valuationDiscipline": 42,
+      "riskControl": 52
+    }
+  },
+  {
+    "id": "hgxx",
+    "name": "海光信息",
+    "code": "688041",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "国产高性能处理器，关注数据中心放量",
+    "metrics": {
+      "bottleneckStrength": 81,
+      "positionCertainty": 78,
+      "evidenceQuality": 74,
+      "financialConversion": 72,
+      "valuationDiscipline": 58,
+      "riskControl": 66
+    }
+  },
+  {
+    "id": "gyfl",
+    "name": "工业富联",
+    "code": "601138",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "AI服务器制造链条，关注利润率而非收入规模",
+    "metrics": {
+      "bottleneckStrength": 87,
+      "positionCertainty": 88,
+      "evidenceQuality": 82,
+      "financialConversion": 82,
+      "valuationDiscipline": 70,
+      "riskControl": 76
+    }
+  },
+  {
+    "id": "lcxx",
+    "name": "浪潮信息",
+    "code": "000977",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "AI服务器整机，关注供给约束和订单质量",
+    "metrics": {
+      "bottleneckStrength": 80,
+      "positionCertainty": 76,
+      "evidenceQuality": 73,
+      "financialConversion": 68,
+      "valuationDiscipline": 68,
+      "riskControl": 62
+    }
+  },
+  {
+    "id": "auto-300672",
+    "name": "国科微",
+    "code": "300672",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.9
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 90,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 88,
+      "positionCertainty": 82,
+      "evidenceQuality": 82,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688478",
+    "name": "晶升股份",
+    "code": "688478",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.9
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 90,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 88,
+      "positionCertainty": 82,
+      "evidenceQuality": 82,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002579",
+    "name": "中京电子",
+    "code": "002579",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.9
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 90,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 88,
+      "positionCertainty": 82,
+      "evidenceQuality": 82,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-600330",
+    "name": "天通股份",
+    "code": "600330",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.9
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 90,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 88,
+      "positionCertainty": 82,
+      "evidenceQuality": 82,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-603773",
+    "name": "沃格光电",
+    "code": "603773",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.9
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 90,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 88,
+      "positionCertainty": 82,
+      "evidenceQuality": 82,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300757",
+    "name": "罗博特科",
+    "code": "300757",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300814",
+    "name": "中富电路",
+    "code": "300814",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-600105",
+    "name": "永鼎股份",
+    "code": "600105",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002025",
+    "name": "航天电器",
+    "code": "002025",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-603738",
+    "name": "泰晶科技",
+    "code": "603738",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688234",
+    "name": "天岳先进",
+    "code": "688234",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300373",
+    "name": "扬杰科技",
+    "code": "300373",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-605111",
+    "name": "新洁能",
+    "code": "605111",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-600703",
+    "name": "三安光电",
+    "code": "600703",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-301021",
+    "name": "英诺激光",
+    "code": "301021",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688187",
+    "name": "时代电气",
+    "code": "688187",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-600460",
+    "name": "士兰微",
+    "code": "600460",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-000021",
+    "name": "深科技",
+    "code": "000021",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300316",
+    "name": "晶盛机电",
+    "code": "300316",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688170",
+    "name": "德龙激光",
+    "code": "688170",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300223",
+    "name": "北京君正",
+    "code": "300223",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-600667",
+    "name": "太极实业",
+    "code": "600667",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688416",
+    "name": "恒烁股份",
+    "code": "688416",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002185",
+    "name": "华天科技",
+    "code": "002185",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300661",
+    "name": "圣邦股份",
+    "code": "300661",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688766",
+    "name": "普冉股份",
+    "code": "688766",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688519",
+    "name": "南亚新材",
+    "code": "688519",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688401",
+    "name": "路维光电",
+    "code": "688401",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-301338",
+    "name": "凯格精机",
+    "code": "301338",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-603186",
+    "name": "华正新材",
+    "code": "603186",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002138",
+    "name": "顺络电子",
+    "code": "002138",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002079",
+    "name": "苏州固锝",
+    "code": "002079",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002885",
+    "name": "京泉华",
+    "code": "002885",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002056",
+    "name": "横店东磁",
+    "code": "002056",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-000811",
+    "name": "冰轮环境",
+    "code": "000811",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "供配电与液冷候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "power",
+        "nodeId": "power",
+        "role": "供配电与液冷",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-600673",
+    "name": "东阳光",
+    "code": "600673",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "供配电与液冷候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "power",
+        "nodeId": "power",
+        "role": "供配电与液冷",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-000070",
+    "name": "特发信息",
+    "code": "000070",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "供配电与液冷候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "power",
+        "nodeId": "power",
+        "role": "供配电与液冷",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002364",
+    "name": "中恒电气",
+    "code": "002364",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "供配电与液冷候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "power",
+        "nodeId": "power",
+        "role": "供配电与液冷",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-601126",
+    "name": "XD四方股",
+    "code": "601126",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "供配电与液冷候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "power",
+        "nodeId": "power",
+        "role": "供配电与液冷",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300617",
+    "name": "安靠智电",
+    "code": "300617",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "供配电与液冷候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "power",
+        "nodeId": "power",
+        "role": "供配电与液冷",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688343",
+    "name": "云天励飞-U",
+    "code": "688343",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "国产AI算力候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "domestic",
+        "nodeId": "domestic",
+        "role": "国产AI算力",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-27T10:08:13+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  }
+]

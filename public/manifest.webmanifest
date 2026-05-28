@@ -1,0 +1,9 @@
+{
+  "name": "A股AI扩张瓶颈地图",
+  "short_name": "AI瓶颈地图",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "icons": []
+}

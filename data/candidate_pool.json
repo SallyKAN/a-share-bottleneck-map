@@ -1,0 +1,8461 @@
+{
+  "source": "daily_stock_analysis.SearchService + stocks.index.json",
+  "updatedAt": "2026-05-27T10:08:13+08:00",
+  "itemCount": 300,
+  "promotedCount": 41,
+  "failureCount": 4,
+  "failures": [
+    {
+      "sectorId": "optical",
+      "query": "6G概念",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "sectorId": "package",
+      "query": "先进封装",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "sectorId": "pcb",
+      "query": "F5G概念",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    },
+    {
+      "sectorId": "power",
+      "query": "数据中心",
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    }
+  ],
+  "items": [
+    {
+      "id": "cand-300672-1f5f3c5b",
+      "code": "300672",
+      "name": "国科微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 90,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688478-9b389fc0",
+      "code": "688478",
+      "name": "晶升股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 90,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-002579-99035ea7",
+      "code": "002579",
+      "name": "中京电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "消费电子概念",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 90,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-600330-0ae56120",
+      "code": "600330",
+      "name": "天通股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "消费电子概念",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 90,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-603773-d9c51e55",
+      "code": "603773",
+      "name": "沃格光电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板",
+        "消费电子概念",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 90,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002579-b6461668",
+      "code": "002579",
+      "name": "中京电子",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "needs_review",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300757-98626acc",
+      "code": "300757",
+      "name": "罗博特科",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-600330-8190e64f",
+      "code": "600330",
+      "name": "天通股份",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "needs_review",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300814-229caaf9",
+      "code": "300814",
+      "name": "中富电路",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-600105-4ac2d185",
+      "code": "600105",
+      "name": "永鼎股份",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-002025-43ca8f78",
+      "code": "002025",
+      "name": "航天电器",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300308-c0b6d579",
+      "code": "300308",
+      "name": "中际旭创",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-603738-79e79985",
+      "code": "603738",
+      "name": "泰晶科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念",
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-688234-14196f8a",
+      "code": "688234",
+      "name": "天岳先进",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300373-b95e58fa",
+      "code": "300373",
+      "name": "扬杰科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-605111-64b9a5d2",
+      "code": "605111",
+      "name": "新洁能",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-600703-102595e9",
+      "code": "600703",
+      "name": "三安光电",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-301021-f4040ad1",
+      "code": "301021",
+      "name": "英诺激光",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688187-732d2e3b",
+      "code": "688187",
+      "name": "时代电气",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-600460-c5eaed64",
+      "code": "600460",
+      "name": "士兰微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-000021-44027af6",
+      "code": "000021",
+      "name": "深科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300316-406e8866",
+      "code": "300316",
+      "name": "晶盛机电",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688170-d59b030d",
+      "code": "688170",
+      "name": "德龙激光",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300223-674073ad",
+      "code": "300223",
+      "name": "北京君正",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-600667-ca3910e5",
+      "code": "600667",
+      "name": "太极实业",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-002579-aa5aa325",
+      "code": "002579",
+      "name": "中京电子",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "needs_review",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-688416-90c97f33",
+      "code": "688416",
+      "name": "恒烁股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-002185-46672b61",
+      "code": "002185",
+      "name": "华天科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-300661-f6181a89",
+      "code": "300661",
+      "name": "圣邦股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-688766-c6a6b483",
+      "code": "688766",
+      "name": "普冉股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念",
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-600183-b6300dbb",
+      "code": "600183",
+      "name": "生益科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300814-834462bd",
+      "code": "300814",
+      "name": "中富电路",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "needs_review",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688519-9c1cc925",
+      "code": "688519",
+      "name": "南亚新材",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688401-16bcf6ec",
+      "code": "688401",
+      "name": "路维光电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-301338-7c076543",
+      "code": "301338",
+      "name": "凯格精机",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-603186-a021d3c4",
+      "code": "603186",
+      "name": "华正新材",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-600584-2ee48e18",
+      "code": "600584",
+      "name": "长电科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板",
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002138-04198e66",
+      "code": "002138",
+      "name": "顺络电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002079-21cf97c7",
+      "code": "002079",
+      "name": "苏州固锝",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002885-6830b742",
+      "code": "002885",
+      "name": "京泉华",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002056-e7e0e2f1",
+      "code": "002056",
+      "name": "横店东磁",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念",
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-000811-774a3c13",
+      "code": "000811",
+      "name": "冰轮环境",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算",
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-600673-1b5be332",
+      "code": "600673",
+      "name": "东阳光",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算",
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-000070-6499df09",
+      "code": "000070",
+      "name": "特发信息",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算",
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002364-5cf00a4b",
+      "code": "002364",
+      "name": "中恒电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念",
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-601126-52188c2b",
+      "code": "601126",
+      "name": "XD四方股",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念",
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300617-ef16cd45",
+      "code": "300617",
+      "name": "安靠智电",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念",
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300672-0a779f46",
+      "code": "300672",
+      "name": "国科微",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产芯片",
+        "AI芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "needs_review",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：国产芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：AI芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:12+08:00"
+    },
+    {
+      "id": "cand-688416-0802aa7c",
+      "code": "688416",
+      "name": "恒烁股份",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产芯片",
+        "AI芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "needs_review",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：国产芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：AI芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:12+08:00"
+    },
+    {
+      "id": "cand-688343-37400c19",
+      "code": "688343",
+      "name": "云天励飞-U",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "AI芯片",
+        "华为昇腾"
+      ],
+      "sourceTiers": {
+        "concept_board": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：AI芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        },
+        {
+          "title": "东方财富概念板块成分股：华为昇腾",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:12+08:00"
+    },
+    {
+      "id": "cand-002185-c33227ac",
+      "code": "002185",
+      "name": "华天科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-603773-1f7b58b6",
+      "code": "603773",
+      "name": "沃格光电",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300394-7e06787c",
+      "code": "300394",
+      "name": "天孚通信",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-600584-c35d8555",
+      "code": "600584",
+      "name": "长电科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-601138-9ab0dd7f",
+      "code": "601138",
+      "name": "工业富联",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-688167-f3d6d971",
+      "code": "688167",
+      "name": "炬光科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-301165-eb1767f4",
+      "code": "301165",
+      "name": "锐捷网络",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-002179-047c9ea0",
+      "code": "002179",
+      "name": "中航光电",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-002281-82c50969",
+      "code": "002281",
+      "name": "光迅科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-002396-c6649b23",
+      "code": "002396",
+      "name": "星网锐捷",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-688609-70cd78dd",
+      "code": "688609",
+      "name": "九联科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-600498-53afe636",
+      "code": "600498",
+      "name": "烽火通信",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-002429-e8af5a1d",
+      "code": "002429",
+      "name": "兆驰股份",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300502-b3eb6839",
+      "code": "300502",
+      "name": "新易盛",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-000938-3ec9ced7",
+      "code": "000938",
+      "name": "紫光股份",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-002475-c648e487",
+      "code": "002475",
+      "name": "立讯精密",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-600487-7ed4d111",
+      "code": "600487",
+      "name": "亨通光电",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300548-f3b6bf25",
+      "code": "300548",
+      "name": "长芯博创",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300857-704b4c0d",
+      "code": "300857",
+      "name": "协创数据",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-688205-0ddec4d3",
+      "code": "688205",
+      "name": "德科立",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-300620-9f31b7a9",
+      "code": "300620",
+      "name": "光库科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "CPO概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：CPO概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:12+08:00"
+    },
+    {
+      "id": "cand-688536-1beab2dd",
+      "code": "688536",
+      "name": "思瑞浦",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-603011-d81aed24",
+      "code": "603011",
+      "name": "合锻智能",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-600703-b872b88b",
+      "code": "600703",
+      "name": "三安光电",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-002957-b6449aa4",
+      "code": "002957",
+      "name": "科瑞技术",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688498-f8a05e17",
+      "code": "688498",
+      "name": "源杰科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688337-b44747d3",
+      "code": "688337",
+      "name": "普源精电",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688172-b37f3ca4",
+      "code": "688172",
+      "name": "燕东微",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-301338-5169db98",
+      "code": "301338",
+      "name": "凯格精机",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-600171-6c02f8c9",
+      "code": "600171",
+      "name": "上海贝岭",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-300726-5efab216",
+      "code": "300726",
+      "name": "宏达电子",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-300303-9db4ac59",
+      "code": "300303",
+      "name": "聚飞光电",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688143-959f0859",
+      "code": "688143",
+      "name": "长盈通",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-601231-af2b9c7b",
+      "code": "601231",
+      "name": "环旭电子",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688662-929d4547",
+      "code": "688662",
+      "name": "富信科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-603618-a217eb8d",
+      "code": "603618",
+      "name": "杭电股份",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688195-c5376163",
+      "code": "688195",
+      "name": "腾景科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688048-797874f5",
+      "code": "688048",
+      "name": "长光华芯",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688097-e8a52130",
+      "code": "688097",
+      "name": "博众精工",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-603267-7828092a",
+      "code": "603267",
+      "name": "鸿远电子",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-688123-185356f2",
+      "code": "688123",
+      "name": "聚辰股份",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "光通信模块"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：光通信模块",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:13+08:00"
+    },
+    {
+      "id": "cand-002364-1c416c77",
+      "code": "002364",
+      "name": "中恒电气",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300464-b61df739",
+      "code": "300464",
+      "name": "星徽股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-002079-8d4a6e94",
+      "code": "002079",
+      "name": "苏州固锝",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300046-bb5f5b82",
+      "code": "300046",
+      "name": "台基股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688711-f80167b3",
+      "code": "688711",
+      "name": "宏微科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-002885-1232b4e3",
+      "code": "002885",
+      "name": "京泉华",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688556-ed2b7f5a",
+      "code": "688556",
+      "name": "高测股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300656-962b4f58",
+      "code": "300656",
+      "name": "民德电子",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300623-541b39ba",
+      "code": "300623",
+      "name": "捷捷微电",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688401-a1728dc7",
+      "code": "688401",
+      "name": "路维光电",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688172-13cd9c74",
+      "code": "688172",
+      "name": "燕东微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-002851-68ca797d",
+      "code": "002851",
+      "name": "麦格米特",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-603290-141645ea",
+      "code": "603290",
+      "name": "斯达半导",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-002617-1ac282e1",
+      "code": "002617",
+      "name": "露笑科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第三代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第三代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688261-68244eef",
+      "code": "688261",
+      "name": "东微半导",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第四代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第四代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300487-83871896",
+      "code": "300487",
+      "name": "蓝晓科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第四代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第四代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-600208-dcf248a7",
+      "code": "600208",
+      "name": "衢州发展",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第四代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第四代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-300346-b5cef204",
+      "code": "300346",
+      "name": "南大光电",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "第四代半导体"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：第四代半导体",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:28+08:00"
+    },
+    {
+      "id": "cand-688551-ab5fc132",
+      "code": "688551",
+      "name": "科威尔",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-688536-2adf5bbe",
+      "code": "688536",
+      "name": "思瑞浦",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-603011-66b1fc12",
+      "code": "603011",
+      "name": "合锻智能",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-002129-afa61d5e",
+      "code": "002129",
+      "name": "TCL中环",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-300757-86121a66",
+      "code": "300757",
+      "name": "罗博特科",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-600330-62d5a756",
+      "code": "600330",
+      "name": "天通股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-603663-fe880e67",
+      "code": "603663",
+      "name": "三祥新材",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-603633-895968d4",
+      "code": "603633",
+      "name": "徕木股份",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-688332-24208daa",
+      "code": "688332",
+      "name": "中科蓝讯",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-300814-395735fd",
+      "code": "300814",
+      "name": "中富电路",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-688368-89ac189d",
+      "code": "688368",
+      "name": "晶丰明源",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-603773-f0084af2",
+      "code": "603773",
+      "name": "沃格光电",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "半导体概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：半导体概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:34+08:00"
+    },
+    {
+      "id": "cand-600183-0205ece7",
+      "code": "600183",
+      "name": "生益科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-300975-dac87083",
+      "code": "300975",
+      "name": "商络电子",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-002049-812a9c1f",
+      "code": "002049",
+      "name": "紫光国微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-301308-f26dc3ca",
+      "code": "301308",
+      "name": "江波龙",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-688525-c56a1398",
+      "code": "688525",
+      "name": "佰维存储",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-688385-3af10cd5",
+      "code": "688385",
+      "name": "复旦微电",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-300567-4d05189e",
+      "code": "300567",
+      "name": "精测电子",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-688012-33dcc962",
+      "code": "688012",
+      "name": "中微公司",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-300302-0b1b75e6",
+      "code": "300302",
+      "name": "同有科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-600584-0f1b10e6",
+      "code": "600584",
+      "name": "长电科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-688709-22ac7529",
+      "code": "688709",
+      "name": "成都华微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-688449-f1b4b087",
+      "code": "688449",
+      "name": "联芸科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-002119-2e0719aa",
+      "code": "002119",
+      "name": "康强电子",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-600171-dc05ddb3",
+      "code": "600171",
+      "name": "上海贝岭",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-688396-46b47bd5",
+      "code": "688396",
+      "name": "华润微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-300671-4d24dabe",
+      "code": "300671",
+      "name": "富满微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "存储芯片"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：存储芯片",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:36+08:00"
+    },
+    {
+      "id": "cand-301021-129fac27",
+      "code": "301021",
+      "name": "英诺激光",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688301-cd27d4b6",
+      "code": "688301",
+      "name": "奕瑞科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-301568-bf37d8a2",
+      "code": "301568",
+      "name": "思泰克",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002636-69d9da8c",
+      "code": "002636",
+      "name": "金安国纪",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002552-888ad4d4",
+      "code": "002552",
+      "name": "宝鼎科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688700-66cc2669",
+      "code": "688700",
+      "name": "东威科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-301377-ff296b23",
+      "code": "301377",
+      "name": "鼎泰高科",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688183-96344586",
+      "code": "688183",
+      "name": "生益电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-605589-8441fce2",
+      "code": "605589",
+      "name": "圣泉集团",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688063-62a25f84",
+      "code": "688063",
+      "name": "XD派能科",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002745-226ebea2",
+      "code": "002745",
+      "name": "木林森",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688630-d6546d23",
+      "code": "688630",
+      "name": "芯碁微装",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688257-408c60c7",
+      "code": "688257",
+      "name": "新锐股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-301123-e03b7034",
+      "code": "301123",
+      "name": "奕东电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-301630-14b735e2",
+      "code": "301630",
+      "name": "同宇新材",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300041-16464c55",
+      "code": "300041",
+      "name": "回天新材",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-603283-fc46aa4e",
+      "code": "603283",
+      "name": "赛腾股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688138-dc63c950",
+      "code": "688138",
+      "name": "清溢光电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688308-57fa2d72",
+      "code": "688308",
+      "name": "欧科亿",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688312-ebcc724c",
+      "code": "688312",
+      "name": "燕麦科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-001223-9b5139b8",
+      "code": "001223",
+      "name": "欧克科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：PCB",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300776-35ef5913",
+      "code": "300776",
+      "name": "帝尔激光",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-600367-017845a4",
+      "code": "600367",
+      "name": "红星发展",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002851-6df86b82",
+      "code": "002851",
+      "name": "麦格米特",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688559-ef5b406b",
+      "code": "688559",
+      "name": "海目星",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688170-a2e48500",
+      "code": "688170",
+      "name": "德龙激光",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688518-94d8f535",
+      "code": "688518",
+      "name": "联赢激光",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688383-c91ae1c0",
+      "code": "688383",
+      "name": "新益昌",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002962-d7a8af74",
+      "code": "002962",
+      "name": "五方光电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300296-bc955fd9",
+      "code": "300296",
+      "name": "利亚德",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300752-e7502086",
+      "code": "300752",
+      "name": "隆利科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002983-ff59616f",
+      "code": "002983",
+      "name": "芯瑞达",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688127-a1dbc778",
+      "code": "688127",
+      "name": "蓝特光学",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300433-97bdf611",
+      "code": "300433",
+      "name": "蓝思科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300706-0321255d",
+      "code": "300706",
+      "name": "阿石创",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-600552-f4b6587f",
+      "code": "600552",
+      "name": "凯盛科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-000725-139c7d18",
+      "code": "000725",
+      "name": "京东方Ａ",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300162-21961b06",
+      "code": "300162",
+      "name": "雷曼光电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300232-64f1c1d2",
+      "code": "300232",
+      "name": "洲明科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300700-aec878d7",
+      "code": "300700",
+      "name": "岱勒新材",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-600707-227d332a",
+      "code": "600707",
+      "name": "彩虹股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300456-eaad42f4",
+      "code": "300456",
+      "name": "赛微电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002156-d06ff6ad",
+      "code": "002156",
+      "name": "通富微电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-002845-960bf6ce",
+      "code": "002845",
+      "name": "同兴达",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-688028-e9f5b4f7",
+      "code": "688028",
+      "name": "沃尔德",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "玻璃基板"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：玻璃基板",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:38+08:00"
+    },
+    {
+      "id": "cand-300223-aa07fe21",
+      "code": "300223",
+      "name": "北京君正",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300221-7ffd650a",
+      "code": "300221",
+      "name": "银禧科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300975-713a7205",
+      "code": "300975",
+      "name": "商络电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300661-3957b412",
+      "code": "300661",
+      "name": "圣邦股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-688332-6378f0fc",
+      "code": "688332",
+      "name": "中科蓝讯",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300464-888c448f",
+      "code": "300464",
+      "name": "星徽股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-600460-ae95eb90",
+      "code": "600460",
+      "name": "士兰微",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-688766-1b4c3546",
+      "code": "688766",
+      "name": "普冉股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002273-0ea6f157",
+      "code": "002273",
+      "name": "水晶光电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002957-e820cafa",
+      "code": "002957",
+      "name": "科瑞技术",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-603195-ecb11bdc",
+      "code": "603195",
+      "name": "公牛集团",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300327-c07579d7",
+      "code": "300327",
+      "name": "中颖电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-688525-a8f9e6fa",
+      "code": "688525",
+      "name": "佰维存储",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300088-65606c0a",
+      "code": "300088",
+      "name": "长信科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002241-74d84f50",
+      "code": "002241",
+      "name": "歌尔股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300438-c7de4f43",
+      "code": "300438",
+      "name": "鹏辉能源",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-300014-0b643a8b",
+      "code": "300014",
+      "name": "亿纬锂能",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002655-93cf11d6",
+      "code": "002655",
+      "name": "共达电声",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-002625-e6772172",
+      "code": "002625",
+      "name": "光启技术",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-600171-81c5ae33",
+      "code": "600171",
+      "name": "上海贝岭",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "消费电子概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：消费电子概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:40+08:00"
+    },
+    {
+      "id": "cand-688536-ce77d421",
+      "code": "688536",
+      "name": "思瑞浦",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-300373-bed0f0e3",
+      "code": "300373",
+      "name": "扬杰科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002927-dd720c2e",
+      "code": "002927",
+      "name": "泰永长征",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002484-8fe0f67a",
+      "code": "002484",
+      "name": "江海股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002364-f3de5b1f",
+      "code": "002364",
+      "name": "中恒电气",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002185-a852f769",
+      "code": "002185",
+      "name": "华天科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-600246-2749e7d0",
+      "code": "600246",
+      "name": "万通发展",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002782-b653dace",
+      "code": "002782",
+      "name": "可立克",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-300623-c4430e85",
+      "code": "300623",
+      "name": "捷捷微电",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-000636-f6360d33",
+      "code": "000636",
+      "name": "风华高科",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002049-2df5193b",
+      "code": "002049",
+      "name": "紫光国微",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-603678-30c056b4",
+      "code": "603678",
+      "name": "火炬电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-300408-eaa6d4a1",
+      "code": "300408",
+      "name": "三环集团",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-600105-2af5d1a6",
+      "code": "600105",
+      "name": "永鼎股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002465-c70d93fa",
+      "code": "002465",
+      "name": "海格通信",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-300394-870f8cbc",
+      "code": "300394",
+      "name": "天孚通信",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-603045-4cfbf68e",
+      "code": "603045",
+      "name": "福达合金",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-688220-a9c0f5cf",
+      "code": "688220",
+      "name": "翱捷科技-U",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002617-c2fcebc8",
+      "code": "002617",
+      "name": "露笑科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "5G概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：5G概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:07:46+08:00"
+    },
+    {
+      "id": "cand-002335-1f6c82af",
+      "code": "002335",
+      "name": "科华数据",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-301202-3e349184",
+      "code": "301202",
+      "name": "朗威股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300249-bc446ef9",
+      "code": "300249",
+      "name": "依米康",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-000791-41378469",
+      "code": "000791",
+      "name": "甘肃能源",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-301018-bd1e1c29",
+      "code": "301018",
+      "name": "申菱环境",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300053-9c445cd2",
+      "code": "300053",
+      "name": "航宇微",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-603881-311e005a",
+      "code": "603881",
+      "name": "数据港",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-600633-801aa8cf",
+      "code": "600633",
+      "name": "浙数文化",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300287-14a2c969",
+      "code": "300287",
+      "name": "飞利信",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-600996-d9e4d8d4",
+      "code": "600996",
+      "name": "贵广网络",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-000938-c348d33e",
+      "code": "000938",
+      "name": "紫光股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-600821-be42aff9",
+      "code": "600821",
+      "name": "金开新能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300933-c76c4572",
+      "code": "300933",
+      "name": "中辰股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002642-74069da7",
+      "code": "002642",
+      "name": "荣联科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-603019-716d21c0",
+      "code": "603019",
+      "name": "中科曙光",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-600930-1e07a29e",
+      "code": "600930",
+      "name": "华电新能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-603985-9c372b17",
+      "code": "603985",
+      "name": "恒润股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-000719-8d1bb4aa",
+      "code": "000719",
+      "name": "中原传媒",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-600405-4643165f",
+      "code": "600405",
+      "name": "动力源",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002837-cca8bbc1",
+      "code": "002837",
+      "name": "英维克",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-000977-eb837ff3",
+      "code": "000977",
+      "name": "浪潮信息",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300214-7c73f960",
+      "code": "300214",
+      "name": "日科化学",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300229-10be1c67",
+      "code": "300229",
+      "name": "拓尔思",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002354-3ef5f080",
+      "code": "002354",
+      "name": "天娱数科",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "东数西算"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：东数西算",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002534-93864b09",
+      "code": "002534",
+      "name": "西子洁能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300048-8cffc2fe",
+      "code": "300048",
+      "name": "合康新能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300217-041fcb4b",
+      "code": "300217",
+      "name": "东方电热",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002608-a95a77ca",
+      "code": "002608",
+      "name": "江苏国信",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-301082-1ebc0d4f",
+      "code": "301082",
+      "name": "久盛电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-601798-e01aeb60",
+      "code": "601798",
+      "name": "蓝科高新",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002140-d2a40820",
+      "code": "002140",
+      "name": "东华科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-002564-8431a8b2",
+      "code": "002564",
+      "name": "天沃科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-300614-5c1ff090",
+      "code": "300614",
+      "name": "百川畅银",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "熔盐储能"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：熔盐储能",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:00+08:00"
+    },
+    {
+      "id": "cand-688676-6251ad2a",
+      "code": "688676",
+      "name": "金盘科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300373-c949d278",
+      "code": "300373",
+      "name": "扬杰科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688390-56c6b383",
+      "code": "688390",
+      "name": "固德威",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002927-f1ac6294",
+      "code": "002927",
+      "name": "泰永长征",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600330-2c48206b",
+      "code": "600330",
+      "name": "天通股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002150-1ea23577",
+      "code": "002150",
+      "name": "正泰电源",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-603895-5c368d91",
+      "code": "603895",
+      "name": "天永智能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600744-2bb2a697",
+      "code": "600744",
+      "name": "华银电力",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002579-173be596",
+      "code": "002579",
+      "name": "中京电子",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-603633-4a501ccd",
+      "code": "603633",
+      "name": "徕木股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002782-c0a907f9",
+      "code": "002782",
+      "name": "可立克",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688187-656b67d4",
+      "code": "688187",
+      "name": "时代电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-301291-68711c4c",
+      "code": "301291",
+      "name": "明阳电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-603063-9f1369fa",
+      "code": "603063",
+      "name": "禾望电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688261-2581b9df",
+      "code": "688261",
+      "name": "东微半导",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-605117-5b49151e",
+      "code": "605117",
+      "name": "德业股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688711-6e0c754a",
+      "code": "688711",
+      "name": "宏微科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600482-ce332095",
+      "code": "600482",
+      "name": "中国动力",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002922-c00b1f75",
+      "code": "002922",
+      "name": "伊戈尔",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688499-2ad67733",
+      "code": "688499",
+      "name": "利元亨",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688508-dd0d49fc",
+      "code": "688508",
+      "name": "芯朋微",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-000021-ac7379c5",
+      "code": "000021",
+      "name": "深科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300274-c8526130",
+      "code": "300274",
+      "name": "阳光电源",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300982-4febff3c",
+      "code": "300982",
+      "name": "苏文电能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300656-75c268fe",
+      "code": "300656",
+      "name": "民德电子",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600021-23433b27",
+      "code": "600021",
+      "name": "上海电力",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "储能概念"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：储能概念",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-301680-2cf7a1ed",
+      "code": "301680",
+      "name": "固德电材",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600563-94a80b9c",
+      "code": "600563",
+      "name": "法拉电子",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300069-0a7dc4bd",
+      "code": "300069",
+      "name": "金利华电",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002028-8bcdf457",
+      "code": "002028",
+      "name": "思源电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600869-bae33bdc",
+      "code": "600869",
+      "name": "远东股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-601700-98832485",
+      "code": "601700",
+      "name": "风范股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-000973-01430bed",
+      "code": "000973",
+      "name": "佛塑科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-601179-867e21e9",
+      "code": "601179",
+      "name": "中国西电",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002270-970f9c93",
+      "code": "002270",
+      "name": "华明装备",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-300222-1c8fefbe",
+      "code": "300222",
+      "name": "科大智能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-002459-2292a908",
+      "code": "002459",
+      "name": "晶澳科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-601208-9c705c2e",
+      "code": "601208",
+      "name": "东材科技",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600312-ac2bd072",
+      "code": "600312",
+      "name": "平高电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600089-cbb153bb",
+      "code": "600089",
+      "name": "特变电工",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-603530-28dc0f34",
+      "code": "603530",
+      "name": "神马电力",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-000400-d79ff52c",
+      "code": "000400",
+      "name": "许继电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688334-1b20a708",
+      "code": "688334",
+      "name": "西高院",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-688611-fa03765d",
+      "code": "688611",
+      "name": "杭州柯林",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-600550-086b6579",
+      "code": "600550",
+      "name": "保变电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    },
+    {
+      "id": "cand-603618-d2cded82",
+      "code": "603618",
+      "name": "杭电股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "特高压"
+      ],
+      "sourceTiers": {
+        "concept_board": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 30,
+      "sampleEvidence": [
+        {
+          "title": "东方财富概念板块成分股：特高压",
+          "url": "",
+          "source": "akshare.stock_board_concept_cons_em"
+        }
+      ],
+      "updatedAt": "2026-05-27T10:08:07+08:00"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-05-25",
+  "weights": {
+    "bottleneckStrength": 0.25,
+    "positionCertainty": 0.2,
+    "evidenceQuality": 0.2,
+    "financialConversion": 0.15,
+    "valuationDiscipline": 0.1,
+    "riskControl": 0.1
+  },
+  "labels": {
+    "bottleneckStrength": "瓶颈强度",
+    "positionCertainty": "卡位确定性",
+    "evidenceQuality": "证据质量",
+    "financialConversion": "财务兑现",
+    "valuationDiscipline": "估值纪律",
+    "riskControl": "风险控制"
+  }
+}
