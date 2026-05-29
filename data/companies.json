@@ -1651,5 +1651,261 @@
       "valuationDiscipline": 55,
       "riskControl": 55
     }
+  },
+  {
+    "id": "auto-688498",
+    "name": "源杰科技",
+    "code": "688498",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.64
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 64,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 64,
+      "positionCertainty": 59,
+      "evidenceQuality": 56,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300059",
+    "name": "东方财富",
+    "code": "300059",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.64
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 64,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 64,
+      "positionCertainty": 59,
+      "evidenceQuality": 56,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300442",
+    "name": "润泽科技",
+    "code": "300442",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "国产AI算力候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "domestic",
+        "nodeId": "domestic",
+        "role": "国产AI算力",
+        "evidenceIds": [],
+        "confidence": 0.64
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 64,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 64,
+      "positionCertainty": 59,
+      "evidenceQuality": 56,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-603019",
+    "name": "中科曙光",
+    "code": "603019",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "国产AI算力候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "domestic",
+        "nodeId": "domestic",
+        "role": "国产AI算力",
+        "evidenceIds": [],
+        "confidence": 0.64
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 64,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 64,
+      "positionCertainty": 59,
+      "evidenceQuality": 56,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688362",
+    "name": "甬矽电子",
+    "code": "688362",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688313",
+    "name": "仕佳光子",
+    "code": "688313",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002916",
+    "name": "深南电路",
+    "code": "002916",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-300474",
+    "name": "景嘉微",
+    "code": "300474",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "国产AI算力候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "domestic",
+        "nodeId": "domestic",
+        "role": "国产AI算力",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-05-29T16:26:44+08:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
   }
 ]
