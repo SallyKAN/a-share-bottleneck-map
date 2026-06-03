@@ -29,24 +29,24 @@ jobs:
 
     steps:
       - name: Checkout website
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: website
 
       - name: Checkout daily_stock_analysis
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ vars.DSA_REPOSITORY }}
           token: ${{ secrets.DSA_REPO_TOKEN || github.token }}
           path: daily_stock_analysis
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: "22"
           cache: npm
@@ -54,7 +54,16 @@ jobs:
 
       - name: Install website dependencies
         working-directory: website
-        run: npm ci
+        run: |
+          for attempt in 1 2 3; do
+            if npm ci; then
+              exit 0
+            fi
+            if [ "$attempt" = "3" ]; then
+              exit 1
+            fi
+            sleep $((attempt * 15))
+          done
 
       - name: Install DSA Python dependencies
         working-directory: daily_stock_analysis
