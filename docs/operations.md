@@ -37,9 +37,9 @@ http://127.0.0.1:5173/
 For low-cost operations, use GitHub Actions or a small VPS to run:
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python scripts/refresh_quotes.py
-/home/snape/github/daily_stock_analysis/.venv/bin/python scripts/refresh_evidence.py
-/home/snape/github/daily_stock_analysis/.venv/bin/python scripts/refresh_candidates.py
+/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_quotes
+/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_evidence
+/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_candidates
 node scripts/validate-data.mjs
 npm run build
 ```

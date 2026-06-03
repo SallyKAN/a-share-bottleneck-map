@@ -79,7 +79,7 @@ jobs:
         working-directory: website
         env:
           DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
-        run: python scripts/refresh_quotes.py --sleep-seconds 0.05
+        run: python -m scripts.refresh_quotes --sleep-seconds 0.05
 
       - name: Refresh candidates
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_scope == 'all' }}
@@ -92,7 +92,7 @@ jobs:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           SEARXNG_URL: ${{ secrets.SEARXNG_URL }}
-        run: python scripts/refresh_candidates.py --max-candidates 300 --max-promoted-per-sector 30 --max-queries-per-sector 4
+        run: python -m scripts.refresh_candidates --max-candidates 300 --max-promoted-per-sector 30 --max-queries-per-sector 4
 
       - name: Refresh evidence
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_scope == 'all' }}
@@ -105,11 +105,11 @@ jobs:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
           SEARXNG_URL: ${{ secrets.SEARXNG_URL }}
-        run: python scripts/refresh_evidence.py --max-searches 4 --results-per-dimension 2 --sleep-seconds 0.1
+        run: python -m scripts.refresh_evidence --max-searches 4 --results-per-dimension 2 --sleep-seconds 0.1
 
       - name: Refresh ranking
         working-directory: website
-        run: python scripts/refresh_ranking.py
+        run: python -m scripts.refresh_ranking
 
       - name: Validate data and build
         working-directory: website

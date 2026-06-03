@@ -59,13 +59,13 @@ POST /api/refresh-quotes
 也可以在命令行单次刷新：
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python scripts/refresh_quotes.py
+/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_quotes
 ```
 
 旧的循环模式仍可用，但当前推荐通过页面按钮触发：
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python scripts/refresh_quotes.py --loop --interval-hours 12
+/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_quotes --loop --interval-hours 12
 ```
 
 ## 刷新候选池与排名
@@ -105,7 +105,7 @@ POST /api/refresh-evidence
 也可以在命令行单次刷新：
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python scripts/refresh_evidence.py
+/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_evidence
 ```
 
 ## 校验
