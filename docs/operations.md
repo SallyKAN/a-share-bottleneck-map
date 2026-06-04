@@ -78,13 +78,16 @@ DSA_REPO_TOKEN
 Required search provider secrets for evidence refresh:
 
 ```text
-BOCHA_API_KEY
-TAVILY_API_KEY
-BRAVE_API_KEY
-SERPAPI_API_KEY
-MINIMAX_API_KEY
-SEARXNG_URL
+ANSPIRE_API_KEYS
+BOCHA_API_KEYS
+TAVILY_API_KEYS
+BRAVE_API_KEYS
+SERPAPI_API_KEYS
+MINIMAX_API_KEYS
+SEARXNG_BASE_URLS
 ```
+
+Single-key secret names such as `BOCHA_API_KEY` are also accepted by the workflow and mapped to the `*_API_KEYS` environment variables expected by `daily_stock_analysis`.
 
 Vercel will redeploy automatically after the action commits refreshed `data/*.json` to `main`.
 
