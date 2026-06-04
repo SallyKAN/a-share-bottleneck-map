@@ -1907,5 +1907,133 @@
       "valuationDiscipline": 55,
       "riskControl": 55
     }
+  },
+  {
+    "id": "auto-603083",
+    "name": "剑桥科技",
+    "code": "603083",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.64
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 64,
+      "promotedAt": "2026-06-04T07:07:34+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 64,
+      "positionCertainty": 59,
+      "evidenceQuality": 56,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-000988",
+    "name": "华工科技",
+    "code": "000988",
+    "sectorIds": [
+      "optical"
+    ],
+    "role": "高速光模块候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "optical",
+        "nodeId": "optical",
+        "role": "高速光模块",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-06-04T07:07:34+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-688820",
+    "name": "盛合晶微",
+    "code": "688820",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-06-04T07:07:34+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-600941",
+    "name": "中国移动",
+    "code": "600941",
+    "sectorIds": [
+      "power"
+    ],
+    "role": "供配电与液冷候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "power",
+        "nodeId": "power",
+        "role": "供配电与液冷",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-06-04T07:07:34+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
   }
 ]
