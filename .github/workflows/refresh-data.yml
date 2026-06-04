@@ -1,16 +1,7 @@
 name: Refresh data snapshots
 
 on:
-  workflow_dispatch:
-    inputs:
-      refresh_scope:
-        description: "quotes refreshes quotes+ranking; all also refreshes candidates and evidence"
-        required: true
-        default: "quotes"
-        type: choice
-        options:
-          - quotes
-          - all
+  workflow_dispatch: {}
   schedule:
     # 16:30 Asia/Shanghai, every day. GitHub cron uses UTC.
     - cron: "30 8 * * *"
@@ -82,7 +73,6 @@ jobs:
         run: python -m scripts.refresh_quotes --sleep-seconds 0.05
 
       - name: Refresh candidates
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_scope == 'all' }}
         working-directory: website
         env:
           DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
@@ -95,7 +85,6 @@ jobs:
         run: python -m scripts.refresh_candidates --max-candidates 300 --max-promoted-per-sector 30 --max-queries-per-sector 4
 
       - name: Refresh evidence
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh_scope == 'all' }}
         working-directory: website
         env:
           DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis

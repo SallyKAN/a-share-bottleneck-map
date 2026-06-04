@@ -54,8 +54,8 @@ Default schedule:
 
 - Runs at `08:30 UTC`, every day.
 - This is `16:30 Asia/Shanghai`, after the A-share close.
-- Scheduled runs refresh quotes and rebuild ranking.
-- Manual runs can choose `refresh_scope=all` to also refresh candidates and evidence.
+- Scheduled runs refresh candidates, quotes, evidence, and ranking.
+- Manual runs refresh the same full snapshot set.
 
 Required repository variable:
 
@@ -75,7 +75,7 @@ If that repository is private, add a repository secret with read access:
 DSA_REPO_TOKEN
 ```
 
-Optional search provider secrets for `refresh_scope=all`:
+Required search provider secrets for evidence refresh:
 
 ```text
 BOCHA_API_KEY
