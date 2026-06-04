@@ -2035,5 +2035,37 @@
       "valuationDiscipline": 55,
       "riskControl": 55
     }
+  },
+  {
+    "id": "auto-000750",
+    "name": "国海证券",
+    "code": "000750",
+    "sectorIds": [
+      "domestic"
+    ],
+    "role": "国产AI算力候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "domestic",
+        "nodeId": "domestic",
+        "role": "国产AI算力",
+        "evidenceIds": [],
+        "confidence": 0.64
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 64,
+      "promotedAt": "2026-06-04T11:41:28+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 64,
+      "positionCertainty": 59,
+      "evidenceQuality": 56,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
   }
 ]

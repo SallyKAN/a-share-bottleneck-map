@@ -1,60 +1,60 @@
 {
   "source": "daily_stock_analysis.SearchService + stocks.index.json",
-  "updatedAt": "2026-06-04T07:07:34+00:00",
-  "itemCount": 139,
-  "promotedCount": 4,
+  "updatedAt": "2026-06-04T11:41:28+00:00",
+  "itemCount": 130,
+  "promotedCount": 1,
   "failureCount": 0,
   "failures": [],
   "items": [
     {
-      "id": "cand-300308-c0b6d579",
-      "code": "300308",
-      "name": "中际旭创",
+      "id": "cand-002156-7e4e44f2",
+      "code": "002156",
+      "name": "通富微电",
       "matchedSectors": [
-        "optical"
+        "package"
       ],
       "matchedKeywords": [
-        "高速光模块",
-        "光通信与CPO",
-        "800G",
-        "1.6T光模块"
+        "先进封装",
+        "先进封装与测试",
+        "Chiplet",
+        "HBM配套"
       ],
       "sourceTiers": {
-        "search_web": 15
+        "search_web": 16
       },
       "evidenceCounts": {
-        "total": 15
+        "total": 16
       },
       "status": "promoted",
       "admissionScore": 64,
       "sampleEvidence": [
         {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
-        },
-        {
-          "title": "CPO光模块绕不开的10家公司",
-          "url": "https://caifuhao.eastmoney.com/news/20260603180219316517900",
+          "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
+          "url": "https://caifuhao.eastmoney.com/news/20260517203152891132750",
           "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "【CPO赛道】16家光模块重点企业分析!",
-          "url": "https://k.sina.cn/article_7857201856_1d45362c001905fz92.html",
-          "source": "k.sina.cn"
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
         },
         {
-          "title": "CPO行业龙头企业、产业链公司以及投资潜力企业梳理_核心_模块_芯片",
-          "url": "https://k.sina.cn/article_7857201856_1d45362c001905fxuo.html",
-          "source": "k.sina.cn"
+          "title": "先进封装10家代表性企业深度梳理先进封装是AI算力、Chiplet、HBM、3D堆叠的核心刚需赛道，受益国产替代+海外算...",
+          "url": "https://xueqiu.com/7232947616/389357684",
+          "source": "xueqiu.com"
         },
         {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
+          "title": "先进封装10家企业梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5299653132425422.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
+          "url": "https://caifuhao.eastmoney.com/news/20260517203152891132750",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
+      "updatedAt": "2026-06-04T11:40:29+00:00"
     },
     {
       "id": "cand-600584-0f1b10e6",
@@ -70,10 +70,10 @@
         "HBM配套"
       ],
       "sourceTiers": {
-        "search_web": 14
+        "search_web": 15
       },
       "evidenceCounts": {
-        "total": 14
+        "total": 15
       },
       "status": "promoted",
       "admissionScore": 64,
@@ -84,82 +84,32 @@
           "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "一天吃透一个行业221：先进封装，核心股票名单（精简版）",
-          "url": "http://finance.sina.cn/2026-05-26/detail-inhzctrk1974807.d.html",
-          "source": "finance.sina.cn"
-        },
-        {
-          "title": "先进封装概念股解析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5300369508795136.html",
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
           "source": "sina.cn"
         },
         {
-          "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
-          "url": "https://caifuhao.eastmoney.com/news/1709278363",
-          "source": "caifuhao.eastmoney.com"
+          "title": "先进封装10家代表性企业深度梳理先进封装是AI算力、Chiplet、HBM、3D堆叠的核心刚需赛道，受益国产替代+海外算...",
+          "url": "https://xueqiu.com/7232947616/389357684",
+          "source": "xueqiu.com"
         },
         {
-          "title": "先进封装，详细分析10家有代表性的企业：",
-          "url": "https://caifuhao.eastmoney.com/news/20260523142244105934880",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
-    },
-    {
-      "id": "cand-002156-7e4e44f2",
-      "code": "002156",
-      "name": "通富微电",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "先进封装",
-        "先进封装与测试",
-        "Chiplet",
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 14
-      },
-      "evidenceCounts": {
-        "total": 14
-      },
-      "status": "promoted",
-      "admissionScore": 64,
-      "sampleEvidence": [
+          "title": "先进封装10家企业梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5299653132425422.html",
+          "source": "sina.cn"
+        },
         {
           "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
           "url": "https://caifuhao.eastmoney.com/news/20260517203152891132750",
           "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "一天吃透一个行业221：先进封装，核心股票名单（精简版）",
-          "url": "http://finance.sina.cn/2026-05-26/detail-inhzctrk1974807.d.html",
-          "source": "finance.sina.cn"
-        },
-        {
-          "title": "先进封装概念股解析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5300369508795136.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
-          "url": "https://caifuhao.eastmoney.com/news/1709278363",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "先进封装，详细分析10家有代表性的企业：",
-          "url": "https://caifuhao.eastmoney.com/news/20260523142244105934880",
-          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:29+00:00"
     },
     {
-      "id": "cand-300502-b3eb6839",
-      "code": "300502",
-      "name": "新易盛",
+      "id": "cand-300308-c0b6d579",
+      "code": "300308",
+      "name": "中际旭创",
       "matchedSectors": [
         "optical"
       ],
@@ -199,12 +149,62 @@
           "source": "caifuhao2.eastmoney.com"
         },
         {
+          "title": "CPO行业龙头企业、产业链公司以及投资潜力企业梳理_核心_模块_芯片",
+          "url": "https://k.sina.cn/article_7857201856_1d45362c001905fxuo.html",
+          "source": "k.sina.cn"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:14+00:00"
+    },
+    {
+      "id": "cand-300502-b3eb6839",
+      "code": "300502",
+      "name": "新易盛",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "高速光模块",
+        "光通信与CPO",
+        "800G",
+        "1.6T光模块"
+      ],
+      "sourceTiers": {
+        "search_web": 11
+      },
+      "evidenceCounts": {
+        "total": 11
+      },
+      "status": "promoted",
+      "admissionScore": 64,
+      "sampleEvidence": [
+        {
           "title": "光通信cpo产业相关概念股梳理",
           "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
           "source": "licai.jiantou8.com"
+        },
+        {
+          "title": "CPO光模块绕不开的10家公司",
+          "url": "https://caifuhao.eastmoney.com/news/20260603180219316517900",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "【CPO赛道】16家光模块重点企业分析!",
+          "url": "https://k.sina.cn/article_7857201856_1d45362c001905fz92.html",
+          "source": "k.sina.cn"
+        },
+        {
+          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
+          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
+          "source": "caifuhao2.eastmoney.com"
+        },
+        {
+          "title": "英伟达 Spectrum-X硅光CPO量产利好细分个股(分4大产业链)一、交换机整机代工(最直接受益)$工业富联(SH6...",
+          "url": "https://xueqiu.com/4195872514/392439837?_ugc_source=ugctoutiao",
+          "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
       "id": "cand-300394-7e06787c",
@@ -220,10 +220,10 @@
         "1.6T光模块"
       ],
       "sourceTiers": {
-        "search_web": 10
+        "search_web": 8
       },
       "evidenceCounts": {
-        "total": 10
+        "total": 8
       },
       "status": "promoted",
       "admissionScore": 64,
@@ -244,256 +244,17 @@
           "source": "caifuhao2.eastmoney.com"
         },
         {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
+          "title": "英伟达 Spectrum-X硅光CPO量产利好细分个股(分4大产业链)一、交换机整机代工(最直接受益)$工业富联(SH6...",
+          "url": "https://xueqiu.com/4195872514/392439837?_ugc_source=ugctoutiao",
+          "source": "xueqiu.com"
         },
         {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
+          "title": "【CPO赛道】16家光模块重点企业分析!",
+          "url": "https://k.sina.cn/article_7857201856_1d45362c001905fz92.html",
+          "source": "k.sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
-    },
-    {
-      "id": "cand-002281-82c50969",
-      "code": "002281",
-      "name": "光迅科技",
-      "matchedSectors": [
-        "optical"
-      ],
-      "matchedKeywords": [
-        "高速光模块",
-        "光通信与CPO",
-        "800G",
-        "1.6T光模块"
-      ],
-      "sourceTiers": {
-        "search_web": 7
-      },
-      "evidenceCounts": {
-        "total": 7
-      },
-      "status": "promoted",
-      "admissionScore": 64,
-      "sampleEvidence": [
-        {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
-        },
-        {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
-        },
-        {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
-        },
-        {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
-        },
-        {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
-    },
-    {
-      "id": "cand-300059-788a1518",
-      "code": "300059",
-      "name": "东方财富",
-      "matchedSectors": [
-        "pcb"
-      ],
-      "matchedKeywords": [
-        "高多层PCB",
-        "PCB与高速材料",
-        "AI服务器PCB",
-        "交换机板"
-      ],
-      "sourceTiers": {
-        "search_web": 5
-      },
-      "evidenceCounts": {
-        "total": 5
-      },
-      "status": "promoted",
-      "admissionScore": 64,
-      "sampleEvidence": [
-        {
-          "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/1713270108",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "Accordingtoadocumentfrom2026-05-22，这份“Ru_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260522085805500942700",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/1713270108",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "Accordingtoadocumentfrom2026-05-22，这份“Ru_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260522085805500942700",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "最近花时间梳理了一下PCB板块，真正在AI算力和IC载板上形成壁垒的公司其实并不_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260521113656894968830",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
-    },
-    {
-      "id": "cand-603083-efbea191",
-      "code": "603083",
-      "name": "剑桥科技",
-      "matchedSectors": [
-        "optical"
-      ],
-      "matchedKeywords": [
-        "高速光模块",
-        "光通信与CPO",
-        "800G",
-        "1.6T光模块"
-      ],
-      "sourceTiers": {
-        "search_web": 4
-      },
-      "evidenceCounts": {
-        "total": 4
-      },
-      "status": "promoted",
-      "admissionScore": 64,
-      "sampleEvidence": [
-        {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
-        },
-        {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
-        },
-        {
-          "title": "CPO共封装光学核心标的股票主要包括中际旭创、新易盛、太辰光等，以下是详细介绍:1. 中际旭创(300308):光模块市占率超40%，深度绑定英伟达、微软等头部客户。自研12nm硅光芯片，1.6T CPO模块功耗低至12W，良率95%，3.",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5051038",
-          "source": "mobile.aigupiao.com"
-        },
-        {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
-    },
-    {
-      "id": "cand-688498-f8a05e17",
-      "code": "688498",
-      "name": "源杰科技",
-      "matchedSectors": [
-        "optical"
-      ],
-      "matchedKeywords": [
-        "高速光模块",
-        "光通信与CPO",
-        "800G",
-        "1.6T光模块"
-      ],
-      "sourceTiers": {
-        "search_web": 4
-      },
-      "evidenceCounts": {
-        "total": 4
-      },
-      "status": "promoted",
-      "admissionScore": 64,
-      "sampleEvidence": [
-        {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
-        },
-        {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
-        },
-        {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao2.eastmoney.com"
-        },
-        {
-          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
-          "url": "https://caifuhao.eastmoney.com/news/20260520142054704629140",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
-    },
-    {
-      "id": "cand-002185-46672b61",
-      "code": "002185",
-      "name": "华天科技",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "先进封装",
-        "先进封装与测试",
-        "Chiplet"
-      ],
-      "sourceTiers": {
-        "search_web": 11
-      },
-      "evidenceCounts": {
-        "total": 11
-      },
-      "status": "promoted",
-      "admissionScore": 60,
-      "sampleEvidence": [
-        {
-          "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
-          "url": "https://caifuhao.eastmoney.com/news/20260517203152891132750",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "一天吃透一个行业221：先进封装，核心股票名单（精简版）",
-          "url": "http://finance.sina.cn/2026-05-26/detail-inhzctrk1974807.d.html",
-          "source": "finance.sina.cn"
-        },
-        {
-          "title": "先进封装10家公司进展_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5303352373543721.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
-          "url": "https://www.fxbaogao.com/detail/5434564",
-          "source": "fxbaogao.com"
-        },
-        {
-          "title": "先进封装概念股解析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5300369508795136.html",
-          "source": "sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
       "id": "cand-600183-b6300dbb",
@@ -505,21 +266,22 @@
       "matchedKeywords": [
         "高多层PCB",
         "PCB与高速材料",
+        "AI服务器PCB",
         "交换机板"
       ],
       "sourceTiers": {
-        "search_web": 9
+        "search_web": 8
       },
       "evidenceCounts": {
-        "total": 9
+        "total": 8
       },
       "status": "promoted",
-      "admissionScore": 60,
+      "admissionScore": 64,
       "sampleEvidence": [
         {
-          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
-          "url": "https://xueqiu.com/9780923489/387952543",
-          "source": "xueqiu.com"
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
         },
         {
           "title": "AI算力致PCB材料需求激增_新浪新闻",
@@ -537,61 +299,296 @@
           "source": "xueqiu.com"
         },
         {
-          "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/1713270108",
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
+      "updatedAt": "2026-06-04T11:40:44+00:00"
     },
     {
-      "id": "cand-002463-917352e9",
-      "code": "002463",
-      "name": "沪电股份",
+      "id": "cand-601138-9ab0dd7f",
+      "code": "601138",
+      "name": "工业富联",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "高速光模块",
+        "光通信与CPO",
+        "800G",
+        "1.6T光模块"
+      ],
+      "sourceTiers": {
+        "search_web": 7
+      },
+      "evidenceCounts": {
+        "total": 7
+      },
+      "status": "promoted",
+      "admissionScore": 64,
+      "sampleEvidence": [
+        {
+          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "英伟达 Spectrum-X硅光CPO量产利好细分个股(分4大产业链)一、交换机整机代工(最直接受益)$工业富联(SH6...",
+          "url": "https://xueqiu.com/4195872514/392439837?_ugc_source=ugctoutiao",
+          "source": "xueqiu.com"
+        },
+        {
+          "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260513125928915638290",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260513125928915638290",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:14+00:00"
+    },
+    {
+      "id": "cand-300059-5d200f45",
+      "code": "300059",
+      "name": "东方财富",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "高速光模块",
+        "光通信与CPO",
+        "800G",
+        "1.6T光模块"
+      ],
+      "sourceTiers": {
+        "search_web": 5
+      },
+      "evidenceCounts": {
+        "total": 5
+      },
+      "status": "promoted",
+      "admissionScore": 64,
+      "sampleEvidence": [
+        {
+          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260513125928915638290",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260513125928915638290",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:14+00:00"
+    },
+    {
+      "id": "cand-300059-788a1518",
+      "code": "300059",
+      "name": "东方财富",
       "matchedSectors": [
         "pcb"
       ],
       "matchedKeywords": [
         "高多层PCB",
         "PCB与高速材料",
-        "AI服务器PCB"
+        "AI服务器PCB",
+        "交换机板"
       ],
       "sourceTiers": {
-        "search_web": 9
+        "search_web": 4
       },
       "evidenceCounts": {
-        "total": 9
+        "total": 4
       },
       "status": "promoted",
-      "admissionScore": 60,
+      "admissionScore": 64,
       "sampleEvidence": [
-        {
-          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
-          "url": "https://xueqiu.com/9780923489/387952543",
-          "source": "xueqiu.com"
-        },
         {
           "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
           "url": "https://caifuhao.eastmoney.com/news/1713270108",
           "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "$沪电股份(SZ002463)$ 沪电股份 成 英伟达 、 谷歌 、华为等AI巨头PCB核心供应商，沪电股份AI服务器高...",
-          "url": "https://xueqiu.com/3592714322/391448513",
-          "source": "xueqiu.com"
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "A 股 PCB（印刷電路板）",
-          "url": "https://xueqiu.com/5334485159/391037448",
-          "source": "xueqiu.com"
+          "title": "Accordingtoadocumentfrom2026-05-22，这份“Ru_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522085805500942700",
+          "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
-          "url": "https://xueqiu.com/9780923489/387952543",
-          "source": "xueqiu.com"
+          "title": "中京电子PCB、CPO、存储三大业务领先优势一、PCB业务:全品类高端制造+AI_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260514123545244783760",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
+      "updatedAt": "2026-06-04T11:40:44+00:00"
+    },
+    {
+      "id": "cand-000750-4b2e406e",
+      "code": "000750",
+      "name": "国海证券",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产AI算力",
+        "国产算力与生态",
+        "AI芯片",
+        "服务器"
+      ],
+      "sourceTiers": {
+        "search_web": 4
+      },
+      "evidenceCounts": {
+        "total": 4
+      },
+      "status": "promoted",
+      "admissionScore": 64,
+      "sampleEvidence": [
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "http://finance.sina.cn/2026-06-02/detail-inhzynrx1804301.d.html",
+          "source": "finance.sina.cn"
+        },
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "http://finance.sina.cn/2026-06-02/detail-inhzynrx1804301.d.html",
+          "source": "finance.sina.cn"
+        },
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "http://finance.sina.cn/2026-06-02/detail-inhzynrx1804301.d.html",
+          "source": "finance.sina.cn"
+        },
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "https://finance.eastmoney.com/a/202606023756436034.html",
+          "source": "finance.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:17+00:00"
+    },
+    {
+      "id": "cand-600941-b422290a",
+      "code": "600941",
+      "name": "中国移动",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产AI算力",
+        "国产算力与生态",
+        "AI芯片",
+        "服务器"
+      ],
+      "sourceTiers": {
+        "search_web": 4
+      },
+      "evidenceCounts": {
+        "total": 4
+      },
+      "status": "promoted",
+      "admissionScore": 64,
+      "sampleEvidence": [
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "http://finance.sina.cn/2026-06-02/detail-inhzynrx1804301.d.html",
+          "source": "finance.sina.cn"
+        },
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "http://finance.sina.cn/2026-06-02/detail-inhzynrx1804301.d.html",
+          "source": "finance.sina.cn"
+        },
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "http://finance.sina.cn/2026-06-02/detail-inhzynrx1804301.d.html",
+          "source": "finance.sina.cn"
+        },
+        {
+          "title": "算力大单密集落地 资金大幅加仓12只概念股",
+          "url": "https://finance.eastmoney.com/a/202606023756436034.html",
+          "source": "finance.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:17+00:00"
+    },
+    {
+      "id": "cand-002185-46672b61",
+      "code": "002185",
+      "name": "华天科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "先进封装",
+        "先进封装与测试",
+        "Chiplet"
+      ],
+      "sourceTiers": {
+        "search_web": 14
+      },
+      "evidenceCounts": {
+        "total": 14
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
+          "url": "https://caifuhao.eastmoney.com/news/20260517203152891132750",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
+        },
+        {
+          "title": "先进封装10家代表性企业深度梳理先进封装是AI算力、Chiplet、HBM、3D堆叠的核心刚需赛道，受益国产替代+海外算...",
+          "url": "https://xueqiu.com/7232947616/389357684",
+          "source": "xueqiu.com"
+        },
+        {
+          "title": "先进封装10家企业梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5299653132425422.html",
+          "source": "sina.cn"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:29+00:00"
     },
     {
       "id": "cand-688362-21b8ecb4",
@@ -606,10 +603,10 @@
         "Chiplet"
       ],
       "sourceTiers": {
-        "search_web": 7
+        "search_web": 10
       },
       "evidenceCounts": {
-        "total": 7
+        "total": 10
       },
       "status": "promoted",
       "admissionScore": 60,
@@ -620,76 +617,27 @@
           "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "一天吃透一个行业221：先进封装，核心股票名单（精简版）",
-          "url": "http://finance.sina.cn/2026-05-26/detail-inhzctrk1974807.d.html",
-          "source": "finance.sina.cn"
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
         },
         {
-          "title": "先进封装10家公司进展_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5303352373543721.html",
+          "title": "先进封装10家代表性企业深度梳理先进封装是AI算力、Chiplet、HBM、3D堆叠的核心刚需赛道，受益国产替代+海外算...",
+          "url": "https://xueqiu.com/7232947616/389357684",
+          "source": "xueqiu.com"
+        },
+        {
+          "title": "先进封装10家企业梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5299653132425422.html",
           "source": "sina.cn"
         },
         {
           "title": "财经知识扩展：盘点先进封装最具代表性的10家企业！声明：以下数据仅供参考研究，不作任何的投资建议！",
-          "url": "https://caifuhao.eastmoney.com/news/1709278363",
+          "url": "https://caifuhao.eastmoney.com/news/20260517203152891132750",
           "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "一天吃透一个行业221：先进封装，核心股票名单（精简版）",
-          "url": "http://finance.sina.cn/2026-05-26/detail-inhzctrk1974807.d.html",
-          "source": "finance.sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
-    },
-    {
-      "id": "cand-603019-7c005b22",
-      "code": "603019",
-      "name": "中科曙光",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态",
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 6
-      },
-      "evidenceCounts": {
-        "total": 6
-      },
-      "status": "promoted",
-      "admissionScore": 60,
-      "sampleEvidence": [
-        {
-          "title": "国产AI算力公司上市龙头是什么？名单请查阅（3月25日）",
-          "url": "http://www.southmoney.com/subject/suanli/202605/2726734.html",
-          "source": "southmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "2026年财报：国产AI算力芯片行业上市公司现状如何？",
-          "url": "https://www.southmoney.com/gupiao/glg/202605/65618748.html",
-          "source": "southmoney.com"
-        },
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
+      "updatedAt": "2026-06-04T11:40:29+00:00"
     },
     {
       "id": "cand-688041-0927e188",
@@ -704,6 +652,55 @@
         "AI芯片"
       ],
       "sourceTiers": {
+        "search_web": 8
+      },
+      "evidenceCounts": {
+        "total": 8
+      },
+      "status": "promoted",
+      "admissionScore": 60,
+      "sampleEvidence": [
+        {
+          "title": "双芯驱动，生态筑基，引领国产算力新纪元",
+          "url": "https://data.eastmoney.com/report/info/AP202605251822847721.html",
+          "source": "data.eastmoney.com"
+        },
+        {
+          "title": "海光信息(688041)：双芯驱动 生态筑基 引领国产算力新纪元",
+          "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/833023444697/index.phtml",
+          "source": "stock.finance.sina.com.cn"
+        },
+        {
+          "title": "双芯驱动，生态筑基，引领国产算力新纪元",
+          "url": "https://data.eastmoney.com/report/info/AP202605251822847721.html",
+          "source": "data.eastmoney.com"
+        },
+        {
+          "title": "海光信息(688041)：双芯驱动 生态筑基 引领国产算力新纪元",
+          "url": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/search/rptid/833023444697/index.phtml",
+          "source": "stock.finance.sina.com.cn"
+        },
+        {
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:17+00:00"
+    },
+    {
+      "id": "cand-300476-122fcee4",
+      "code": "300476",
+      "name": "胜宏科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB",
+        "PCB与高速材料",
+        "AI服务器PCB"
+      ],
+      "sourceTiers": {
         "search_web": 5
       },
       "evidenceCounts": {
@@ -713,32 +710,32 @@
       "admissionScore": 60,
       "sampleEvidence": [
         {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
+          "title": "",
+          "url": "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyimeh0628113.shtml.md",
+          "source": "finance.sina.com.cn"
         },
         {
-          "title": "国产算力产业链可以用三层漏斗模型理解，按照厂商→扩展→供应链的逻辑逐层展开，\"对_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260508015542180375920",
-          "source": "caifuhao.eastmoney.com"
+          "title": "A 股 PCB（印刷電路板）",
+          "url": "https://xueqiu.com/5334485159/391037448",
+          "source": "xueqiu.com"
         },
         {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
+          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
+          "url": "https://xueqiu.com/9780923489/387952543",
+          "source": "xueqiu.com"
         },
         {
-          "title": "国产AI算力芯片龙头股三家上市公司（名单）（2026/3/25）",
-          "url": "http://www.southmoney.com/subject/suanli/202605/2741463.html",
-          "source": "southmoney.com"
+          "title": "",
+          "url": "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyimeh0628113.shtml.md",
+          "source": "finance.sina.com.cn"
         },
         {
-          "title": "（豆包回答）发改委指导国产大模型全产业链受益标的清单",
-          "url": "https://caifuhao.eastmoney.com/news/20260524000411662214070",
-          "source": "caifuhao.eastmoney.com"
+          "title": "",
+          "url": "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyimeh0628113.shtml.md",
+          "source": "finance.sina.com.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
+      "updatedAt": "2026-06-04T11:40:44+00:00"
     },
     {
       "id": "cand-000988-6f67f095",
@@ -748,8 +745,8 @@
         "optical"
       ],
       "matchedKeywords": [
+        "高速光模块",
         "光通信与CPO",
-        "800G",
         "1.6T光模块"
       ],
       "sourceTiers": {
@@ -767,11 +764,6 @@
           "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "CPO共封装光学核心标的股票主要包括中际旭创、新易盛、太辰光等，以下是详细介绍:1. 中际旭创(300308):光模块市占率超40%，深度绑定英伟达、微软等头部客户。自研12nm硅光芯片，1.6T CPO模块功耗低至12W，良率95%，3.",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5051038",
-          "source": "mobile.aigupiao.com"
-        },
-        {
           "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
           "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
           "source": "caifuhao.eastmoney.com"
@@ -780,58 +772,19 @@
           "title": "英伟达 Spectrum-X硅光CPO量产利好细分个股(分4大产业链)一、交换机整机代工(最直接受益)$工业富联(SH6...",
           "url": "https://xueqiu.com/4195872514/392439837?_ugc_source=ugctoutiao",
           "source": "xueqiu.com"
+        },
+        {
+          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:25+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
-      "id": "cand-688820-9693ac16",
-      "code": "688820",
-      "name": "盛合晶微",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "先进封装",
-        "先进封装与测试",
-        "Chiplet"
-      ],
-      "sourceTiers": {
-        "search_web": 4
-      },
-      "evidenceCounts": {
-        "total": 4
-      },
-      "status": "promoted",
-      "admissionScore": 60,
-      "sampleEvidence": [
-        {
-          "title": "先进封装概念股解析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5300369508795136.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "先进封装概念股解析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5300369508795136.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "A股先进封装头部企业盘点_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5298212411806828.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "先进封装概念股解析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5300369508795136.html",
-          "source": "sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
-    },
-    {
-      "id": "cand-300476-122fcee4",
-      "code": "300476",
-      "name": "胜宏科技",
+      "id": "cand-002463-917352e9",
+      "code": "002463",
+      "name": "沪电股份",
       "matchedSectors": [
         "pcb"
       ],
@@ -850,9 +803,9 @@
       "admissionScore": 60,
       "sampleEvidence": [
         {
-          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
-          "url": "https://xueqiu.com/9780923489/387952543",
-          "source": "xueqiu.com"
+          "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/1713270108",
+          "source": "caifuhao.eastmoney.com"
         },
         {
           "title": "A 股 PCB（印刷電路板）",
@@ -865,158 +818,22 @@
           "source": "xueqiu.com"
         },
         {
-          "title": "PCB行业核心标的分析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5301451345895411.html",
-          "source": "sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
-    },
-    {
-      "id": "cand-600941-736fafee",
-      "code": "600941",
-      "name": "中国移动",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷",
-        "变压器",
-        "UPS"
-      ],
-      "sourceTiers": {
-        "search_web": 4
-      },
-      "evidenceCounts": {
-        "total": 4
-      },
-      "status": "promoted",
-      "admissionScore": 60,
-      "sampleEvidence": [
-        {
-          "title": "天风电新英威腾更新：AI供配电设备+液冷全栈卡位+工控主业涨价，业绩估值双击翻倍以上空间",
-          "url": "https://www.jiuyangongshe.com/h5/article/204wyew8sft",
-          "source": "jiuyangongshe.com"
-        },
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "天风电新英威腾更新：AI供配电设备+液冷全栈卡位+工控主业涨价，业绩估值双击翻倍以上空间",
-          "url": "https://www.jiuyangongshe.com/h5/article/204wyew8sft",
-          "source": "jiuyangongshe.com"
-        },
-        {
-          "title": "天风电新英威腾更新：AI供配电设备+液冷全栈卡位+工控主业涨价，业绩估值双击翻倍以上空间",
-          "url": "https://www.jiuyangongshe.com/h5/article/204wyew8sft",
-          "source": "jiuyangongshe.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300442-d0f96be9",
-      "code": "300442",
-      "name": "润泽科技",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态",
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 4
-      },
-      "evidenceCounts": {
-        "total": 4
-      },
-      "status": "promoted",
-      "admissionScore": 60,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力核心概念股清单_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5298392420057581.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
+          "title": "先把口径说透，不然很容易把「AI服务器主板/加速卡用的高频高速高阶材料」和「充电桩/储能/电源里的大电流厚铜PCB」混成...",
+          "url": "https://xueqiu.com/2996125879/391371683",
           "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
+      "updatedAt": "2026-06-04T11:40:44+00:00"
     },
     {
-      "id": "cand-688256-bbbb00c5",
-      "code": "688256",
-      "name": "寒武纪",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产算力与生态",
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 5
-      },
-      "evidenceCounts": {
-        "total": 5
-      },
-      "status": "promoted",
-      "admissionScore": 56,
-      "sampleEvidence": [
-        {
-          "title": "国产算力产业链可以用三层漏斗模型理解，按照厂商→扩展→供应链的逻辑逐层展开，\"对_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260508015542180375920",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "2026年5月22日，国家发改委政策研究室副主任、新闻发言人李超在例行新闻发布会上宣布，发改委正在指导国产大模型加大力度...",
-          "url": "https://xueqiu.com/6185024260/390528962",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "电子行业：国产算力加速启航",
-          "url": "http://stockfinance.sina.cn/stock/go.php/paper/reportid/766653619333/index.phtml",
-          "source": "stockfinance.sina.cn"
-        },
-        {
-          "title": "国产AI算力芯片龙头股三家上市公司（名单）（2026/3/25）",
-          "url": "http://www.southmoney.com/subject/suanli/202605/2741463.html",
-          "source": "southmoney.com"
-        },
-        {
-          "title": "（豆包回答）发改委指导国产大模型全产业链受益标的清单",
-          "url": "https://caifuhao.eastmoney.com/news/20260524000411662214070",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:24+00:00"
-    },
-    {
-      "id": "cand-601138-9ab0dd7f",
-      "code": "601138",
-      "name": "工业富联",
+      "id": "cand-002281-82c50969",
+      "code": "002281",
+      "name": "光迅科技",
       "matchedSectors": [
         "optical"
       ],
       "matchedKeywords": [
-        "光通信与CPO",
+        "高速光模块",
         "1.6T光模块"
       ],
       "sourceTiers": {
@@ -1029,70 +846,27 @@
       "admissionScore": 56,
       "sampleEvidence": [
         {
-          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
-          "source": "caifuhao.eastmoney.com"
+          "title": "光通信cpo产业相关概念股梳理",
+          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
+          "source": "licai.jiantou8.com"
         },
         {
-          "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260513125928915638290",
-          "source": "caifuhao.eastmoney.com"
+          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
+          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
+          "source": "caifuhao2.eastmoney.com"
         },
         {
-          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
-          "source": "caifuhao.eastmoney.com"
+          "title": "光通信cpo产业相关概念股梳理",
+          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
+          "source": "licai.jiantou8.com"
         },
         {
-          "title": "英伟达 Spectrum-X硅光CPO量产利好细分个股(分4大产业链)一、交换机整机代工(最直接受益)$工业富联(SH6...",
-          "url": "https://xueqiu.com/4195872514/392439837?_ugc_source=ugctoutiao",
-          "source": "xueqiu.com"
+          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
+          "url": "https://caifuhao.eastmoney.com/news/20260520142054704629140",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:25+00:00"
-    },
-    {
-      "id": "cand-301018-bd1e1c29",
-      "code": "301018",
-      "name": "申菱环境",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷",
-        "电力设备与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 4
-      },
-      "evidenceCounts": {
-        "total": 4
-      },
-      "status": "promoted",
-      "admissionScore": 56,
-      "sampleEvidence": [
-        {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        },
-        {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
       "id": "cand-300088-422d61f9",
@@ -1114,38 +888,38 @@
       "admissionScore": 52,
       "sampleEvidence": [
         {
-          "title": "拟不超30亿元采购算力服务器 长信科技称“战略性投入”｜速读公告",
-          "url": "http://m.163.com/dy/article/KTVP31MP05198CJN.html",
-          "source": "m.163.com"
+          "title": "长信科技：子公司拟不超30亿元采购算力服务器",
+          "url": "https://finance.sina.com.cn/roll/2026-05-27/doc-inhzivfn0762570.shtml",
+          "source": "finance.sina.com.cn"
         },
         {
-          "title": "长信科技子公司拟不超30亿元采购算力服务器",
-          "url": "http://www.bbtnews.com.cn/2026/0527/594529.shtml",
-          "source": "bbtnews.com.cn"
+          "title": "长信科技：子公司拟采购不超过30亿元算力服务器",
+          "url": "https://finance.sina.com.cn/jjxw/2026-05-27/doc-inhzivfi1587223.shtml",
+          "source": "finance.sina.com.cn"
         },
         {
           "title": "拟不超30亿元采购算力服务器 长信科技称“战略性投入”|速读公告",
-          "url": "https://finance.eastmoney.com/a/202605273751683982.html",
-          "source": "finance.eastmoney.com"
+          "url": "https://caifuhao.eastmoney.com/news/20260528003712103211640",
+          "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "大手笔，拟不超30亿元采购算力服务器",
-          "url": "https://www.21jingji.com/article/20260528/herald/45a42cf2b378d7414de27a2b166dc9e8.html",
-          "source": "21jingji.com"
+          "title": "斥资30亿，长信科技拟加码算力产业",
+          "url": "https://www.fpdisplay.com/news/show-212360.html",
+          "source": "fpdisplay.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:34+00:00"
+      "updatedAt": "2026-06-04T11:41:28+00:00"
     },
     {
-      "id": "cand-688048-797874f5",
-      "code": "688048",
-      "name": "长光华芯",
+      "id": "cand-300812-92b67f8d",
+      "code": "300812",
+      "name": "易天股份",
       "matchedSectors": [
         "optical"
       ],
       "matchedKeywords": [
         "高速光模块",
-        "光通信与CPO",
+        "800G",
         "1.6T光模块"
       ],
       "sourceTiers": {
@@ -1158,73 +932,34 @@
       "admissionScore": 48,
       "sampleEvidence": [
         {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
+          "title": "CPO光模块绕不开的10家公司",
+          "url": "https://caifuhao.eastmoney.com/news/20260603180219316517900",
+          "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
+          "title": "CPO光模块绕不开的10家公司",
+          "url": "https://caifuhao.eastmoney.com/news/20260603180219316517900",
+          "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "光通信cpo产业相关概念股梳理",
-          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
-          "source": "licai.jiantou8.com"
+          "title": "CPO光模块绕不开的10家公司",
+          "url": "https://caifuhao.eastmoney.com/news/20260603180219316517900",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
-      "id": "cand-002636-69d9da8c",
-      "code": "002636",
-      "name": "金安国纪",
+      "id": "cand-600667-ca3910e5",
+      "code": "600667",
+      "name": "太极实业",
       "matchedSectors": [
-        "pcb"
+        "package"
       ],
       "matchedKeywords": [
-        "高多层PCB",
-        "PCB与高速材料",
-        "交换机板"
-      ],
-      "sourceTiers": {
-        "search_web": 3
-      },
-      "evidenceCounts": {
-        "total": 3
-      },
-      "status": "candidate",
-      "admissionScore": 48,
-      "sampleEvidence": [
-        {
-          "title": "AI算力致PCB材料需求激增_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "PCB上游企业总结；",
-          "url": "https://xueqiu.com/2297286656/390389606",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "AI算力致PCB材料需求激增_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
-          "source": "sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
-    },
-    {
-      "id": "cand-688519-9c1cc925",
-      "code": "688519",
-      "name": "南亚新材",
-      "matchedSectors": [
-        "pcb"
-      ],
-      "matchedKeywords": [
-        "高多层PCB",
-        "PCB与高速材料",
-        "交换机板"
+        "先进封装",
+        "先进封装与测试",
+        "HBM配套"
       ],
       "sourceTiers": {
         "search_web": 3
@@ -1236,22 +971,178 @@
       "admissionScore": 48,
       "sampleEvidence": [
         {
-          "title": "AI算力致PCB材料需求激增_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
           "source": "sina.cn"
         },
         {
-          "title": "PCB上游企业总结；",
-          "url": "https://xueqiu.com/2297286656/390389606",
-          "source": "xueqiu.com"
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
         },
         {
-          "title": "AI算力致PCB材料需求激增_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
+          "title": "HBM封测核心上市公司及业务产品 1. 长电科技 (600584.SH) —— 综合实力最强的“国内一哥” 业务与产品:...",
+          "url": "https://xueqiu.com/2417837537/388602118",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:29+00:00"
+    },
+    {
+      "id": "cand-603005-edeb3cd9",
+      "code": "603005",
+      "name": "晶方科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "先进封装",
+        "先进封装与测试",
+        "Chiplet"
+      ],
+      "sourceTiers": {
+        "search_web": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "candidate",
+      "admissionScore": 48,
+      "sampleEvidence": [
+        {
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "半导体先进封装十大龙头_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5300921358877483.html",
           "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
+      "updatedAt": "2026-06-04T11:40:29+00:00"
+    },
+    {
+      "id": "cand-688820-9693ac16",
+      "code": "688820",
+      "name": "盛合晶微",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "先进封装",
+        "先进封装与测试",
+        "Chiplet"
+      ],
+      "sourceTiers": {
+        "search_web": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 48,
+      "sampleEvidence": [
+        {
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "半导体先进封装十大龙头_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5300921358877483.html",
+          "source": "sina.cn"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:29+00:00"
+    },
+    {
+      "id": "cand-603256-e20d7036",
+      "code": "603256",
+      "name": "宏和科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB",
+        "PCB与高速材料",
+        "AI服务器PCB"
+      ],
+      "sourceTiers": {
+        "search_web": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 48,
+      "sampleEvidence": [
+        {
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
+        },
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        },
+        {
+          "title": "PCB核心供应链龙头",
+          "url": "https://xueqiu.com/6498660347/390633899",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:44+00:00"
+    },
+    {
+      "id": "cand-002384-c7e99aa4",
+      "code": "002384",
+      "name": "东山精密",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB",
+        "PCB与高速材料",
+        "AI服务器PCB"
+      ],
+      "sourceTiers": {
+        "search_web": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "candidate",
+      "admissionScore": 48,
+      "sampleEvidence": [
+        {
+          "title": "",
+          "url": "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyimeh0628113.shtml.md",
+          "source": "finance.sina.com.cn"
+        },
+        {
+          "title": "",
+          "url": "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyimeh0628113.shtml.md",
+          "source": "finance.sina.com.cn"
+        },
+        {
+          "title": "",
+          "url": "https://finance.sina.com.cn/roll/2026-05-18/doc-inhyimeh0628113.shtml.md",
+          "source": "finance.sina.com.cn"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:44+00:00"
     },
     {
       "id": "cand-002334-e74f7635",
@@ -1262,7 +1153,7 @@
       ],
       "matchedKeywords": [
         "供配电与液冷",
-        "变压器",
+        "电力设备与液冷",
         "UPS"
       ],
       "sourceTiers": {
@@ -1290,12 +1181,51 @@
           "source": "jiuyangongshe.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
+      "updatedAt": "2026-06-04T11:41:02+00:00"
     },
     {
-      "id": "cand-000977-cbaa22e7",
-      "code": "000977",
-      "name": "浪潮信息",
+      "id": "cand-600941-736fafee",
+      "code": "600941",
+      "name": "中国移动",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷",
+        "UPS"
+      ],
+      "sourceTiers": {
+        "search_web": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 48,
+      "sampleEvidence": [
+        {
+          "title": "天风电新英威腾更新：AI供配电设备+液冷全栈卡位+工控主业涨价，业绩估值双击翻倍以上空间",
+          "url": "https://www.jiuyangongshe.com/h5/article/204wyew8sft",
+          "source": "jiuyangongshe.com"
+        },
+        {
+          "title": "天风电新英威腾更新：AI供配电设备+液冷全栈卡位+工控主业涨价，业绩估值双击翻倍以上空间",
+          "url": "https://www.jiuyangongshe.com/h5/article/204wyew8sft",
+          "source": "jiuyangongshe.com"
+        },
+        {
+          "title": "天风电新英威腾更新：AI供配电设备+液冷全栈卡位+工控主业涨价，业绩估值双击翻倍以上空间",
+          "url": "https://www.jiuyangongshe.com/h5/article/204wyew8sft",
+          "source": "jiuyangongshe.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-603019-7c005b22",
+      "code": "603019",
+      "name": "中科曙光",
       "matchedSectors": [
         "domestic"
       ],
@@ -1314,9 +1244,9 @@
       "admissionScore": 48,
       "sampleEvidence": [
         {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
+          "title": "国产AI算力公司上市龙头是什么？名单请查阅（3月25日）",
+          "url": "http://www.southmoney.com/subject/suanli/202605/2726734.html",
+          "source": "southmoney.com"
         },
         {
           "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
@@ -1324,129 +1254,12 @@
           "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
+          "title": "2026年财报：国产AI算力芯片行业上市公司现状如何？",
+          "url": "https://www.southmoney.com/gupiao/glg/202605/65618748.html",
+          "source": "southmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-300383-65f8b038",
-      "code": "300383",
-      "name": "光环新网",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态",
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 3
-      },
-      "evidenceCounts": {
-        "total": 3
-      },
-      "status": "candidate",
-      "admissionScore": 48,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-603881-680c7c1d",
-      "code": "603881",
-      "name": "数据港",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态",
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 3
-      },
-      "evidenceCounts": {
-        "total": 3
-      },
-      "status": "candidate",
-      "admissionScore": 48,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-601138-159fbfb7",
-      "code": "601138",
-      "name": "工业富联",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态",
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 3
-      },
-      "evidenceCounts": {
-        "total": 3
-      },
-      "status": "promoted",
-      "admissionScore": 48,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
+      "updatedAt": "2026-06-04T11:41:17+00:00"
     },
     {
       "id": "cand-600109-0d6dbabe",
@@ -1456,8 +1269,8 @@
         "optical"
       ],
       "matchedKeywords": [
-        "高速光模块",
-        "光通信与CPO"
+        "光通信与CPO",
+        "800G"
       ],
       "sourceTiers": {
         "search_web": 3
@@ -1474,9 +1287,9 @@
           "source": "k.sina.cn"
         },
         {
-          "title": "CPO行业龙头企业、产业链公司以及投资潜力企业梳理_核心_模块_芯片",
-          "url": "https://k.sina.cn/article_7857201856_1d45362c001905fxuo.html",
-          "source": "k.sina.cn"
+          "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260513125928915638290",
+          "source": "caifuhao.eastmoney.com"
         },
         {
           "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
@@ -1484,164 +1297,121 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
+      "updatedAt": "2026-06-04T11:40:18+00:00"
     },
     {
-      "id": "cand-300059-5d200f45",
-      "code": "300059",
-      "name": "东方财富",
+      "id": "cand-600176-0a228b4b",
+      "code": "600176",
+      "name": "中国巨石",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB",
+        "AI服务器PCB"
+      ],
+      "sourceTiers": {
+        "search_web": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "candidate",
+      "admissionScore": 44,
+      "sampleEvidence": [
+        {
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
+        },
+        {
+          "title": "AI算力致PCB材料需求激增_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "PCB核心供应链龙头",
+          "url": "https://xueqiu.com/6498660347/390633899",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:44+00:00"
+    },
+    {
+      "id": "cand-688519-9c1cc925",
+      "code": "688519",
+      "name": "南亚新材",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB",
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 3
+      },
+      "evidenceCounts": {
+        "total": 3
+      },
+      "status": "promoted",
+      "admissionScore": 44,
+      "sampleEvidence": [
+        {
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
+        },
+        {
+          "title": "AI算力致PCB材料需求激增_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
+          "source": "sina.cn"
+        },
+        {
+          "title": "PCB上游企业总结；",
+          "url": "https://xueqiu.com/2297286656/390389606",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:44+00:00"
+    },
+    {
+      "id": "cand-603083-efbea191",
+      "code": "603083",
+      "name": "剑桥科技",
       "matchedSectors": [
         "optical"
       ],
       "matchedKeywords": [
-        "光通信与CPO",
+        "高速光模块",
         "1.6T光模块"
       ],
       "sourceTiers": {
-        "search_web": 3
+        "search_web": 2
       },
       "evidenceCounts": {
-        "total": 3
+        "total": 2
       },
       "status": "promoted",
-      "admissionScore": 44,
+      "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
-          "source": "caifuhao.eastmoney.com"
+          "title": "光通信cpo产业相关概念股梳理",
+          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
+          "source": "licai.jiantou8.com"
         },
         {
-          "title": "CPO交换机概念股近期表现强劲，核心催化是英伟达CPO交换机订单提前交付且出货量_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260513125928915638290",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "NVIDIASpectrum-X(VeraRubin配套)CPO全供应链拆分Sp_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260602223607322637650",
-          "source": "caifuhao.eastmoney.com"
+          "title": "光通信cpo产业相关概念股梳理",
+          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
+          "source": "licai.jiantou8.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:25+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
-      "id": "cand-300499-c58c9ed1",
-      "code": "300499",
-      "name": "高澜股份",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷",
-        "电力设备与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 3
-      },
-      "evidenceCounts": {
-        "total": 3
-      },
-      "status": "candidate",
-      "admissionScore": 44,
-      "sampleEvidence": [
-        {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        },
-        {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-002837-cca8bbc1",
-      "code": "002837",
-      "name": "英维克",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷",
-        "电力设备与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 3
-      },
-      "evidenceCounts": {
-        "total": 3
-      },
-      "status": "promoted",
-      "admissionScore": 44,
-      "sampleEvidence": [
-        {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        },
-        {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300059-0aa1f4c7",
-      "code": "300059",
-      "name": "东方财富",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态"
-      ],
-      "sourceTiers": {
-        "search_web": 3
-      },
-      "evidenceCounts": {
-        "total": 3
-      },
-      "status": "promoted",
-      "admissionScore": 44,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "国产算力产业链可以用三层漏斗模型理解，按照厂商→扩展→供应链的逻辑逐层展开，\"对_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260508015542180375920",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-300812-92b67f8d",
-      "code": "300812",
-      "name": "易天股份",
+      "id": "cand-688048-797874f5",
+      "code": "688048",
+      "name": "长光华芯",
       "matchedSectors": [
         "optical"
       ],
@@ -1659,17 +1429,17 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "CPO光模块绕不开的10家公司",
-          "url": "https://caifuhao.eastmoney.com/news/20260603180219316517900",
-          "source": "caifuhao.eastmoney.com"
+          "title": "光通信cpo产业相关概念股梳理",
+          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
+          "source": "licai.jiantou8.com"
         },
         {
-          "title": "CPO光模块绕不开的10家公司",
-          "url": "https://caifuhao.eastmoney.com/news/20260603180219316517900",
-          "source": "caifuhao.eastmoney.com"
+          "title": "光通信cpo产业相关概念股梳理",
+          "url": "https://licai.jiantou8.com/user/guide_view_3369824.html",
+          "source": "licai.jiantou8.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
       "id": "cand-688313-00b4c25d",
@@ -1702,12 +1472,45 @@
           "source": "k.sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:22+00:00"
+      "updatedAt": "2026-06-04T11:40:14+00:00"
     },
     {
-      "id": "cand-603005-edeb3cd9",
-      "code": "603005",
-      "name": "晶方科技",
+      "id": "cand-688498-f8a05e17",
+      "code": "688498",
+      "name": "源杰科技",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "高速光模块",
+        "1.6T光模块"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
+          "url": "https://caifuhao2.eastmoney.com/news/20260520142054704629140",
+          "source": "caifuhao2.eastmoney.com"
+        },
+        {
+          "title": "CPO光模块行情还没结束，多家机构达成一致共识，龙头公司有哪几家？",
+          "url": "https://caifuhao.eastmoney.com/news/20260520142054704629140",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:14+00:00"
+    },
+    {
+      "id": "cand-688216-65b25291",
+      "code": "688216",
+      "name": "气派科技",
       "matchedSectors": [
         "package"
       ],
@@ -1725,22 +1528,22 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "一天吃透一个行业221：先进封装，核心股票名单（精简版）",
-          "url": "http://finance.sina.cn/2026-05-26/detail-inhzctrk1974807.d.html",
-          "source": "finance.sina.cn"
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
         },
         {
-          "title": "一天吃透一个行业221：先进封装，核心股票名单（精简版）",
-          "url": "http://finance.sina.cn/2026-05-26/detail-inhzctrk1974807.d.html",
-          "source": "finance.sina.cn"
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
+          "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:29+00:00"
     },
     {
-      "id": "cand-300054-6c504665",
-      "code": "300054",
-      "name": "鼎龙股份",
+      "id": "cand-688403-459c9aa5",
+      "code": "688403",
+      "name": "汇成股份",
       "matchedSectors": [
         "package"
       ],
@@ -1758,22 +1561,22 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "先进封装10家公司进展_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5303352373543721.html",
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
           "source": "sina.cn"
         },
         {
-          "title": "先进封装10家公司进展_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5303352373543721.html",
+          "title": "封装产业链全景梳理_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5302836489358174.html",
           "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:29+00:00"
     },
     {
-      "id": "cand-300706-b2c43c5a",
-      "code": "300706",
-      "name": "阿石创",
+      "id": "cand-002049-812a9c1f",
+      "code": "002049",
+      "name": "紫光国微",
       "matchedSectors": [
         "package"
       ],
@@ -1791,17 +1594,116 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "先进封装10家公司进展_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5303352373543721.html",
-          "source": "sina.cn"
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
         },
         {
-          "title": "先进封装10家公司进展_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5303352373543721.html",
-          "source": "sina.cn"
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:29+00:00"
+    },
+    {
+      "id": "cand-002579-aa5aa325",
+      "code": "002579",
+      "name": "中京电子",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "先进封装",
+        "先进封装与测试"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
+        },
+        {
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:29+00:00"
+    },
+    {
+      "id": "cand-002741-05df1d07",
+      "code": "002741",
+      "name": "光华科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "先进封装",
+        "先进封装与测试"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
+        },
+        {
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:29+00:00"
+    },
+    {
+      "id": "cand-688183-df10fc34",
+      "code": "688183",
+      "name": "生益电子",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "先进封装",
+        "先进封装与测试"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
+        },
+        {
+          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
+          "url": "https://www.fxbaogao.com/detail/5434564",
+          "source": "fxbaogao.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:29+00:00"
     },
     {
       "id": "cand-300059-944ba945",
@@ -1834,12 +1736,45 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:43+00:00"
+      "updatedAt": "2026-06-04T11:40:35+00:00"
     },
     {
-      "id": "cand-002916-e77d11ce",
-      "code": "002916",
-      "name": "深南电路",
+      "id": "cand-603002-da7e2058",
+      "code": "603002",
+      "name": "宏昌电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB",
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
+        },
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:44+00:00"
+    },
+    {
+      "id": "cand-603186-a021d3c4",
+      "code": "603186",
+      "name": "华正新材",
       "matchedSectors": [
         "pcb"
       ],
@@ -1857,55 +1792,22 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
-          "url": "https://xueqiu.com/9780923489/387952543",
-          "source": "xueqiu.com"
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
         },
         {
-          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
-          "url": "https://xueqiu.com/9780923489/387952543",
+          "title": "PCB上游企业总结；",
+          "url": "https://xueqiu.com/2297286656/390389606",
           "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
+      "updatedAt": "2026-06-04T11:40:44+00:00"
     },
     {
-      "id": "cand-600176-0a228b4b",
-      "code": "600176",
-      "name": "中国巨石",
-      "matchedSectors": [
-        "pcb"
-      ],
-      "matchedKeywords": [
-        "高多层PCB",
-        "交换机板"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 32,
-      "sampleEvidence": [
-        {
-          "title": "AI算力致PCB材料需求激增_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
-          "source": "sina.cn"
-        },
-        {
-          "title": "AI算力致PCB材料需求激增_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
-          "source": "sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
-    },
-    {
-      "id": "cand-600522-9535040d",
-      "code": "600522",
-      "name": "中天科技",
+      "id": "cand-301217-19c06dce",
+      "code": "301217",
+      "name": "铜冠铜箔",
       "matchedSectors": [
         "pcb"
       ],
@@ -1923,28 +1825,28 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/1713270108",
-          "source": "caifuhao.eastmoney.com"
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
         },
         {
-          "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/1713270108",
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
+      "updatedAt": "2026-06-04T11:40:44+00:00"
     },
     {
-      "id": "cand-301366-62d251e5",
-      "code": "301366",
-      "name": "一博科技",
+      "id": "cand-002636-69d9da8c",
+      "code": "002636",
+      "name": "金安国纪",
       "matchedSectors": [
         "pcb"
       ],
       "matchedKeywords": [
         "高多层PCB",
-        "AI服务器PCB"
+        "PCB与高速材料"
       ],
       "sourceTiers": {
         "search_web": 2
@@ -1956,22 +1858,22 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "Accordingtoadocumentfrom2026-05-22，这份“Ru_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260522085805500942700",
-          "source": "caifuhao.eastmoney.com"
+          "title": "AI算力致PCB材料需求激增_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5295687740689065.html",
+          "source": "sina.cn"
         },
         {
-          "title": "Accordingtoadocumentfrom2026-05-22，这份“Ru_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260522085805500942700",
-          "source": "caifuhao.eastmoney.com"
+          "title": "PCB上游企业总结；",
+          "url": "https://xueqiu.com/2297286656/390389606",
+          "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:49+00:00"
+      "updatedAt": "2026-06-04T11:40:44+00:00"
     },
     {
-      "id": "cand-002938-3791f104",
-      "code": "002938",
-      "name": "鹏鼎控股",
+      "id": "cand-002916-e77d11ce",
+      "code": "002916",
+      "name": "深南电路",
       "matchedSectors": [
         "pcb"
       ],
@@ -1985,26 +1887,59 @@
       "evidenceCounts": {
         "total": 2
       },
+      "status": "promoted",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "中国 PCB 企业:技术能力 + 头部实例 + 投资要点1)高速 / 高频服务器 PCB(AI 算力核心)核心技术能力•...",
+          "url": "https://xueqiu.com/9780923489/387952543",
+          "source": "xueqiu.com"
+        },
+        {
+          "title": "PCB核心供应链龙头",
+          "url": "https://xueqiu.com/6498660347/390633899",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-000063-3372ea60",
+      "code": "000063",
+      "name": "中兴通讯",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
       "status": "candidate",
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "A 股 PCB（印刷電路板）",
-          "url": "https://xueqiu.com/5334485159/391037448",
-          "source": "xueqiu.com"
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
         },
         {
-          "title": "PCB行业核心标的分析_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5301451345895411.html",
-          "source": "sina.cn"
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:53+00:00"
+      "updatedAt": "2026-06-04T11:41:02+00:00"
     },
     {
-      "id": "cand-002335-1f6c82af",
-      "code": "002335",
-      "name": "科华数据",
+      "id": "cand-300442-1fcb2f9f",
+      "code": "300442",
+      "name": "润泽科技",
       "matchedSectors": [
         "power"
       ],
@@ -2022,22 +1957,22 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
         },
         {
-          "title": "涉及液冷产业链的公司",
-          "url": "https://xueqiu.com/3892961663/390495460",
-          "source": "xueqiu.com"
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
+      "updatedAt": "2026-06-04T11:41:02+00:00"
     },
     {
-      "id": "cand-000977-eb837ff3",
-      "code": "000977",
-      "name": "浪潮信息",
+      "id": "cand-300474-2bebac53",
+      "code": "300474",
+      "name": "景嘉微",
       "matchedSectors": [
         "power"
       ],
@@ -2055,28 +1990,357 @@
       "admissionScore": 32,
       "sampleEvidence": [
         {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
         },
         {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-688521-ac7da756",
+      "code": "688521",
+      "name": "芯原股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
+        },
+        {
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-688256-4cd58338",
+      "code": "688256",
+      "name": "寒武纪",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
+        },
+        {
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-688041-d2576d62",
+      "code": "688041",
+      "name": "海光信息",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
+        },
+        {
+          "title": "5.21商业观察：人工智能数据中心",
+          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
+          "source": "caifuhao2.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-000725-44c50c51",
+      "code": "000725",
+      "name": "京东方A",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        },
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-002272-0dbbdeba",
+      "code": "002272",
+      "name": "川润股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        },
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-002421-c4298640",
+      "code": "002421",
+      "name": "达实智能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        },
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-002463-6b4d20be",
+      "code": "002463",
+      "name": "沪电股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "供配电与液冷",
+        "电力设备与液冷"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "promoted",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        },
+        {
+          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
+          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
+          "source": "emweb.securities.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:02+00:00"
+    },
+    {
+      "id": "cand-002580-14a0ff85",
+      "code": "002580",
+      "name": "圣阳股份",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "变压器",
+        "UPS"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "韭研公社-搜索",
+          "url": "https://www.jiuyangongshe.com/stock/s/59771bbd784b4c3884193a7ceaec77d8",
+          "source": "jiuyangongshe.com"
+        },
+        {
+          "title": "英伟达超高功率机架落地在即！老旧配电体系全面落伍，800VDC接力换代，行业迎来确定性成长方向",
+          "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-05-28%2Fdoc-inhzmyeq1405459.shtml",
           "source": "cj.sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
-      "id": "cand-603019-716d21c0",
-      "code": "603019",
-      "name": "中科曙光",
+      "id": "cand-300603-4d8fcf70",
+      "code": "300603",
+      "name": "立昂技术",
       "matchedSectors": [
-        "power"
+        "domestic"
       ],
       "matchedKeywords": [
-        "供配电与液冷",
-        "电力设备与液冷"
+        "国产AI算力",
+        "国产算力与生态"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "国产算力主线明确，立昂技术：成渝核心智算 + 昇腾生态 + 算网闭环，真正的国产算力底座",
+          "url": "https://xueqiu.com/6125716153/390449091",
+          "source": "xueqiu.com"
+        },
+        {
+          "title": "国产算力主线明确，立昂技术：成渝核心智算 + 昇腾生态 + 算网闭环，真正的国产算力底座",
+          "url": "https://xueqiu.com/6125716153/390449091",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:17+00:00"
+    },
+    {
+      "id": "cand-601696-a871d2be",
+      "code": "601696",
+      "name": "中银证券",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产AI算力",
+        "国产算力与生态"
+      ],
+      "sourceTiers": {
+        "search_web": 2
+      },
+      "evidenceCounts": {
+        "total": 2
+      },
+      "status": "candidate",
+      "admissionScore": 32,
+      "sampleEvidence": [
+        {
+          "title": "双芯驱动，生态筑基，引领国产算力新纪元",
+          "url": "https://data.eastmoney.com/report/info/AP202605251822847721.html",
+          "source": "data.eastmoney.com"
+        },
+        {
+          "title": "双芯驱动，生态筑基，引领国产算力新纪元",
+          "url": "https://data.eastmoney.com/report/info/AP202605251822847721.html",
+          "source": "data.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:17+00:00"
+    },
+    {
+      "id": "cand-688256-89b58e2f",
+      "code": "688256",
+      "name": "寒武纪",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "Chiplet"
       ],
       "sourceTiers": {
         "search_web": 2
@@ -2085,314 +2349,20 @@
         "total": 2
       },
       "status": "promoted",
-      "admissionScore": 32,
+      "admissionScore": 28,
       "sampleEvidence": [
         {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
+          "title": "5.15-17 先进半导体封装论坛核心受益A股全梳理",
+          "url": "https://caifuhao.eastmoney.com/news/20260513233359562147730",
+          "source": "caifuhao.eastmoney.com"
         },
         {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-002261-9fb96b0e",
-      "code": "002261",
-      "name": "拓维信息",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 32,
-      "sampleEvidence": [
-        {
-          "title": "国产AI算力公司上市龙头是什么？名单请查阅（3月25日）",
-          "url": "http://www.southmoney.com/subject/suanli/202605/2726734.html",
-          "source": "southmoney.com"
-        },
-        {
-          "title": "算力核心概念股清单_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5298392420057581.html",
+          "title": "半导体先进封装十大龙头_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5300921358877483.html",
           "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-600030-6e3ac39a",
-      "code": "600030",
-      "name": "中信证券",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 32,
-      "sampleEvidence": [
-        {
-          "title": "",
-          "url": "https://finance.sina.com.cn/roll/2026-05-23/doc-inhywuvi6756338.shtml.md",
-          "source": "finance.sina.com.cn"
-        },
-        {
-          "title": "2026年5月22日，国家发改委政策研究室副主任、新闻发言人李超在例行新闻发布会上宣布，发改委正在指导国产大模型加大力度...",
-          "url": "https://xueqiu.com/6185024260/390528962",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-600602-d4bba018",
-      "code": "600602",
-      "name": "云赛智联",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 32,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-600845-13fdf663",
-      "code": "600845",
-      "name": "宝信软件",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 32,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-002757-3774f44e",
-      "code": "002757",
-      "name": "南兴股份",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 32,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-300738-f4d7b92c",
-      "code": "300738",
-      "name": "奥飞数据",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "国产AI算力",
-        "国产算力与生态"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 32,
-      "sampleEvidence": [
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        },
-        {
-          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
-          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
-          "source": "caifuhao.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-002409-b6f56ec5",
-      "code": "002409",
-      "name": "雅克科技",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 28,
-      "sampleEvidence": [
-        {
-          "title": "GPU+HBM 光互连大幅抬升 HBM 的整体需求量，HBM 概念股",
-          "url": "https://xueqiu.com/3140100228/390640110?_ugc_source=ugcbaiducard",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "HBM(高带宽内存)龙头股主要集中在产业链的核心环节，包括存储芯片制造、封装测试、核心材料与设备等。以下是各领域的龙头股...",
-          "url": "https://xueqiu.com/1558215289/387484695",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
-    },
-    {
-      "id": "cand-688008-7ac22f8e",
-      "code": "688008",
-      "name": "澜起科技",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 28,
-      "sampleEvidence": [
-        {
-          "title": "GPU+HBM 光互连大幅抬升 HBM 的整体需求量，HBM 概念股",
-          "url": "https://xueqiu.com/3140100228/390640110?_ugc_source=ugcbaiducard",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "HBM(高带宽内存)龙头股主要集中在产业链的核心环节，包括存储芯片制造、封装测试、核心材料与设备等。以下是各领域的龙头股...",
-          "url": "https://xueqiu.com/1558215289/387484695",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
-    },
-    {
-      "id": "cand-688535-addc52c5",
-      "code": "688535",
-      "name": "华海诚科",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 2
-      },
-      "evidenceCounts": {
-        "total": 2
-      },
-      "status": "candidate",
-      "admissionScore": 28,
-      "sampleEvidence": [
-        {
-          "title": "GPU+HBM 光互连大幅抬升 HBM 的整体需求量，HBM 概念股",
-          "url": "https://xueqiu.com/3140100228/390640110?_ugc_source=ugcbaiducard",
-          "source": "xueqiu.com"
-        },
-        {
-          "title": "HBM(高带宽内存)龙头股主要集中在产业链的核心环节，包括存储芯片制造、封装测试、核心材料与设备等。以下是各领域的龙头股...",
-          "url": "https://xueqiu.com/1558215289/387484695",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
+      "updatedAt": "2026-06-04T11:40:35+00:00"
     },
     {
       "id": "cand-002518-480513ca",
@@ -2424,17 +2394,17 @@
           "source": "4g.stockstar.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:17+00:00"
+      "updatedAt": "2026-06-04T11:41:15+00:00"
     },
     {
-      "id": "cand-300474-368f0a43",
-      "code": "300474",
-      "name": "景嘉微",
+      "id": "cand-688256-bbbb00c5",
+      "code": "688256",
+      "name": "寒武纪",
       "matchedSectors": [
         "domestic"
       ],
       "matchedKeywords": [
-        "国产AI算力"
+        "AI芯片"
       ],
       "sourceTiers": {
         "search_web": 2
@@ -2446,125 +2416,17 @@
       "admissionScore": 28,
       "sampleEvidence": [
         {
-          "title": "国产AI算力公司上市龙头是什么？名单请查阅（3月25日）",
-          "url": "http://www.southmoney.com/subject/suanli/202605/2726734.html",
-          "source": "southmoney.com"
+          "title": "一天吃透一个行业107：算力芯片，附核心股票名单（收藏版）",
+          "url": "https://finance.sina.com.cn/wm/2026-05-06/doc-inhwyupz5581687.shtml",
+          "source": "finance.sina.com.cn"
         },
         {
-          "title": "算力基建进入高投入周期，国产替代进程持续深化，光互连液冷光纤等赛道迎发展红利",
-          "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxunay0569897.shtml",
-          "source": "finance.sina.com.cn"
+          "title": "（豆包回答）发改委指导国产大模型全产业链受益标的清单",
+          "url": "https://caifuhao.eastmoney.com/news/20260524000411662214070",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
-    },
-    {
-      "id": "cand-300570-547b80c5",
-      "code": "300570",
-      "name": "太辰光",
-      "matchedSectors": [
-        "optical"
-      ],
-      "matchedKeywords": [
-        "800G"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "CPO共封装光学核心标的股票主要包括中际旭创、新易盛、太辰光等，以下是详细介绍:1. 中际旭创(300308):光模块市占率超40%，深度绑定英伟达、微软等头部客户。自研12nm硅光芯片，1.6T CPO模块功耗低至12W，良率95%，3.",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5051038",
-          "source": "mobile.aigupiao.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:28+00:00"
-    },
-    {
-      "id": "cand-300548-f3b6bf25",
-      "code": "300548",
-      "name": "长芯博创",
-      "matchedSectors": [
-        "optical"
-      ],
-      "matchedKeywords": [
-        "800G"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "CPO共封装光学核心标的股票主要包括中际旭创、新易盛、太辰光等，以下是详细介绍:1. 中际旭创(300308):光模块市占率超40%，深度绑定英伟达、微软等头部客户。自研12nm硅光芯片，1.6T CPO模块功耗低至12W，良率95%，3.",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5051038",
-          "source": "mobile.aigupiao.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:28+00:00"
-    },
-    {
-      "id": "cand-300620-9f31b7a9",
-      "code": "300620",
-      "name": "光库科技",
-      "matchedSectors": [
-        "optical"
-      ],
-      "matchedKeywords": [
-        "800G"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "CPO共封装光学核心标的股票主要包括中际旭创、新易盛、太辰光等，以下是详细介绍:1. 中际旭创(300308):光模块市占率超40%，深度绑定英伟达、微软等头部客户。自研12nm硅光芯片，1.6T CPO模块功耗低至12W，良率95%，3.",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5051038",
-          "source": "mobile.aigupiao.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:28+00:00"
-    },
-    {
-      "id": "cand-301205-f01fa8c5",
-      "code": "301205",
-      "name": "联特科技",
-      "matchedSectors": [
-        "optical"
-      ],
-      "matchedKeywords": [
-        "800G"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "CPO共封装光学核心标的股票主要包括中际旭创、新易盛、太辰光等，以下是详细介绍:1. 中际旭创(300308):光模块市占率超40%，深度绑定英伟达、微软等头部客户。自研12nm硅光芯片，1.6T CPO模块功耗低至12W，良率95%，3.",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5051038",
-          "source": "mobile.aigupiao.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:28+00:00"
+      "updatedAt": "2026-06-04T11:41:26+00:00"
     },
     {
       "id": "cand-603007-b59e263f",
@@ -2591,17 +2453,17 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:28+00:00"
+      "updatedAt": "2026-06-04T11:40:22+00:00"
     },
     {
-      "id": "cand-002049-812a9c1f",
-      "code": "002049",
-      "name": "紫光国微",
+      "id": "cand-300570-547b80c5",
+      "code": "300570",
+      "name": "太辰光",
       "matchedSectors": [
-        "package"
+        "optical"
       ],
       "matchedKeywords": [
-        "先进封装"
+        "1.6T光模块"
       ],
       "sourceTiers": {
         "search_web": 1
@@ -2613,22 +2475,49 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
-          "url": "https://www.fxbaogao.com/detail/5434564",
-          "source": "fxbaogao.com"
+          "title": "CPO概念走强，新易盛涨超10%！1.6T光模块订单同比大幅增长",
+          "url": "https://finance.eastmoney.com/a/202606023757474953.html",
+          "source": "finance.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:26+00:00"
     },
     {
-      "id": "cand-002579-aa5aa325",
-      "code": "002579",
-      "name": "中京电子",
+      "id": "cand-300548-f3b6bf25",
+      "code": "300548",
+      "name": "长芯博创",
+      "matchedSectors": [
+        "optical"
+      ],
+      "matchedKeywords": [
+        "1.6T光模块"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "CPO概念走强，新易盛涨超10%！1.6T光模块订单同比大幅增长",
+          "url": "https://finance.eastmoney.com/a/202606023757474953.html",
+          "source": "finance.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:26+00:00"
+    },
+    {
+      "id": "cand-300394-ad570479",
+      "code": "300394",
+      "name": "天孚通信",
       "matchedSectors": [
         "package"
       ],
       "matchedKeywords": [
-        "先进封装"
+        "Chiplet"
       ],
       "sourceTiers": {
         "search_web": 1
@@ -2640,22 +2529,22 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
-          "url": "https://www.fxbaogao.com/detail/5434564",
-          "source": "fxbaogao.com"
+          "title": "5.15-17 先进半导体封装论坛核心受益A股全梳理",
+          "url": "https://caifuhao.eastmoney.com/news/20260513233359562147730",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:35+00:00"
     },
     {
-      "id": "cand-002741-05df1d07",
-      "code": "002741",
-      "name": "光华科技",
+      "id": "cand-600183-0205ece7",
+      "code": "600183",
+      "name": "生益科技",
       "matchedSectors": [
         "package"
       ],
       "matchedKeywords": [
-        "先进封装"
+        "Chiplet"
       ],
       "sourceTiers": {
         "search_web": 1
@@ -2663,26 +2552,26 @@
       "evidenceCounts": {
         "total": 1
       },
-      "status": "candidate",
+      "status": "promoted",
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
-          "url": "https://www.fxbaogao.com/detail/5434564",
-          "source": "fxbaogao.com"
+          "title": "半导体先进封装十大龙头_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5300921358877483.html",
+          "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:35+00:00"
     },
     {
-      "id": "cand-688183-df10fc34",
-      "code": "688183",
-      "name": "生益电子",
+      "id": "cand-002436-23672815",
+      "code": "002436",
+      "name": "兴森科技",
       "matchedSectors": [
         "package"
       ],
       "matchedKeywords": [
-        "先进封装"
+        "Chiplet"
       ],
       "sourceTiers": {
         "search_web": 1
@@ -2690,21 +2579,48 @@
       "evidenceCounts": {
         "total": 1
       },
-      "status": "candidate",
+      "status": "promoted",
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "【公告全知道】PCB+玻璃基板+CPO+芯片+先进封装+锂电池！公司PCB产品已通过1.6T光模块性能测试-20260525",
-          "url": "https://www.fxbaogao.com/detail/5434564",
-          "source": "fxbaogao.com"
+          "title": "半导体先进封装十大龙头_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5300921358877483.html",
+          "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:35+00:00"
+      "updatedAt": "2026-06-04T11:40:35+00:00"
     },
     {
-      "id": "cand-002654-6ee8d9fe",
-      "code": "002654",
-      "name": "万润科技",
+      "id": "cand-002916-ca2dcf96",
+      "code": "002916",
+      "name": "深南电路",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "Chiplet"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "半导体先进封装十大龙头_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5300921358877483.html",
+          "source": "sina.cn"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:35+00:00"
+    },
+    {
+      "id": "cand-688525-c56a1398",
+      "code": "688525",
+      "name": "佰维存储",
       "matchedSectors": [
         "package"
       ],
@@ -2721,12 +2637,39 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "万润科技：投资者咨询先进封装技术布局及设备采购，董秘回应",
-          "url": "http://m.163.com/dy/article/KUAV780K05568W0A.html",
-          "source": "m.163.com"
+          "title": "半导体先进封装十大龙头_新浪新闻",
+          "url": "https://www.sina.cn/news/detail/5300921358877483.html",
+          "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:43+00:00"
+      "updatedAt": "2026-06-04T11:40:35+00:00"
+    },
+    {
+      "id": "cand-002409-b6f56ec5",
+      "code": "002409",
+      "name": "雅克科技",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "HBM配套"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "GPU+HBM 光互连大幅抬升 HBM 的整体需求量，HBM 概念股",
+          "url": "https://xueqiu.com/3140100228/390640110?_ugc_source=ugcbaiducard",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:39+00:00"
     },
     {
       "id": "cand-300475-c4b3481d",
@@ -2753,7 +2696,7 @@
           "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
+      "updatedAt": "2026-06-04T11:40:39+00:00"
     },
     {
       "id": "cand-002989-61e89779",
@@ -2780,39 +2723,12 @@
           "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
+      "updatedAt": "2026-06-04T11:40:39+00:00"
     },
     {
-      "id": "cand-000021-44027af6",
-      "code": "000021",
-      "name": "深科技",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "HBM(高带宽内存)龙头股主要集中在产业链的核心环节，包括存储芯片制造、封装测试、核心材料与设备等。以下是各领域的龙头股...",
-          "url": "https://xueqiu.com/1558215289/387484695",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
-    },
-    {
-      "id": "cand-603986-9b7d9381",
-      "code": "603986",
-      "name": "兆易创新",
+      "id": "cand-688008-7ac22f8e",
+      "code": "688008",
+      "name": "澜起科技",
       "matchedSectors": [
         "package"
       ],
@@ -2829,12 +2745,39 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "HBM(高带宽内存)龙头股主要集中在产业链的核心环节，包括存储芯片制造、封装测试、核心材料与设备等。以下是各领域的龙头股...",
-          "url": "https://xueqiu.com/1558215289/387484695",
+          "title": "GPU+HBM 光互连大幅抬升 HBM 的整体需求量，HBM 概念股",
+          "url": "https://xueqiu.com/3140100228/390640110?_ugc_source=ugcbaiducard",
           "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
+      "updatedAt": "2026-06-04T11:40:39+00:00"
+    },
+    {
+      "id": "cand-688535-addc52c5",
+      "code": "688535",
+      "name": "华海诚科",
+      "matchedSectors": [
+        "package"
+      ],
+      "matchedKeywords": [
+        "HBM配套"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "GPU+HBM 光互连大幅抬升 HBM 的整体需求量，HBM 概念股",
+          "url": "https://xueqiu.com/3140100228/390640110?_ugc_source=ugcbaiducard",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:39+00:00"
     },
     {
       "id": "cand-688037-d837d10c",
@@ -2856,99 +2799,288 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "订单爆满，产能紧缺！有封装股年内涨超200%",
-          "url": "https://cj.sina.cn/article/norm_detail?froms=ttmp&url=https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwraa8609553.shtml?finpagefr=ttzz",
-          "source": "cj.sina.cn"
+          "title": "订单爆满，产能紧缺 AI红利持续外溢，先进封装强势接棒",
+          "url": "https://www.stcn.com/article/detail/3910097.html",
+          "source": "stcn.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
+      "updatedAt": "2026-06-04T11:40:39+00:00"
     },
     {
-      "id": "cand-688200-66164c44",
+      "id": "cand-688388-490698de",
+      "code": "688388",
+      "name": "嘉元科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "PCB上游材料核心",
+          "url": "https://spare.sjqcj.com/index.php?act=sharemeager&app=public&feed_id=3577434&mod=Profile",
+          "source": "spare.sjqcj.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:44+00:00"
+    },
+    {
+      "id": "cand-600522-9535040d",
+      "code": "600522",
+      "name": "中天科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "高多层PCB"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "PCB全产业链核心标的:覆铜板、高速板、高端耗材全收录(建议收藏)(附深度解析)_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/1713270108",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:44+00:00"
+    },
+    {
+      "id": "cand-002938-3791f104",
+      "code": "002938",
+      "name": "鹏鼎控股",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "A 股 PCB（印刷電路板）",
+          "url": "https://xueqiu.com/5334485159/391037448",
+          "source": "xueqiu.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-600110-e422b3d4",
+      "code": "600110",
+      "name": "诺德股份",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-002080-2cad4762",
+      "code": "002080",
+      "name": "中材科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-601208-b03a1f6b",
+      "code": "601208",
+      "name": "东材科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-300285-bda6764b",
+      "code": "300285",
+      "name": "国瓷材料",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-300604-f0b6fd67",
+      "code": "300604",
+      "name": "长川科技",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-300666-e6e220a9",
+      "code": "300666",
+      "name": "江丰电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-300726-15e3ff89",
+      "code": "300726",
+      "name": "宏达电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "PCB与高速材料"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:49+00:00"
+    },
+    {
+      "id": "cand-688200-5e6e8b5b",
       "code": "688200",
       "name": "华峰测控",
       "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "订单爆满，产能紧缺！有封装股年内涨超200%",
-          "url": "https://cj.sina.cn/article/norm_detail?froms=ttmp&url=https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwraa8609553.shtml?finpagefr=ttzz",
-          "source": "cj.sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
-    },
-    {
-      "id": "cand-603061-c4f2932b",
-      "code": "603061",
-      "name": "金海通",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "订单爆满，产能紧缺！有封装股年内涨超200%",
-          "url": "https://cj.sina.cn/article/norm_detail?froms=ttmp&url=https://finance.sina.com.cn/wm/2026-05-14/doc-inhxwraa8609553.shtml?finpagefr=ttzz",
-          "source": "cj.sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
-    },
-    {
-      "id": "cand-600667-ca3910e5",
-      "code": "600667",
-      "name": "太极实业",
-      "matchedSectors": [
-        "package"
-      ],
-      "matchedKeywords": [
-        "HBM配套"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "HBM封测核心上市公司及业务产品 1. 长电科技 (600584.SH) —— 综合实力最强的“国内一哥” 业务与产品:...",
-          "url": "https://xueqiu.com/2417837537/388602118",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:06:45+00:00"
-    },
-    {
-      "id": "cand-603186-a021d3c4",
-      "code": "603186",
-      "name": "华正新材",
-      "matchedSectors": [
         "pcb"
       ],
       "matchedKeywords": [
@@ -2964,17 +3096,17 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "PCB上游企业总结；",
-          "url": "https://xueqiu.com/2297286656/390389606",
-          "source": "xueqiu.com"
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:53+00:00"
+      "updatedAt": "2026-06-04T11:40:49+00:00"
     },
     {
-      "id": "cand-600378-a3ea87e2",
-      "code": "600378",
-      "name": "昊华科技",
+      "id": "cand-688072-59386949",
+      "code": "688072",
+      "name": "拓荆科技",
       "matchedSectors": [
         "pcb"
       ],
@@ -2991,22 +3123,22 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "PCB上游材料核心概念股名单！",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5590499",
-          "source": "mobile.aigupiao.com"
+          "title": "长川科技，华峰测控，拓荆科技，聚焦PCB八大关键材料国产替代企业:PCB材料概念_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522212531706816770",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:53+00:00"
+      "updatedAt": "2026-06-04T11:40:49+00:00"
     },
     {
-      "id": "cand-300936-9c0af3e6",
-      "code": "300936",
-      "name": "中英科技",
+      "id": "cand-301366-62d251e5",
+      "code": "301366",
+      "name": "一博科技",
       "matchedSectors": [
         "pcb"
       ],
       "matchedKeywords": [
-        "PCB与高速材料"
+        "AI服务器PCB"
       ],
       "sourceTiers": {
         "search_web": 1
@@ -3018,12 +3150,12 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "PCB上游材料核心概念股名单！",
-          "url": "https://mobile.aigupiao.com/lives/usermsg/id/5590499",
-          "source": "mobile.aigupiao.com"
+          "title": "Accordingtoadocumentfrom2026-05-22，这份“Ru_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260522085805500942700",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:53+00:00"
+      "updatedAt": "2026-06-04T11:40:53+00:00"
     },
     {
       "id": "cand-603228-3d1eeb9d",
@@ -3050,7 +3182,61 @@
           "source": "xueqiu.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:56+00:00"
+      "updatedAt": "2026-06-04T11:40:53+00:00"
+    },
+    {
+      "id": "cand-002579-99035ea7",
+      "code": "002579",
+      "name": "中京电子",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "交换机板"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "中京电子PCB、CPO、存储三大业务领先优势一、PCB业务:全品类高端制造+AI_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260514123545244783760",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:58+00:00"
+    },
+    {
+      "id": "cand-002594-da143ceb",
+      "code": "002594",
+      "name": "比亚迪",
+      "matchedSectors": [
+        "pcb"
+      ],
+      "matchedKeywords": [
+        "交换机板"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "中京电子PCB、CPO、存储三大业务领先优势一、PCB业务:全品类高端制造+AI_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260514123545244783760",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:40:58+00:00"
     },
     {
       "id": "cand-003036-90132d38",
@@ -3077,7 +3263,7 @@
           "source": "c.m.163.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:59+00:00"
+      "updatedAt": "2026-06-04T11:40:58+00:00"
     },
     {
       "id": "cand-301511-1ec51dfb",
@@ -3104,7 +3290,7 @@
           "source": "c.m.163.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:59+00:00"
+      "updatedAt": "2026-06-04T11:40:58+00:00"
     },
     {
       "id": "cand-688813-52ed95d4",
@@ -3131,17 +3317,17 @@
           "source": "c.m.163.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:06:59+00:00"
+      "updatedAt": "2026-06-04T11:40:58+00:00"
     },
     {
-      "id": "cand-600050-2c8f57b2",
-      "code": "600050",
-      "name": "中国联通",
+      "id": "cand-603936-bdbc8fa8",
+      "code": "603936",
+      "name": "博敏电子",
       "matchedSectors": [
-        "power"
+        "pcb"
       ],
       "matchedKeywords": [
-        "供配电与液冷"
+        "交换机板"
       ],
       "sourceTiers": {
         "search_web": 1
@@ -3153,552 +3339,12 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
+          "title": "AI 算力 PCB 涨价潮：从传闻到实价，产能锁死高位，产业链迎戴维斯双击",
+          "url": "https://caifuhao.eastmoney.com/news/20260527192904598075160",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300014-27359817",
-      "code": "300014",
-      "name": "亿纬锂能",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-002594-fe7c04b1",
-      "code": "002594",
-      "name": "比亚迪",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300438-de34b704",
-      "code": "300438",
-      "name": "鹏辉能源",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300750-1953e5ca",
-      "code": "300750",
-      "name": "宁德时代",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-688981-c0953f8e",
-      "code": "688981",
-      "name": "中芯国际",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-601728-2a9dd99b",
-      "code": "601728",
-      "name": "中国电信",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "申菱环境 不只是华为昇腾的液冷主力，还是国内数据中心液冷绝对龙头 + 工业 / 能源 / 交通特种温控核心供应商，客户覆...",
-          "url": "https://xueqiu.com/2496495217/387522389",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-000063-3372ea60",
-      "code": "000063",
-      "name": "中兴通讯",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "5.21商业观察：人工智能数据中心",
-          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
-          "source": "caifuhao2.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300442-1fcb2f9f",
-      "code": "300442",
-      "name": "润泽科技",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "5.21商业观察：人工智能数据中心",
-          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
-          "source": "caifuhao2.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300474-2bebac53",
-      "code": "300474",
-      "name": "景嘉微",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "5.21商业观察：人工智能数据中心",
-          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
-          "source": "caifuhao2.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-688521-ac7da756",
-      "code": "688521",
-      "name": "芯原股份",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "5.21商业观察：人工智能数据中心",
-          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
-          "source": "caifuhao2.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-688256-4cd58338",
-      "code": "688256",
-      "name": "寒武纪",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "5.21商业观察：人工智能数据中心",
-          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
-          "source": "caifuhao2.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-688041-d2576d62",
-      "code": "688041",
-      "name": "海光信息",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "5.21商业观察：人工智能数据中心",
-          "url": "https://caifuhao2.eastmoney.com/news/20260521061228825777280",
-          "source": "caifuhao2.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-000725-44c50c51",
-      "code": "000725",
-      "name": "京东方A",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
-          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
-          "source": "emweb.securities.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-002272-0dbbdeba",
-      "code": "002272",
-      "name": "川润股份",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
-          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
-          "source": "emweb.securities.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-002421-c4298640",
-      "code": "002421",
-      "name": "达实智能",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
-          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
-          "source": "emweb.securities.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-002463-6b4d20be",
-      "code": "002463",
-      "name": "沪电股份",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "供配电与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "川润股份(002272.SZ)资讯公告-PC_HSF10资料",
-          "url": "http://emweb.securities.eastmoney.com/NewsBulletin/Index?code=SZ002272",
-          "source": "emweb.securities.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:03+00:00"
-    },
-    {
-      "id": "cand-300059-58115f14",
-      "code": "300059",
-      "name": "东方财富",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "电力设备与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:09+00:00"
-    },
-    {
-      "id": "cand-300684-48b2ba5c",
-      "code": "300684",
-      "name": "中石科技",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "电力设备与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:09+00:00"
-    },
-    {
-      "id": "cand-300785-bd7f4b56",
-      "code": "300785",
-      "name": "值得买",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "电力设备与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:09+00:00"
-    },
-    {
-      "id": "cand-601138-7ef80581",
-      "code": "601138",
-      "name": "工业富联",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "电力设备与液冷"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "我国液冷散热主要龙头上市公司_财富号_东方财富网",
-          "url": "https://cj.sina.cn/articles/view/7857141524/1d452771401902cirm",
-          "source": "cj.sina.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:09+00:00"
+      "updatedAt": "2026-06-04T11:40:58+00:00"
     },
     {
       "id": "cand-601901-a36c1cc3",
@@ -3708,7 +3354,7 @@
         "power"
       ],
       "matchedKeywords": [
-        "电力设备与液冷"
+        "变压器"
       ],
       "sourceTiers": {
         "search_web": 1
@@ -3725,7 +3371,7 @@
           "source": "m.hibor.com.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:09+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-601126-52188c2b",
@@ -3752,7 +3398,7 @@
           "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-603063-9f1369fa",
@@ -3779,7 +3425,7 @@
           "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-002885-519185a6",
@@ -3806,34 +3452,7 @@
           "source": "sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
-    },
-    {
-      "id": "cand-301012-bf58eff6",
-      "code": "301012",
-      "name": "扬电科技",
-      "matchedSectors": [
-        "power"
-      ],
-      "matchedKeywords": [
-        "变压器"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "江苏扬电科技股份有限公司",
-          "url": "https://www.qcc.com/cproductinfo/f1545ed5fd0d3f87c8cb7a7d584e5cbf",
-          "source": "qcc.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-300274-c8526130",
@@ -3860,7 +3479,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-300308-ac339466",
@@ -3887,7 +3506,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-300502-6abd101a",
@@ -3914,7 +3533,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-300394-00a05dc5",
@@ -3941,7 +3560,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-688668-6a00e6a3",
@@ -3968,7 +3587,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-688048-6e9d931a",
@@ -3995,7 +3614,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
       "id": "cand-688498-06fbaa8f",
@@ -4022,12 +3641,147 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:13+00:00"
+      "updatedAt": "2026-06-04T11:41:10+00:00"
     },
     {
-      "id": "cand-002939-994f1522",
-      "code": "002939",
-      "name": "长城证券",
+      "id": "cand-002364-5cf00a4b",
+      "code": "002364",
+      "name": "中恒电气",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "变压器"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "韭研公社-搜索",
+          "url": "https://www.jiuyangongshe.com/stock/s/59771bbd784b4c3884193a7ceaec77d8",
+          "source": "jiuyangongshe.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:10+00:00"
+    },
+    {
+      "id": "cand-002851-28e100e5",
+      "code": "002851",
+      "name": "麦格米特",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "变压器"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "韭研公社-搜索",
+          "url": "https://www.jiuyangongshe.com/stock/s/59771bbd784b4c3884193a7ceaec77d8",
+          "source": "jiuyangongshe.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:10+00:00"
+    },
+    {
+      "id": "cand-300593-61a83fa3",
+      "code": "300593",
+      "name": "新雷能",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "变压器"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "韭研公社-搜索",
+          "url": "https://www.jiuyangongshe.com/stock/s/59771bbd784b4c3884193a7ceaec77d8",
+          "source": "jiuyangongshe.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:10+00:00"
+    },
+    {
+      "id": "cand-300870-c18c5ebc",
+      "code": "300870",
+      "name": "欧陆通",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "变压器"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "韭研公社-搜索",
+          "url": "https://www.jiuyangongshe.com/stock/s/59771bbd784b4c3884193a7ceaec77d8",
+          "source": "jiuyangongshe.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:10+00:00"
+    },
+    {
+      "id": "cand-300814-d692a0f8",
+      "code": "300814",
+      "name": "中富电路",
+      "matchedSectors": [
+        "power"
+      ],
+      "matchedKeywords": [
+        "变压器"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "韭研公社-搜索",
+          "url": "https://www.jiuyangongshe.com/stock/s/59771bbd784b4c3884193a7ceaec77d8",
+          "source": "jiuyangongshe.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:10+00:00"
+    },
+    {
+      "id": "cand-300040-a6a20301",
+      "code": "300040",
+      "name": "九洲集团",
       "matchedSectors": [
         "power"
       ],
@@ -4044,17 +3798,17 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "电力设备及新能源AIDC报告系列一：配电架构迭代升级 规模高速增长",
-          "url": "http://vip.stock.finance.sina.com.cn/q/go.php/vReport_Show/kind/lastest/rptid/827022626353/index.phtml",
-          "source": "vip.stock.finance.sina.com.cn"
+          "title": "英伟达超高功率机架落地在即！老旧配电体系全面落伍，800VDC接力换代，行业迎来确定性成长方向",
+          "url": "https://cj.sina.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Froll%2F2026-05-28%2Fdoc-inhzmyeq1405459.shtml",
+          "source": "cj.sina.cn"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:17+00:00"
+      "updatedAt": "2026-06-04T11:41:15+00:00"
     },
     {
-      "id": "cand-002402-85168316",
-      "code": "002402",
-      "name": "和而泰",
+      "id": "cand-002261-9fb96b0e",
+      "code": "002261",
+      "name": "拓维信息",
       "matchedSectors": [
         "domestic"
       ],
@@ -4071,17 +3825,71 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "算力基建进入高投入周期，国产替代进程持续深化，光互连液冷光纤等赛道迎发展红利",
-          "url": "https://finance.sina.com.cn/wm/2026-05-13/doc-inhxunay0569897.shtml",
-          "source": "finance.sina.com.cn"
+          "title": "国产AI算力公司上市龙头是什么？名单请查阅（3月25日）",
+          "url": "http://www.southmoney.com/subject/suanli/202605/2726734.html",
+          "source": "southmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:21+00:00"
+      "updatedAt": "2026-06-04T11:41:17+00:00"
     },
     {
-      "id": "cand-600821-518e610f",
-      "code": "600821",
-      "name": "金开新能",
+      "id": "cand-300474-368f0a43",
+      "code": "300474",
+      "name": "景嘉微",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产AI算力"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "国产AI算力公司上市龙头是什么？名单请查阅（3月25日）",
+          "url": "http://www.southmoney.com/subject/suanli/202605/2726734.html",
+          "source": "southmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:17+00:00"
+    },
+    {
+      "id": "cand-000977-cbaa22e7",
+      "code": "000977",
+      "name": "浪潮信息",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产算力与生态"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:22+00:00"
+    },
+    {
+      "id": "cand-600602-d4bba018",
+      "code": "600602",
+      "name": "云赛智联",
       "matchedSectors": [
         "domestic"
       ],
@@ -4098,17 +3906,17 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "算力核心概念股清单_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5298392420057581.html",
-          "source": "sina.cn"
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:24+00:00"
+      "updatedAt": "2026-06-04T11:41:22+00:00"
     },
     {
-      "id": "cand-002602-8cbb353d",
-      "code": "002602",
-      "name": "世纪华通",
+      "id": "cand-600845-13fdf663",
+      "code": "600845",
+      "name": "宝信软件",
       "matchedSectors": [
         "domestic"
       ],
@@ -4125,17 +3933,44 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "算力核心概念股清单_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5298392420057581.html",
-          "source": "sina.cn"
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:24+00:00"
+      "updatedAt": "2026-06-04T11:41:22+00:00"
     },
     {
-      "id": "cand-603220-3df9b5e6",
-      "code": "603220",
-      "name": "中贝通信",
+      "id": "cand-300059-0aa1f4c7",
+      "code": "300059",
+      "name": "东方财富",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产算力与生态"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:22+00:00"
+    },
+    {
+      "id": "cand-300383-65f8b038",
+      "code": "300383",
+      "name": "光环新网",
       "matchedSectors": [
         "domestic"
       ],
@@ -4152,17 +3987,17 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "算力核心概念股清单_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5298392420057581.html",
-          "source": "sina.cn"
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:24+00:00"
+      "updatedAt": "2026-06-04T11:41:22+00:00"
     },
     {
-      "id": "cand-603629-cab156d8",
-      "code": "603629",
-      "name": "利通电子",
+      "id": "cand-002757-3774f44e",
+      "code": "002757",
+      "name": "南兴股份",
       "matchedSectors": [
         "domestic"
       ],
@@ -4179,17 +4014,44 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "算力核心概念股清单_新浪新闻",
-          "url": "https://www.sina.cn/news/detail/5298392420057581.html",
-          "source": "sina.cn"
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:24+00:00"
+      "updatedAt": "2026-06-04T11:41:22+00:00"
     },
     {
-      "id": "cand-600958-aea4ed14",
-      "code": "600958",
-      "name": "东方证券",
+      "id": "cand-300442-d0f96be9",
+      "code": "300442",
+      "name": "润泽科技",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产算力与生态"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:22+00:00"
+    },
+    {
+      "id": "cand-603881-680c7c1d",
+      "code": "603881",
+      "name": "数据港",
       "matchedSectors": [
         "domestic"
       ],
@@ -4206,12 +4068,66 @@
       "admissionScore": 16,
       "sampleEvidence": [
         {
-          "title": "电子行业：国产算力加速启航",
-          "url": "http://stockfinance.sina.cn/stock/go.php/paper/reportid/766653619333/index.phtml",
-          "source": "stockfinance.sina.cn"
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:24+00:00"
+      "updatedAt": "2026-06-04T11:41:22+00:00"
+    },
+    {
+      "id": "cand-300738-f4d7b92c",
+      "code": "300738",
+      "name": "奥飞数据",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产算力与生态"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "candidate",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:22+00:00"
+    },
+    {
+      "id": "cand-601138-159fbfb7",
+      "code": "601138",
+      "name": "工业富联",
+      "matchedSectors": [
+        "domestic"
+      ],
+      "matchedKeywords": [
+        "国产算力与生态"
+      ],
+      "sourceTiers": {
+        "search_web": 1
+      },
+      "evidenceCounts": {
+        "total": 1
+      },
+      "status": "promoted",
+      "admissionScore": 16,
+      "sampleEvidence": [
+        {
+          "title": "算力中心(智算/IDC/AIDC)核心股票(2026.5.17)按算力运营、算力_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260517130036086873650",
+          "source": "caifuhao.eastmoney.com"
+        }
+      ],
+      "updatedAt": "2026-06-04T11:41:22+00:00"
     },
     {
       "id": "cand-688385-f920fb73",
@@ -4238,169 +4154,7 @@
           "source": "southmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
-    },
-    {
-      "id": "cand-000988-8989859f",
-      "code": "000988",
-      "name": "华工科技",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
-    },
-    {
-      "id": "cand-002281-7b7e2aea",
-      "code": "002281",
-      "name": "光迅科技",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
-    },
-    {
-      "id": "cand-300308-0966ddf8",
-      "code": "300308",
-      "name": "中际旭创",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "一、算力基建(最直接受益，订单明确)1)服务器(AI训练/推理核心硬件)• 浪潮信息 (000977): 阿里 第一大服...",
-          "url": "https://xueqiu.com/1429482439/388713404",
-          "source": "xueqiu.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
-    },
-    {
-      "id": "cand-000938-ca53c872",
-      "code": "000938",
-      "name": "紫光股份",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "国产AI算力芯片龙头股三家上市公司（名单）（2026/3/25）",
-          "url": "http://www.southmoney.com/subject/suanli/202605/2741463.html",
-          "source": "southmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
-    },
-    {
-      "id": "cand-688099-06995e4b",
-      "code": "688099",
-      "name": "晶晨股份",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "国产AI算力芯片龙头股三家上市公司（名单）（2026/3/25）",
-          "url": "http://www.southmoney.com/subject/suanli/202605/2741463.html",
-          "source": "southmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
-    },
-    {
-      "id": "cand-600584-3a953882",
-      "code": "600584",
-      "name": "长电科技",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "AI芯片"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "promoted",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "",
-          "url": "https://finance.sina.com.cn/roll/2026-05-06/doc-inhwycsf9030975.shtml.md",
-          "source": "finance.sina.com.cn"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
+      "updatedAt": "2026-06-04T11:41:26+00:00"
     },
     {
       "id": "cand-002463-3a34b35c",
@@ -4427,7 +4181,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
+      "updatedAt": "2026-06-04T11:41:26+00:00"
     },
     {
       "id": "cand-002916-e6b673f7",
@@ -4454,7 +4208,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
+      "updatedAt": "2026-06-04T11:41:26+00:00"
     },
     {
       "id": "cand-688981-0e78901e",
@@ -4481,61 +4235,7 @@
           "source": "caifuhao.eastmoney.com"
         }
       ],
-      "updatedAt": "2026-06-04T07:07:30+00:00"
-    },
-    {
-      "id": "cand-000750-4b2e406e",
-      "code": "000750",
-      "name": "国海证券",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "服务器"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "算力大单密集落地 资金大幅加仓12只概念股",
-          "url": "https://finance.eastmoney.com/a/202606023756436034.html",
-          "source": "finance.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:34+00:00"
-    },
-    {
-      "id": "cand-600941-b422290a",
-      "code": "600941",
-      "name": "中国移动",
-      "matchedSectors": [
-        "domestic"
-      ],
-      "matchedKeywords": [
-        "服务器"
-      ],
-      "sourceTiers": {
-        "search_web": 1
-      },
-      "evidenceCounts": {
-        "total": 1
-      },
-      "status": "candidate",
-      "admissionScore": 16,
-      "sampleEvidence": [
-        {
-          "title": "算力大单密集落地 资金大幅加仓12只概念股",
-          "url": "https://finance.eastmoney.com/a/202606023756436034.html",
-          "source": "finance.eastmoney.com"
-        }
-      ],
-      "updatedAt": "2026-06-04T07:07:34+00:00"
+      "updatedAt": "2026-06-04T11:41:26+00:00"
     }
   ]
 }
