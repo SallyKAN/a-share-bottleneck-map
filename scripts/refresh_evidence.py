@@ -216,6 +216,16 @@ def refresh_evidence_once(
             time.sleep(sleep_seconds)
 
     items.sort(key=lambda item: (item["date"], item["companyId"], item["type"]), reverse=True)
+    if not items:
+        failure_preview = "; ".join(
+            f"{failure['code']} {failure['name']}: {failure['error']}" for failure in failures[:5]
+        )
+        detail = f" First failures: {failure_preview}" if failure_preview else ""
+        raise RuntimeError(
+            "Evidence refresh returned 0 items; keeping the previous evidence snapshot instead of overwriting it."
+            + detail
+        )
+
     write_json_atomic(EVIDENCE_FILE, items)
     return {
         "source": "daily_stock_analysis.SearchService",

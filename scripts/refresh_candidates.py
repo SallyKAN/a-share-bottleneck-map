@@ -416,6 +416,16 @@ def refresh_candidates_once(
         "failures": failures,
         "items": candidates,
     }
+    if not candidates:
+        failure_preview = "; ".join(
+            f"{failure.get('sectorId', 'unknown')}: {failure.get('error', '')}" for failure in failures[:5]
+        )
+        detail = f" First failures: {failure_preview}" if failure_preview else ""
+        raise RuntimeError(
+            "Candidate refresh returned 0 items; keeping the previous candidate snapshot instead of overwriting it."
+            + detail
+        )
+
     write_json_atomic(CANDIDATES_FILE, payload)
     return payload
 

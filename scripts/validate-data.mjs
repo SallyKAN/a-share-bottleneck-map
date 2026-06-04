@@ -38,6 +38,8 @@ const metricKeys = Object.keys(scoring.weights);
 
 assert(sectorIds.size === sectors.length, "sectors.json contains duplicate sector ids");
 assert(companyIds.size === companies.length, "companies.json contains duplicate company ids");
+assert(evidence.length > 0, "evidence.json must contain at least one evidence item");
+assert(candidates.items.length > 0, "candidate_pool.json must contain at least one candidate item");
 
 for (const company of companies) {
   assert(company.sectorIds.length > 0, `${company.id} must have at least one sector`);
