@@ -2067,5 +2067,69 @@
       "valuationDiscipline": 55,
       "riskControl": 55
     }
+  },
+  {
+    "id": "auto-603005",
+    "name": "晶方科技",
+    "code": "603005",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-06-05T11:52:08+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
+  },
+  {
+    "id": "auto-002636",
+    "name": "金安国纪",
+    "code": "002636",
+    "sectorIds": [
+      "pcb"
+    ],
+    "role": "高多层PCB候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "pcb",
+        "nodeId": "pcb",
+        "role": "高多层PCB",
+        "evidenceIds": [],
+        "confidence": 0.6
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 60,
+      "promotedAt": "2026-06-05T11:52:08+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 62,
+      "positionCertainty": 58,
+      "evidenceQuality": 52,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
   }
 ]
