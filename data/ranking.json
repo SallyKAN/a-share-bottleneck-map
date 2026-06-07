@@ -1,6 +1,6 @@
 {
   "source": "companies+sectors+evidence+quotes",
-  "asOf": "2026-06-06T10:54:43+00:00",
+  "asOf": "2026-06-07T11:06:11+00:00",
   "totalTickers": 85,
   "rows": [
     {
@@ -30,7 +30,7 @@
         }
       ],
       "score": 72,
-      "evidenceScore": 5.32,
+      "evidenceScore": 5.52,
       "evidenceCount": 3,
       "quote": {
         "code": "002436",
@@ -53,160 +53,58 @@
         "floatMarketCap": 57529999999.99999,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:37+00:00",
+        "updatedAt": "2026-06-07T10:42:34+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-002636",
-      "name": "金安国纪",
-      "code": "002636",
+      "companyId": "auto-300617",
+      "name": "安靠智电",
+      "code": "300617",
       "sectors": [
-        "pcb"
+        "power"
       ],
       "sectorNames": [
-        "PCB与高速材料"
+        "电力设备与液冷"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
+          "sectorId": "power",
+          "nodeId": "power",
+          "role": "供配电与液冷",
           "evidenceIds": [],
           "confidence": 0.6
         }
       ],
       "score": 56,
-      "evidenceScore": 8.32,
+      "evidenceScore": 8.48,
       "evidenceCount": 4,
       "quote": {
-        "code": "002636",
-        "name": "金安国纪",
-        "price": 58.16,
-        "changePercent": 7.7,
-        "change": 4.16,
-        "high": 59.4,
-        "low": 52.8,
-        "open": 53.99,
-        "previousClose": 54.0,
-        "volume": 88727900,
-        "amount": 5174580791.0,
-        "volumeRatio": 1.53,
-        "turnoverRate": 12.25,
-        "amplitude": 12.22,
-        "peRatio": 88.35,
-        "pbRatio": 11.37,
-        "marketCap": 42340000000.0,
-        "floatMarketCap": 42126000000.0,
+        "code": "300617",
+        "name": "安靠智电",
+        "price": 63.03,
+        "changePercent": 3.67,
+        "change": 2.23,
+        "high": 66.99,
+        "low": 59.12,
+        "open": 60.1,
+        "previousClose": 60.8,
+        "volume": 16104800,
+        "amount": 1026431082.0,
+        "volumeRatio": 1.49,
+        "turnoverRate": 11.59,
+        "amplitude": 12.94,
+        "peRatio": 132.55,
+        "pbRatio": 3.45,
+        "marketCap": 10445000000.0,
+        "floatMarketCap": 8756000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:57+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-300442",
-      "name": "润泽科技",
-      "code": "300442",
-      "sectors": [
-        "domestic"
-      ],
-      "sectorNames": [
-        "国产算力与生态"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "domestic",
-          "nodeId": "domestic",
-          "role": "国产AI算力",
-          "evidenceIds": [],
-          "confidence": 0.64
-        }
-      ],
-      "score": 58,
-      "evidenceScore": 7.92,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "300442",
-        "name": "润泽科技",
-        "price": 78.17,
-        "changePercent": -4.41,
-        "change": -3.61,
-        "high": 81.0,
-        "low": 77.94,
-        "open": 81.0,
-        "previousClose": 81.78,
-        "volume": 33480900,
-        "amount": 2659304021.0,
-        "volumeRatio": 0.83,
-        "turnoverRate": 2.05,
-        "amplitude": 3.74,
-        "peRatio": 24.56,
-        "pbRatio": 8.94,
-        "marketCap": 127757000000.0,
-        "floatMarketCap": 127538000000.00002,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:51+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-000988",
-      "name": "华工科技",
-      "code": "000988",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 7.64,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "000988",
-        "name": "华工科技",
-        "price": 157.2,
-        "changePercent": -0.73,
-        "change": -1.16,
-        "high": 165.87,
-        "low": 155.86,
-        "open": 156.3,
-        "previousClose": 158.36,
-        "volume": 92174100,
-        "amount": 14874960217.0,
-        "volumeRatio": 1.03,
-        "turnoverRate": 9.17,
-        "amplitude": 6.32,
-        "peRatio": 93.01,
-        "pbRatio": 13.52,
-        "marketCap": 158065000000.0,
-        "floatMarketCap": 157984000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:29+00:00",
+        "updatedAt": "2026-06-07T10:47:07+00:00",
         "status": "ok",
         "stale": false
       },
@@ -257,7 +155,7 @@
         "floatMarketCap": 48137000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:15+00:00",
+        "updatedAt": "2026-06-07T10:44:55+00:00",
         "status": "ok",
         "stale": false
       },
@@ -306,29 +204,29 @@
         "floatMarketCap": 74497000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:16+00:00",
+        "updatedAt": "2026-06-07T10:43:07+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-600673",
-      "name": "东阳光",
-      "code": "600673",
+      "companyId": "auto-300373",
+      "name": "扬杰科技",
+      "code": "300373",
       "sectors": [
-        "power"
+        "package"
       ],
       "sectorNames": [
-        "电力设备与液冷"
+        "先进封装与测试"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "power",
-          "nodeId": "power",
-          "role": "供配电与液冷",
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
           "evidenceIds": [],
           "confidence": 0.6
         }
@@ -337,36 +235,36 @@
       "evidenceScore": 7.12,
       "evidenceCount": 4,
       "quote": {
-        "code": "600673",
-        "name": "东阳光",
-        "price": 33.17,
-        "changePercent": -0.48,
-        "change": -0.16,
-        "high": 34.68,
-        "low": 31.59,
-        "open": 33.12,
-        "previousClose": 33.33,
-        "volume": 76474100,
-        "amount": 2531679787.0,
-        "volumeRatio": 0.83,
-        "turnoverRate": 2.55,
-        "amplitude": 9.27,
-        "peRatio": 855.39,
-        "pbRatio": 10.05,
-        "marketCap": 99827000000.0,
-        "floatMarketCap": 99562000000.0,
+        "code": "300373",
+        "name": "扬杰科技",
+        "price": 102.87,
+        "changePercent": -2.49,
+        "change": -2.63,
+        "high": 108.66,
+        "low": 101.31,
+        "open": 104.19,
+        "previousClose": 105.5,
+        "volume": 22664300,
+        "amount": 2379389434.0,
+        "volumeRatio": 0.73,
+        "turnoverRate": 4.18,
+        "amplitude": 6.97,
+        "peRatio": 40.78,
+        "pbRatio": 5.8,
+        "marketCap": 55894000000.00001,
+        "floatMarketCap": 55770000000.00001,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:03+00:00",
+        "updatedAt": "2026-06-07T10:44:35+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-002025",
-      "name": "航天电器",
-      "code": "002025",
+      "companyId": "auto-600105",
+      "name": "永鼎股份",
+      "code": "600105",
       "sectors": [
         "optical"
       ],
@@ -386,29 +284,80 @@
       ],
       "score": 56,
       "evidenceScore": 7.04,
-      "evidenceCount": 3,
+      "evidenceCount": 4,
       "quote": {
-        "code": "002025",
-        "name": "航天电器",
-        "price": 64.8,
-        "changePercent": -4.58,
-        "change": -3.11,
-        "high": 67.91,
-        "low": 64.27,
-        "open": 67.91,
-        "previousClose": 67.91,
-        "volume": 22990200,
-        "amount": 1507592613.0,
-        "volumeRatio": 0.93,
-        "turnoverRate": 5.07,
-        "amplitude": 5.36,
-        "peRatio": 156.52,
-        "pbRatio": 4.43,
-        "marketCap": 29507000000.0,
-        "floatMarketCap": 29411000000.0,
+        "code": "600105",
+        "name": "永鼎股份",
+        "price": 55.42,
+        "changePercent": 2.08,
+        "change": 1.13,
+        "high": 59.72,
+        "low": 54.1,
+        "open": 54.1,
+        "previousClose": 54.29,
+        "volume": 210230700,
+        "amount": 12066453196.0,
+        "volumeRatio": 1.2,
+        "turnoverRate": 14.38,
+        "amplitude": 10.35,
+        "peRatio": 789.0,
+        "pbRatio": 24.42,
+        "marketCap": 81024000000.0,
+        "floatMarketCap": 81024000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:36+00:00",
+        "updatedAt": "2026-06-07T10:44:17+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-002138",
+      "name": "顺络电子",
+      "code": "002138",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 7.04,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "002138",
+        "name": "顺络电子",
+        "price": 55.61,
+        "changePercent": 10.01,
+        "change": 5.06,
+        "high": 55.61,
+        "low": 48.8,
+        "open": 51.2,
+        "previousClose": 50.55,
+        "volume": 81117700,
+        "amount": 4303363809.0,
+        "volumeRatio": 1.39,
+        "turnoverRate": 10.72,
+        "amplitude": 13.47,
+        "peRatio": 46.43,
+        "pbRatio": 7.06,
+        "marketCap": 44839000000.0,
+        "floatMarketCap": 42069000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:46:15+00:00",
         "status": "ok",
         "stale": false
       },
@@ -436,7 +385,7 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 6.96,
+      "evidenceScore": 6.92,
       "evidenceCount": 4,
       "quote": {
         "code": "600703",
@@ -459,116 +408,16 @@
         "floatMarketCap": 84364000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:05+00:00",
+        "updatedAt": "2026-06-07T10:44:44+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-688313",
-      "name": "仕佳光子",
-      "code": "688313",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 6.94,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "688313",
-        "name": "仕佳光子",
-        "price": 156.79,
-        "changePercent": -5.23,
-        "change": -8.66,
-        "high": 174.59,
-        "low": 154.0,
-        "open": 162.0,
-        "previousClose": 165.45,
-        "volume": 34206743,
-        "amount": 5620760448.0,
-        "volumeRatio": 1.07,
-        "turnoverRate": 7.57,
-        "amplitude": 12.44,
-        "peRatio": 179.31,
-        "pbRatio": 42.73,
-        "marketCap": 70867000000.0,
-        "floatMarketCap": 70867000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:07+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "gyfl",
-      "name": "工业富联",
-      "code": "601138",
-      "sectors": [
-        "domestic"
-      ],
-      "sectorNames": [
-        "国产算力与生态"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "domestic",
-          "nodeId": "domestic",
-          "role": "国产AI算力"
-        }
-      ],
-      "score": 83,
-      "evidenceScore": 6.88,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "601138",
-        "name": "工业富联",
-        "price": 74.06,
-        "changePercent": -5.72,
-        "change": -4.49,
-        "high": 78.21,
-        "low": 73.1,
-        "open": 77.5,
-        "previousClose": 78.55,
-        "volume": 261648600,
-        "amount": 19787640639.0,
-        "volumeRatio": 0.77,
-        "turnoverRate": 1.32,
-        "amplitude": 6.51,
-        "peRatio": 36.15,
-        "pbRatio": 8.34,
-        "marketCap": 1469653000000.0,
-        "floatMarketCap": 1469653000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:39+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-600460",
-      "name": "士兰微",
-      "code": "600460",
+      "companyId": "auto-600667",
+      "name": "太极实业",
+      "code": "600667",
       "sectors": [
         "package"
       ],
@@ -587,30 +436,128 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 6.66,
+      "evidenceScore": 6.84,
       "evidenceCount": 4,
       "quote": {
-        "code": "600460",
-        "name": "士兰微",
-        "price": 33.95,
-        "changePercent": -3.88,
-        "change": -1.37,
-        "high": 35.44,
-        "low": 33.68,
-        "open": 34.7,
-        "previousClose": 35.32,
-        "volume": 93926300,
-        "amount": 3240596776.0,
-        "volumeRatio": 0.78,
-        "turnoverRate": 5.64,
-        "amplitude": 4.98,
-        "peRatio": 123.13,
-        "pbRatio": 4.63,
-        "marketCap": 56495000000.00001,
-        "floatMarketCap": 56495000000.00001,
+        "code": "600667",
+        "name": "太极实业",
+        "price": 16.15,
+        "changePercent": -1.28,
+        "change": -0.21,
+        "high": 17.18,
+        "low": 15.97,
+        "open": 16.3,
+        "previousClose": 16.36,
+        "volume": 428525200,
+        "amount": 7110380715.0,
+        "volumeRatio": 1.32,
+        "turnoverRate": 20.49,
+        "amplitude": 7.4,
+        "peRatio": 73.54,
+        "pbRatio": 3.86,
+        "marketCap": 33777999999.999996,
+        "floatMarketCap": 33777999999.999996,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:19+00:00",
+        "updatedAt": "2026-06-07T10:45:26+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "zjxc",
+      "name": "中际旭创",
+      "code": "300308",
+      "sectors": [
+        "optical"
+      ],
+      "sectorNames": [
+        "光通信与CPO"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块"
+        }
+      ],
+      "score": 86,
+      "evidenceScore": 6.64,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "300308",
+        "name": "中际旭创",
+        "price": 1179.99,
+        "changePercent": -7.81,
+        "change": -100.01,
+        "high": 1301.51,
+        "low": 1160.0,
+        "open": 1273.2,
+        "previousClose": 1280.0,
+        "volume": 47474100,
+        "amount": 58324832702.0,
+        "volumeRatio": 1.68,
+        "turnoverRate": 4.28,
+        "amplitude": 11.06,
+        "peRatio": 88.01,
+        "pbRatio": 37.99,
+        "marketCap": 1315583000000.0,
+        "floatMarketCap": 1309335000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:41:57+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "shkj",
+      "name": "胜宏科技",
+      "code": "300476",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB"
+        }
+      ],
+      "score": 79,
+      "evidenceScore": 6.64,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "300476",
+        "name": "胜宏科技",
+        "price": 338.9,
+        "changePercent": -7.59,
+        "change": -27.82,
+        "high": 360.0,
+        "low": 336.5,
+        "open": 359.84,
+        "previousClose": 366.72,
+        "volume": 55328100,
+        "amount": 19274961849.0,
+        "volumeRatio": 1.11,
+        "turnoverRate": 6.39,
+        "amplitude": 6.41,
+        "peRatio": 71.17,
+        "pbRatio": 21.26,
+        "marketCap": 333066000000.0,
+        "floatMarketCap": 293215000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:42:43+00:00",
         "status": "ok",
         "stale": false
       },
@@ -661,193 +608,56 @@
         "floatMarketCap": 55429000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:14+00:00",
+        "updatedAt": "2026-06-07T10:45:54+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-600110",
-      "name": "诺德股份",
-      "code": "600110",
+      "companyId": "jpkj",
+      "name": "金盘科技",
+      "code": "688676",
       "sectors": [
-        "pcb"
+        "power"
       ],
       "sectorNames": [
-        "PCB与高速材料"
+        "电力设备与液冷"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
+          "sectorId": "power",
+          "nodeId": "power",
+          "role": "供配电与液冷"
         }
       ],
-      "score": 56,
-      "evidenceScore": 6.48,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "600110",
-        "name": "诺德股份",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
-      },
-      "quoteStatus": "unavailable"
-    },
-    {
-      "companyId": "auto-002938",
-      "name": "鹏鼎控股",
-      "code": "002938",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
+      "score": 75,
       "evidenceScore": 6.36,
       "evidenceCount": 4,
       "quote": {
-        "code": "002938",
-        "name": "鹏鼎控股",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
-      },
-      "quoteStatus": "unavailable"
-    },
-    {
-      "companyId": "tftx",
-      "name": "天孚通信",
-      "code": "300394",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块"
-        }
-      ],
-      "score": 83,
-      "evidenceScore": 6.2,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "300394",
-        "name": "天孚通信",
-        "price": 457.0,
-        "changePercent": -4.88,
-        "change": -23.45,
-        "high": 501.87,
-        "low": 449.0,
-        "open": 483.0,
-        "previousClose": 480.45,
-        "volume": 47120600,
-        "amount": 22474176090.0,
-        "volumeRatio": 0.95,
-        "turnoverRate": 6.06,
-        "amplitude": 11.0,
-        "peRatio": 163.95,
-        "pbRatio": 59.23,
-        "marketCap": 356076000000.0,
-        "floatMarketCap": 355281000000.0,
+        "code": "688676",
+        "name": "金盘科技",
+        "price": 89.92,
+        "changePercent": -5.04,
+        "change": -4.77,
+        "high": 95.09,
+        "low": 88.0,
+        "open": 95.09,
+        "previousClose": 94.69,
+        "volume": 20811243,
+        "amount": 1895557272.0,
+        "volumeRatio": 1.02,
+        "turnoverRate": 4.53,
+        "amplitude": 7.49,
+        "peRatio": 62.2,
+        "pbRatio": 8.51,
+        "marketCap": 41344000000.0,
+        "floatMarketCap": 41344000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:09+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "hgxx",
-      "name": "海光信息",
-      "code": "688041",
-      "sectors": [
-        "domestic"
-      ],
-      "sectorNames": [
-        "国产算力与生态"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "domestic",
-          "nodeId": "domestic",
-          "role": "国产AI算力"
-        }
-      ],
-      "score": 74,
-      "evidenceScore": 6.06,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "688041",
-        "name": "海光信息",
-        "price": 274.06,
-        "changePercent": -4.1,
-        "change": -11.73,
-        "high": 283.62,
-        "low": 272.92,
-        "open": 280.0,
-        "previousClose": 285.79,
-        "volume": 33220727,
-        "amount": 9207397358.0,
-        "volumeRatio": 0.96,
-        "turnoverRate": 1.43,
-        "amplitude": 3.74,
-        "peRatio": 233.67,
-        "pbRatio": 27.11,
-        "marketCap": 637008000000.0,
-        "floatMarketCap": 637008000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:33+00:00",
+        "updatedAt": "2026-06-07T10:42:58+00:00",
         "status": "ok",
         "stale": false
       },
@@ -898,16 +708,67 @@
         "floatMarketCap": 22928000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:33+00:00",
+        "updatedAt": "2026-06-07T10:47:12+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-000750",
-      "name": "国海证券",
-      "code": "000750",
+      "companyId": "auto-301021",
+      "name": "英诺激光",
+      "code": "301021",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.98,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "301021",
+        "name": "英诺激光",
+        "price": 94.81,
+        "changePercent": -2.66,
+        "change": -2.59,
+        "high": 101.0,
+        "low": 94.08,
+        "open": 99.0,
+        "previousClose": 97.4,
+        "volume": 9177400,
+        "amount": 895198016.0,
+        "volumeRatio": 0.84,
+        "turnoverRate": 6.01,
+        "amplitude": 7.1,
+        "peRatio": 217.21,
+        "pbRatio": 13.86,
+        "marketCap": 14494000000.0,
+        "floatMarketCap": 14478000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:44:48+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "hgxx",
+      "name": "海光信息",
+      "code": "688041",
       "sectors": [
         "domestic"
       ],
@@ -920,36 +781,83 @@
         {
           "sectorId": "domestic",
           "nodeId": "domestic",
-          "role": "国产AI算力",
-          "evidenceIds": [],
-          "confidence": 0.64
+          "role": "国产AI算力"
         }
       ],
-      "score": 58,
-      "evidenceScore": 5.78,
+      "score": 74,
+      "evidenceScore": 5.76,
       "evidenceCount": 4,
       "quote": {
-        "code": "000750",
-        "name": "国海证券",
-        "price": 3.59,
-        "changePercent": -0.55,
-        "change": -0.02,
-        "high": 3.64,
-        "low": 3.58,
-        "open": 3.6,
-        "previousClose": 3.61,
-        "volume": 36501200,
-        "amount": 131701725.0,
-        "volumeRatio": 0.81,
-        "turnoverRate": 0.63,
-        "amplitude": 1.66,
-        "peRatio": 27.76,
-        "pbRatio": 1.0,
-        "marketCap": 22926000000.0,
-        "floatMarketCap": 20808000000.0,
+        "code": "688041",
+        "name": "海光信息",
+        "price": 274.06,
+        "changePercent": -4.1,
+        "change": -11.73,
+        "high": 283.62,
+        "low": 272.92,
+        "open": 280.0,
+        "previousClose": 285.79,
+        "volume": 33220727,
+        "amount": 9207397358.0,
+        "volumeRatio": 0.96,
+        "turnoverRate": 1.43,
+        "amplitude": 3.74,
+        "peRatio": 233.67,
+        "pbRatio": 27.11,
+        "marketCap": 637008000000.0,
+        "floatMarketCap": 637008000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:44+00:00",
+        "updatedAt": "2026-06-07T10:43:25+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "hwj",
+      "name": "寒武纪",
+      "code": "688256",
+      "sectors": [
+        "domestic"
+      ],
+      "sectorNames": [
+        "国产算力与生态"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "domestic",
+          "nodeId": "domestic",
+          "role": "国产AI算力"
+        }
+      ],
+      "score": 68,
+      "evidenceScore": 5.76,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "688256",
+        "name": "寒武纪",
+        "price": 1299.2,
+        "changePercent": -4.39,
+        "change": -59.7,
+        "high": 1407.77,
+        "low": 1287.34,
+        "open": 1342.0,
+        "previousClose": 1358.9,
+        "volume": 11635451,
+        "amount": 15620599199.0,
+        "volumeRatio": 0.88,
+        "turnoverRate": 1.85,
+        "amplitude": 8.86,
+        "peRatio": 300.44,
+        "pbRatio": 66.7,
+        "marketCap": 816278000000.0,
+        "floatMarketCap": 816278000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:43:20+00:00",
         "status": "ok",
         "stale": false
       },
@@ -978,7 +886,7 @@
       ],
       "score": 58,
       "evidenceScore": 5.76,
-      "evidenceCount": 4,
+      "evidenceCount": 3,
       "quote": {
         "code": "300059",
         "name": "东方财富",
@@ -1000,16 +908,118 @@
         "floatMarketCap": 247303000000.00003,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:45+00:00",
+        "updatedAt": "2026-06-07T10:47:24+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-601208",
-      "name": "东材科技",
-      "code": "601208",
+      "companyId": "auto-601126",
+      "name": "XD四方股",
+      "code": "601126",
+      "sectors": [
+        "power"
+      ],
+      "sectorNames": [
+        "电力设备与液冷"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "power",
+          "nodeId": "power",
+          "role": "供配电与液冷",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.76,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "601126",
+        "name": "四方股份",
+        "price": 72.05,
+        "changePercent": -3.39,
+        "change": -2.53,
+        "high": 74.57,
+        "low": 71.19,
+        "open": 73.96,
+        "previousClose": 74.58,
+        "volume": 29203100,
+        "amount": 2123657909.0,
+        "volumeRatio": 0.97,
+        "turnoverRate": 3.54,
+        "amplitude": 4.53,
+        "peRatio": 69.95,
+        "pbRatio": 13.13,
+        "marketCap": 60025000000.0,
+        "floatMarketCap": 59447000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:47:00+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-600673",
+      "name": "东阳光",
+      "code": "600673",
+      "sectors": [
+        "power"
+      ],
+      "sectorNames": [
+        "电力设备与液冷"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "power",
+          "nodeId": "power",
+          "role": "供配电与液冷",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.76,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "600673",
+        "name": "东阳光",
+        "price": 33.17,
+        "changePercent": -0.48,
+        "change": -0.16,
+        "high": 34.68,
+        "low": 31.59,
+        "open": 33.12,
+        "previousClose": 33.33,
+        "volume": 76474100,
+        "amount": 2531679787.0,
+        "volumeRatio": 0.83,
+        "turnoverRate": 2.55,
+        "amplitude": 9.27,
+        "peRatio": 855.39,
+        "pbRatio": 10.05,
+        "marketCap": 99827000000.0,
+        "floatMarketCap": 99562000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:46:43+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-600110",
+      "name": "诺德股份",
+      "code": "600110",
       "sectors": [
         "pcb"
       ],
@@ -1031,24 +1041,233 @@
       "evidenceScore": 5.76,
       "evidenceCount": 4,
       "quote": {
-        "code": "601208",
-        "name": "东材科技",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
+        "code": "600110",
+        "name": "诺德股份",
+        "price": 11.29,
+        "changePercent": -2.17,
+        "change": -0.25,
+        "high": 11.95,
+        "low": 10.87,
+        "open": 11.42,
+        "previousClose": 11.54,
+        "volume": 184085200,
+        "amount": 2105342285.0,
+        "volumeRatio": 0.77,
+        "turnoverRate": 10.61,
+        "amplitude": 9.36,
+        "peRatio": -88.75,
+        "pbRatio": 3.47,
+        "marketCap": 19590000000.0,
+        "floatMarketCap": 19590000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:48:40+00:00",
+        "status": "ok",
+        "stale": false
       },
-      "quoteStatus": "unavailable"
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-002916",
+      "name": "深南电路",
+      "code": "002916",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.76,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "002916",
+        "name": "深南电路",
+        "price": 373.0,
+        "changePercent": -5.18,
+        "change": -20.38,
+        "high": 392.86,
+        "low": 370.49,
+        "open": 382.01,
+        "previousClose": 393.38,
+        "volume": 13190100,
+        "amount": 5024719337.0,
+        "volumeRatio": 0.8,
+        "turnoverRate": 1.98,
+        "amplitude": 5.69,
+        "peRatio": 69.91,
+        "pbRatio": 15.44,
+        "marketCap": 254075000000.0,
+        "floatMarketCap": 247973999999.99997,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:47:51+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-002885",
+      "name": "京泉华",
+      "code": "002885",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.76,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "002885",
+        "name": "京泉华",
+        "price": 41.82,
+        "changePercent": -3.84,
+        "change": -1.67,
+        "high": 43.48,
+        "low": 41.2,
+        "open": 42.37,
+        "previousClose": 43.49,
+        "volume": 18440900,
+        "amount": 778722536.0,
+        "volumeRatio": 0.73,
+        "turnoverRate": 7.77,
+        "amplitude": 5.24,
+        "peRatio": 117.04,
+        "pbRatio": 7.39,
+        "marketCap": 11330000000.0,
+        "floatMarketCap": 9922000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:46:26+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "hfck",
+      "name": "华峰测控",
+      "code": "688200",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装"
+        }
+      ],
+      "score": 73,
+      "evidenceScore": 5.68,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "688200",
+        "name": "华峰测控",
+        "price": 427.92,
+        "changePercent": -2.97,
+        "change": -13.08,
+        "high": 443.0,
+        "low": 420.0,
+        "open": 433.0,
+        "previousClose": 441.0,
+        "volume": 3351659,
+        "amount": 1444853991.0,
+        "volumeRatio": 0.83,
+        "turnoverRate": 2.47,
+        "amplitude": 5.22,
+        "peRatio": 102.06,
+        "pbRatio": 13.84,
+        "marketCap": 58009000000.0,
+        "floatMarketCap": 58009000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:42:28+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-300474",
+      "name": "景嘉微",
+      "code": "300474",
+      "sectors": [
+        "domestic"
+      ],
+      "sectorNames": [
+        "国产算力与生态"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "domestic",
+          "nodeId": "domestic",
+          "role": "国产AI算力",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.68,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "300474",
+        "name": "景嘉微",
+        "price": 56.37,
+        "changePercent": -3.03,
+        "change": -1.76,
+        "high": 57.85,
+        "low": 55.8,
+        "open": 57.38,
+        "previousClose": 58.13,
+        "volume": 9677900,
+        "amount": 549690427.0,
+        "volumeRatio": 0.8,
+        "turnoverRate": 2.38,
+        "amplitude": 3.53,
+        "peRatio": -177.62,
+        "pbRatio": 4.32,
+        "marketCap": 29460000000.000004,
+        "floatMarketCap": 22913000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:47:58+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
     },
     {
       "companyId": "auto-002079",
@@ -1072,7 +1291,7 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 5.76,
+      "evidenceScore": 5.68,
       "evidenceCount": 4,
       "quote": {
         "code": "002079",
@@ -1095,107 +1314,7 @@
         "floatMarketCap": 9938000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:41+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "xys",
-      "name": "新易盛",
-      "code": "300502",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块"
-        }
-      ],
-      "score": 84,
-      "evidenceScore": 5.68,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "300502",
-        "name": "新易盛",
-        "price": 748.0,
-        "changePercent": -3.6,
-        "change": -27.94,
-        "high": 818.38,
-        "low": 730.0,
-        "open": 790.0,
-        "previousClose": 775.94,
-        "volume": 44176500,
-        "amount": 34165078019.0,
-        "volumeRatio": 1.3,
-        "turnoverRate": 4.93,
-        "amplitude": 11.39,
-        "peRatio": 69.36,
-        "pbRatio": 36.5,
-        "marketCap": 744931000000.0,
-        "floatMarketCap": 670124000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:04+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-600105",
-      "name": "永鼎股份",
-      "code": "600105",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 5.68,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "600105",
-        "name": "永鼎股份",
-        "price": 55.42,
-        "changePercent": 2.08,
-        "change": 1.13,
-        "high": 59.72,
-        "low": 54.1,
-        "open": 54.1,
-        "previousClose": 54.29,
-        "volume": 210230700,
-        "amount": 12066453196.0,
-        "volumeRatio": 1.2,
-        "turnoverRate": 14.38,
-        "amplitude": 10.35,
-        "peRatio": 789.0,
-        "pbRatio": 24.42,
-        "marketCap": 81024000000.0,
-        "floatMarketCap": 81024000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:29+00:00",
+        "updatedAt": "2026-06-07T10:46:21+00:00",
         "status": "ok",
         "stale": false
       },
@@ -1246,29 +1365,80 @@
         "floatMarketCap": 29869000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:50+00:00",
+        "updatedAt": "2026-06-07T10:48:28+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-600667",
-      "name": "太极实业",
-      "code": "600667",
+      "companyId": "auto-002636",
+      "name": "金安国纪",
+      "code": "002636",
       "sectors": [
-        "package"
+        "pcb"
       ],
       "sectorNames": [
-        "先进封装与测试"
+        "PCB与高速材料"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.6,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "002636",
+        "name": "金安国纪",
+        "price": 58.16,
+        "changePercent": 7.7,
+        "change": 4.16,
+        "high": 59.4,
+        "low": 52.8,
+        "open": 53.99,
+        "previousClose": 54.0,
+        "volume": 88727900,
+        "amount": 5174580791.0,
+        "volumeRatio": 1.53,
+        "turnoverRate": 12.25,
+        "amplitude": 12.22,
+        "peRatio": 88.35,
+        "pbRatio": 11.37,
+        "marketCap": 42340000000.0,
+        "floatMarketCap": 42126000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:48:33+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-000988",
+      "name": "华工科技",
+      "code": "000988",
+      "sectors": [
+        "optical"
+      ],
+      "sectorNames": [
+        "光通信与CPO"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块",
           "evidenceIds": [],
           "confidence": 0.6
         }
@@ -1277,27 +1447,76 @@
       "evidenceScore": 5.6,
       "evidenceCount": 4,
       "quote": {
-        "code": "600667",
-        "name": "太极实业",
-        "price": 16.15,
-        "changePercent": -1.28,
-        "change": -0.21,
-        "high": 17.18,
-        "low": 15.97,
-        "open": 16.3,
-        "previousClose": 16.36,
-        "volume": 428525200,
-        "amount": 7110380715.0,
-        "volumeRatio": 1.32,
-        "turnoverRate": 20.49,
-        "amplitude": 7.4,
-        "peRatio": 73.54,
-        "pbRatio": 3.86,
-        "marketCap": 33777999999.999996,
-        "floatMarketCap": 33777999999.999996,
+        "code": "000988",
+        "name": "华工科技",
+        "price": 157.2,
+        "changePercent": -0.73,
+        "change": -1.16,
+        "high": 165.87,
+        "low": 155.86,
+        "open": 156.3,
+        "previousClose": 158.36,
+        "volume": 92174100,
+        "amount": 14874960217.0,
+        "volumeRatio": 1.03,
+        "turnoverRate": 9.17,
+        "amplitude": 6.32,
+        "peRatio": 93.01,
+        "pbRatio": 13.52,
+        "marketCap": 158065000000.0,
+        "floatMarketCap": 157984000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:47+00:00",
+        "updatedAt": "2026-06-07T10:48:07+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "slhj",
+      "name": "申菱环境",
+      "code": "301018",
+      "sectors": [
+        "power"
+      ],
+      "sectorNames": [
+        "电力设备与液冷"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "power",
+          "nodeId": "power",
+          "role": "供配电与液冷"
+        }
+      ],
+      "score": 71,
+      "evidenceScore": 5.52,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "301018",
+        "name": "申菱环境",
+        "price": 97.47,
+        "changePercent": -5.36,
+        "change": -5.52,
+        "high": 102.99,
+        "low": 96.43,
+        "open": 101.61,
+        "previousClose": 102.99,
+        "volume": 12746500,
+        "amount": 1269037918.0,
+        "volumeRatio": 1.04,
+        "turnoverRate": 4.51,
+        "amplitude": 6.37,
+        "peRatio": 191.05,
+        "pbRatio": 13.49,
+        "marketCap": 36481000000.0,
+        "floatMarketCap": 27567000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:43:14+00:00",
         "status": "ok",
         "stale": false
       },
@@ -1325,8 +1544,8 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 5.6,
-      "evidenceCount": 4,
+      "evidenceScore": 5.52,
+      "evidenceCount": 3,
       "quote": {
         "code": "002056",
         "name": "横店东磁",
@@ -1348,56 +1567,56 @@
         "floatMarketCap": 47386000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:53+00:00",
+        "updatedAt": "2026-06-07T10:46:32+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "jpkj",
-      "name": "金盘科技",
-      "code": "688676",
+      "companyId": "tftx",
+      "name": "天孚通信",
+      "code": "300394",
       "sectors": [
-        "power"
+        "optical"
       ],
       "sectorNames": [
-        "电力设备与液冷"
+        "光通信与CPO"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "power",
-          "nodeId": "power",
-          "role": "供配电与液冷"
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块"
         }
       ],
-      "score": 75,
+      "score": 83,
       "evidenceScore": 5.48,
-      "evidenceCount": 4,
+      "evidenceCount": 3,
       "quote": {
-        "code": "688676",
-        "name": "金盘科技",
-        "price": 89.92,
-        "changePercent": -5.04,
-        "change": -4.77,
-        "high": 95.09,
-        "low": 88.0,
-        "open": 95.09,
-        "previousClose": 94.69,
-        "volume": 20811243,
-        "amount": 1895557272.0,
-        "volumeRatio": 1.02,
-        "turnoverRate": 4.53,
-        "amplitude": 7.49,
-        "peRatio": 62.2,
-        "pbRatio": 8.51,
-        "marketCap": 41344000000.0,
-        "floatMarketCap": 41344000000.0,
+        "code": "300394",
+        "name": "天孚通信",
+        "price": 457.0,
+        "changePercent": -4.88,
+        "change": -23.45,
+        "high": 501.87,
+        "low": 449.0,
+        "open": 483.0,
+        "previousClose": 480.45,
+        "volume": 47120600,
+        "amount": 22474176090.0,
+        "volumeRatio": 0.95,
+        "turnoverRate": 6.06,
+        "amplitude": 11.0,
+        "peRatio": 163.95,
+        "pbRatio": 59.23,
+        "marketCap": 356076000000.0,
+        "floatMarketCap": 355281000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:04+00:00",
+        "updatedAt": "2026-06-07T10:42:08+00:00",
         "status": "ok",
         "stale": false
       },
@@ -1446,16 +1665,67 @@
         "floatMarketCap": 25406000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:10+00:00",
+        "updatedAt": "2026-06-07T10:43:03+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "hwj",
-      "name": "寒武纪",
-      "code": "688256",
+      "companyId": "auto-603738",
+      "name": "泰晶科技",
+      "code": "603738",
+      "sectors": [
+        "optical"
+      ],
+      "sectorNames": [
+        "光通信与CPO"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 5.48,
+      "evidenceCount": 4,
+      "quote": {
+        "code": "603738",
+        "name": "泰晶科技",
+        "price": 44.49,
+        "changePercent": -1.9,
+        "change": -0.86,
+        "high": 46.15,
+        "low": 43.98,
+        "open": 44.6,
+        "previousClose": 45.35,
+        "volume": 35138100,
+        "amount": 1580518686.0,
+        "volumeRatio": 0.75,
+        "turnoverRate": 9.11,
+        "amplitude": 4.79,
+        "peRatio": 257.86,
+        "pbRatio": 9.44,
+        "marketCap": 17168000000.0,
+        "floatMarketCap": 17168000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:44:25+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "gyfl",
+      "name": "工业富联",
+      "code": "601138",
       "sectors": [
         "domestic"
       ],
@@ -1471,135 +1741,91 @@
           "role": "国产AI算力"
         }
       ],
-      "score": 68,
-      "evidenceScore": 5.48,
-      "evidenceCount": 3,
+      "score": 83,
+      "evidenceScore": 5.44,
+      "evidenceCount": 2,
       "quote": {
-        "code": "688256",
-        "name": "寒武纪",
-        "price": 1299.2,
-        "changePercent": -4.39,
-        "change": -59.7,
-        "high": 1407.77,
-        "low": 1287.34,
-        "open": 1342.0,
-        "previousClose": 1358.9,
-        "volume": 11635451,
-        "amount": 15620599199.0,
-        "volumeRatio": 0.88,
-        "turnoverRate": 1.85,
-        "amplitude": 8.86,
-        "peRatio": 300.44,
-        "pbRatio": 66.7,
-        "marketCap": 816278000000.0,
-        "floatMarketCap": 816278000000.0,
+        "code": "601138",
+        "name": "工业富联",
+        "price": 74.06,
+        "changePercent": -5.72,
+        "change": -4.49,
+        "high": 78.21,
+        "low": 73.1,
+        "open": 77.5,
+        "previousClose": 78.55,
+        "volume": 261648600,
+        "amount": 19787640639.0,
+        "volumeRatio": 0.77,
+        "turnoverRate": 1.32,
+        "amplitude": 6.51,
+        "peRatio": 36.15,
+        "pbRatio": 8.34,
+        "marketCap": 1469653000000.0,
+        "floatMarketCap": 1469653000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:27+00:00",
+        "updatedAt": "2026-06-07T10:43:30+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-603936",
-      "name": "博敏电子",
-      "code": "603936",
+      "companyId": "auto-688313",
+      "name": "仕佳光子",
+      "code": "688313",
       "sectors": [
-        "pcb"
+        "optical"
       ],
       "sectorNames": [
-        "PCB与高速材料"
+        "光通信与CPO"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块",
           "evidenceIds": [],
           "confidence": 0.6
         }
       ],
       "score": 56,
-      "evidenceScore": 5.48,
+      "evidenceScore": 5.4,
       "evidenceCount": 4,
       "quote": {
-        "code": "603936",
-        "name": "博敏电子",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
-      },
-      "quoteStatus": "unavailable"
-    },
-    {
-      "companyId": "auto-601126",
-      "name": "XD四方股",
-      "code": "601126",
-      "sectors": [
-        "power"
-      ],
-      "sectorNames": [
-        "电力设备与液冷"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "power",
-          "nodeId": "power",
-          "role": "供配电与液冷",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 5.48,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "601126",
-        "name": "四方股份",
-        "price": 72.05,
-        "changePercent": -3.39,
-        "change": -2.53,
-        "high": 74.57,
-        "low": 71.19,
-        "open": 73.96,
-        "previousClose": 74.58,
-        "volume": 29203100,
-        "amount": 2123657909.0,
-        "volumeRatio": 0.97,
-        "turnoverRate": 3.54,
-        "amplitude": 4.53,
-        "peRatio": 69.95,
-        "pbRatio": 13.13,
-        "marketCap": 60025000000.0,
-        "floatMarketCap": 59447000000.0,
+        "code": "688313",
+        "name": "仕佳光子",
+        "price": 156.79,
+        "changePercent": -5.23,
+        "change": -8.66,
+        "high": 174.59,
+        "low": 154.0,
+        "open": 162.0,
+        "previousClose": 165.45,
+        "volume": 34206743,
+        "amount": 5620760448.0,
+        "volumeRatio": 1.07,
+        "turnoverRate": 7.57,
+        "amplitude": 12.44,
+        "peRatio": 179.31,
+        "pbRatio": 42.73,
+        "marketCap": 70867000000.0,
+        "floatMarketCap": 70867000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:20+00:00",
+        "updatedAt": "2026-06-07T10:47:47+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-300617",
-      "name": "安靠智电",
-      "code": "300617",
+      "companyId": "auto-000070",
+      "name": "特发信息",
+      "code": "000070",
       "sectors": [
         "power"
       ],
@@ -1619,149 +1845,51 @@
       ],
       "score": 56,
       "evidenceScore": 5.4,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "300617",
-        "name": "安靠智电",
-        "price": 63.03,
-        "changePercent": 3.67,
-        "change": 2.23,
-        "high": 66.99,
-        "low": 59.12,
-        "open": 60.1,
-        "previousClose": 60.8,
-        "volume": 16104800,
-        "amount": 1026431082.0,
-        "volumeRatio": 1.49,
-        "turnoverRate": 11.59,
-        "amplitude": 12.94,
-        "peRatio": 132.55,
-        "pbRatio": 3.45,
-        "marketCap": 10445000000.0,
-        "floatMarketCap": 8756000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:26+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "zjxc",
-      "name": "中际旭创",
-      "code": "300308",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块"
-        }
-      ],
-      "score": 86,
-      "evidenceScore": 5.2,
       "evidenceCount": 4,
       "quote": {
-        "code": "300308",
-        "name": "中际旭创",
-        "price": 1179.99,
-        "changePercent": -7.81,
-        "change": -100.01,
-        "high": 1301.51,
-        "low": 1160.0,
-        "open": 1273.2,
-        "previousClose": 1280.0,
-        "volume": 47474100,
-        "amount": 58324832702.0,
-        "volumeRatio": 1.68,
-        "turnoverRate": 4.28,
-        "amplitude": 11.06,
-        "peRatio": 88.01,
-        "pbRatio": 37.99,
-        "marketCap": 1315583000000.0,
-        "floatMarketCap": 1309335000000.0,
+        "code": "000070",
+        "name": "特发信息",
+        "price": 19.92,
+        "changePercent": 7.5,
+        "change": 1.39,
+        "high": 20.38,
+        "low": 18.54,
+        "open": 18.54,
+        "previousClose": 18.53,
+        "volume": 178681600,
+        "amount": 3600229530.0,
+        "volumeRatio": 2.69,
+        "turnoverRate": 20.86,
+        "amplitude": 9.93,
+        "peRatio": -35.3,
+        "pbRatio": 21.44,
+        "marketCap": 17298000000.0,
+        "floatMarketCap": 17066000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:30:59+00:00",
+        "updatedAt": "2026-06-07T10:46:49+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "hfck",
-      "name": "华峰测控",
-      "code": "688200",
+      "companyId": "auto-000750",
+      "name": "国海证券",
+      "code": "000750",
       "sectors": [
-        "package"
+        "domestic"
       ],
       "sectorNames": [
-        "先进封装与测试"
+        "国产算力与生态"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装"
-        }
-      ],
-      "score": 73,
-      "evidenceScore": 5.2,
-      "evidenceCount": 4,
-      "quote": {
-        "code": "688200",
-        "name": "华峰测控",
-        "price": 427.92,
-        "changePercent": -2.97,
-        "change": -13.08,
-        "high": 443.0,
-        "low": 420.0,
-        "open": 433.0,
-        "previousClose": 441.0,
-        "volume": 3351659,
-        "amount": 1444853991.0,
-        "volumeRatio": 0.83,
-        "turnoverRate": 2.47,
-        "amplitude": 5.22,
-        "peRatio": 102.06,
-        "pbRatio": 13.84,
-        "marketCap": 58009000000.0,
-        "floatMarketCap": 58009000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:31+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-603083",
-      "name": "剑桥科技",
-      "code": "603083",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块",
+          "sectorId": "domestic",
+          "nodeId": "domestic",
+          "role": "国产AI算力",
           "evidenceIds": [],
           "confidence": 0.64
         }
@@ -1770,87 +1898,36 @@
       "evidenceScore": 5.2,
       "evidenceCount": 4,
       "quote": {
-        "code": "603083",
-        "name": "剑桥科技",
-        "price": 192.02,
-        "changePercent": -5.95,
-        "change": -12.15,
-        "high": 214.3,
-        "low": 190.0,
-        "open": 206.85,
-        "previousClose": 204.17,
-        "volume": 34001700,
-        "amount": 6894959373.0,
-        "volumeRatio": 0.91,
-        "turnoverRate": 12.34,
-        "amplitude": 11.9,
-        "peRatio": 201.81,
-        "pbRatio": 9.47,
-        "marketCap": 70711000000.0,
-        "floatMarketCap": 52917999999.99999,
+        "code": "000750",
+        "name": "国海证券",
+        "price": 3.59,
+        "changePercent": -0.55,
+        "change": -0.02,
+        "high": 3.64,
+        "low": 3.58,
+        "open": 3.6,
+        "previousClose": 3.61,
+        "volume": 36501200,
+        "amount": 131701725.0,
+        "volumeRatio": 0.81,
+        "turnoverRate": 0.63,
+        "amplitude": 1.66,
+        "peRatio": 27.76,
+        "pbRatio": 1.0,
+        "marketCap": 22926000000.0,
+        "floatMarketCap": 20808000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:23+00:00",
+        "updatedAt": "2026-06-07T10:48:23+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-605111",
-      "name": "新洁能",
-      "code": "605111",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 5.04,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "605111",
-        "name": "新洁能",
-        "price": 60.08,
-        "changePercent": -5.8,
-        "change": -3.7,
-        "high": 63.68,
-        "low": 59.88,
-        "open": 62.6,
-        "previousClose": 63.78,
-        "volume": 27495600,
-        "amount": 1693334646.0,
-        "volumeRatio": 0.88,
-        "turnoverRate": 6.62,
-        "amplitude": 5.96,
-        "peRatio": 65.68,
-        "pbRatio": 5.75,
-        "marketCap": 24953000000.0,
-        "floatMarketCap": 24953000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:59+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-002885",
-      "name": "京泉华",
-      "code": "002885",
+      "companyId": "auto-002938",
+      "name": "鹏鼎控股",
+      "code": "002938",
       "sectors": [
         "pcb"
       ],
@@ -1869,90 +1946,39 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 5.04,
+      "evidenceScore": 4.92,
       "evidenceCount": 3,
       "quote": {
-        "code": "002885",
-        "name": "京泉华",
-        "price": 41.82,
-        "changePercent": -3.84,
-        "change": -1.67,
-        "high": 43.48,
-        "low": 41.2,
-        "open": 42.37,
-        "previousClose": 43.49,
-        "volume": 18440900,
-        "amount": 778722536.0,
-        "volumeRatio": 0.73,
-        "turnoverRate": 7.77,
-        "amplitude": 5.24,
-        "peRatio": 117.04,
-        "pbRatio": 7.39,
-        "marketCap": 11330000000.0,
-        "floatMarketCap": 9922000000.0,
+        "code": "002938",
+        "name": "鹏鼎控股",
+        "price": 106.15,
+        "changePercent": -4.37,
+        "change": -4.85,
+        "high": 112.94,
+        "low": 105.1,
+        "open": 107.0,
+        "previousClose": 111.0,
+        "volume": 45926500,
+        "amount": 4981622016.0,
+        "volumeRatio": 0.75,
+        "turnoverRate": 1.99,
+        "amplitude": 7.06,
+        "peRatio": 66.27,
+        "pbRatio": 7.1,
+        "marketCap": 246007000000.00003,
+        "floatMarketCap": 245141000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:46+00:00",
+        "updatedAt": "2026-06-07T10:49:11+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-300474",
-      "name": "景嘉微",
-      "code": "300474",
-      "sectors": [
-        "domestic"
-      ],
-      "sectorNames": [
-        "国产算力与生态"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "domestic",
-          "nodeId": "domestic",
-          "role": "国产AI算力",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 4.76,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "300474",
-        "name": "景嘉微",
-        "price": 56.37,
-        "changePercent": -3.03,
-        "change": -1.76,
-        "high": 57.85,
-        "low": 55.8,
-        "open": 57.38,
-        "previousClose": 58.13,
-        "volume": 9677900,
-        "amount": 549690427.0,
-        "volumeRatio": 0.8,
-        "turnoverRate": 2.38,
-        "amplitude": 3.53,
-        "peRatio": -177.62,
-        "pbRatio": 4.32,
-        "marketCap": 29460000000.000004,
-        "floatMarketCap": 22913000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:18+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "shkj",
-      "name": "胜宏科技",
-      "code": "300476",
+      "companyId": "auto-002384",
+      "name": "东山精密",
+      "code": "002384",
       "sectors": [
         "pcb"
       ],
@@ -1965,94 +1991,147 @@
         {
           "sectorId": "pcb",
           "nodeId": "pcb",
-          "role": "高多层PCB"
-        }
-      ],
-      "score": 79,
-      "evidenceScore": 4.54,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "300476",
-        "name": "胜宏科技",
-        "price": 338.9,
-        "changePercent": -7.59,
-        "change": -27.82,
-        "high": 360.0,
-        "low": 336.5,
-        "open": 359.84,
-        "previousClose": 366.72,
-        "volume": 55328100,
-        "amount": 19274961849.0,
-        "volumeRatio": 1.11,
-        "turnoverRate": 6.39,
-        "amplitude": 6.41,
-        "peRatio": 71.17,
-        "pbRatio": 21.26,
-        "marketCap": 333066000000.0,
-        "floatMarketCap": 293215000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:46+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-300814",
-      "name": "中富电路",
-      "code": "300814",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块",
+          "role": "高多层PCB",
           "evidenceIds": [],
           "confidence": 0.6
         }
       ],
       "score": 56,
-      "evidenceScore": 4.46,
-      "evidenceCount": 2,
+      "evidenceScore": 4.76,
+      "evidenceCount": 3,
       "quote": {
-        "code": "300814",
-        "name": "中富电路",
-        "price": 157.79,
-        "changePercent": 2.04,
-        "change": 3.15,
-        "high": 166.6,
-        "low": 147.0,
-        "open": 154.51,
-        "previousClose": 154.64,
-        "volume": 11498500,
-        "amount": 1821318270.0,
-        "volumeRatio": 0.97,
-        "turnoverRate": 6.01,
-        "amplitude": 12.67,
-        "peRatio": 793.61,
-        "pbRatio": 18.44,
-        "marketCap": 30206000000.0,
-        "floatMarketCap": 30206000000.0,
+        "code": "002384",
+        "name": "东山精密",
+        "price": 221.41,
+        "changePercent": -6.89,
+        "change": -16.39,
+        "high": 241.8,
+        "low": 219.05,
+        "open": 232.08,
+        "previousClose": 237.8,
+        "volume": 84474100,
+        "amount": 19466323940.0,
+        "volumeRatio": 0.81,
+        "turnoverRate": 6.09,
+        "amplitude": 9.57,
+        "peRatio": 198.78,
+        "pbRatio": 17.91,
+        "marketCap": 405536000000.0,
+        "floatMarketCap": 306945000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:23+00:00",
+        "updatedAt": "2026-06-07T10:48:45+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-600330",
-      "name": "天通股份",
-      "code": "600330",
+      "companyId": "auto-300316",
+      "name": "晶盛机电",
+      "code": "300316",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.62,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "300316",
+        "name": "晶盛机电",
+        "price": 48.89,
+        "changePercent": -0.24,
+        "change": -0.12,
+        "high": 50.22,
+        "low": 46.23,
+        "open": 48.48,
+        "previousClose": 49.01,
+        "volume": 37902200,
+        "amount": 1827283919.0,
+        "volumeRatio": 1.13,
+        "turnoverRate": 3.08,
+        "amplitude": 8.14,
+        "peRatio": 154.5,
+        "pbRatio": 3.76,
+        "marketCap": 64023000000.0,
+        "floatMarketCap": 60211000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:08+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-300672",
+      "name": "国科微",
+      "code": "300672",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.9
+        }
+      ],
+      "score": 73,
+      "evidenceScore": 4.32,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "300672",
+        "name": "国科微",
+        "price": 299.0,
+        "changePercent": -5.84,
+        "change": -18.56,
+        "high": 315.29,
+        "low": 297.0,
+        "open": 310.0,
+        "previousClose": 317.56,
+        "volume": 9592700,
+        "amount": 2931304075.0,
+        "volumeRatio": 0.76,
+        "turnoverRate": 4.56,
+        "amplitude": 5.76,
+        "peRatio": -282.42,
+        "pbRatio": 16.83,
+        "marketCap": 64914000000.0,
+        "floatMarketCap": 62891000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:43:38+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-002579",
+      "name": "中京电子",
+      "code": "002579",
       "sectors": [
         "pcb"
       ],
@@ -2074,27 +2153,27 @@
       "evidenceScore": 4.32,
       "evidenceCount": 3,
       "quote": {
-        "code": "600330",
-        "name": "天通股份",
-        "price": 29.42,
-        "changePercent": -1.18,
-        "change": -0.35,
-        "high": 32.16,
-        "low": 29.15,
-        "open": 29.47,
-        "previousClose": 29.77,
-        "volume": 187950200,
-        "amount": 5743916336.0,
-        "volumeRatio": 1.04,
-        "turnoverRate": 15.24,
-        "amplitude": 10.11,
-        "peRatio": -142.31,
-        "pbRatio": 4.68,
-        "marketCap": 36288000000.0,
-        "floatMarketCap": 36288000000.0,
+        "code": "002579",
+        "name": "中京电子",
+        "price": 18.69,
+        "changePercent": -9.32,
+        "change": -1.92,
+        "high": 19.9,
+        "low": 18.55,
+        "open": 19.58,
+        "previousClose": 20.61,
+        "volume": 174557700,
+        "amount": 3335940398.0,
+        "volumeRatio": 0.8,
+        "turnoverRate": 29.92,
+        "amplitude": 6.55,
+        "peRatio": 436.55,
+        "pbRatio": 4.77,
+        "marketCap": 11450000000.0,
+        "floatMarketCap": 10904000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:06+00:00",
+        "updatedAt": "2026-06-07T10:43:49+00:00",
         "status": "ok",
         "stale": false
       },
@@ -2121,7 +2200,7 @@
       ],
       "score": 73,
       "evidenceScore": 4.32,
-      "evidenceCount": 3,
+      "evidenceCount": 2,
       "quote": {
         "code": "000977",
         "name": "浪潮信息",
@@ -2143,7 +2222,262 @@
         "floatMarketCap": 91149000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:43+00:00",
+        "updatedAt": "2026-06-07T10:43:34+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-688401",
+      "name": "路维光电",
+      "code": "688401",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.32,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "688401",
+        "name": "路维光电",
+        "price": 73.02,
+        "changePercent": 0.44,
+        "change": 0.32,
+        "high": 77.68,
+        "low": 69.63,
+        "open": 71.14,
+        "previousClose": 72.7,
+        "volume": 7977805,
+        "amount": 588325057.0,
+        "volumeRatio": 0.81,
+        "turnoverRate": 4.13,
+        "amplitude": 11.07,
+        "peRatio": 52.09,
+        "pbRatio": 8.44,
+        "marketCap": 14118000000.0,
+        "floatMarketCap": 14118000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:58+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-603002",
+      "name": "宏昌电子",
+      "code": "603002",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.32,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "603002",
+        "name": "宏昌电子",
+        "price": 16.75,
+        "changePercent": -4.67,
+        "change": -0.82,
+        "high": 17.6,
+        "low": 16.68,
+        "open": 17.25,
+        "previousClose": 17.57,
+        "volume": 60108400,
+        "amount": 1029899151.0,
+        "volumeRatio": 0.54,
+        "turnoverRate": 5.3,
+        "amplitude": 5.24,
+        "peRatio": 646.46,
+        "pbRatio": 5.5,
+        "marketCap": 18996000000.0,
+        "floatMarketCap": 18996000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:48:50+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-601208",
+      "name": "东材科技",
+      "code": "601208",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.32,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "601208",
+        "name": "东材科技",
+        "price": 56.76,
+        "changePercent": -4.77,
+        "change": -2.84,
+        "high": 60.0,
+        "low": 56.07,
+        "open": 59.16,
+        "previousClose": 59.6,
+        "volume": 81366200,
+        "amount": 4714126780.0,
+        "volumeRatio": 0.78,
+        "turnoverRate": 8.05,
+        "amplitude": 6.59,
+        "peRatio": 150.73,
+        "pbRatio": 9.42,
+        "marketCap": 57338000000.0,
+        "floatMarketCap": 57338000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:48:56+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-002185",
+      "name": "华天科技",
+      "code": "002185",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.32,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "002185",
+        "name": "华天科技",
+        "price": 18.08,
+        "changePercent": -6.13,
+        "change": -1.18,
+        "high": 19.16,
+        "low": 17.89,
+        "open": 18.98,
+        "previousClose": 19.26,
+        "volume": 408868000,
+        "amount": 7554410325.0,
+        "volumeRatio": 0.65,
+        "turnoverRate": 12.31,
+        "amplitude": 6.59,
+        "peRatio": 73.65,
+        "pbRatio": 3.35,
+        "marketCap": 60087000000.0,
+        "floatMarketCap": 60074000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:38+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-002025",
+      "name": "航天电器",
+      "code": "002025",
+      "sectors": [
+        "optical"
+      ],
+      "sectorNames": [
+        "光通信与CPO"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.32,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "002025",
+        "name": "航天电器",
+        "price": 64.8,
+        "changePercent": -4.58,
+        "change": -3.11,
+        "high": 67.91,
+        "low": 64.27,
+        "open": 67.91,
+        "previousClose": 67.91,
+        "volume": 22990200,
+        "amount": 1507592613.0,
+        "volumeRatio": 0.93,
+        "turnoverRate": 5.07,
+        "amplitude": 5.36,
+        "peRatio": 156.52,
+        "pbRatio": 4.43,
+        "marketCap": 29507000000.0,
+        "floatMarketCap": 29411000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:44:21+00:00",
         "status": "ok",
         "stale": false
       },
@@ -2171,7 +2505,7 @@
         }
       ],
       "score": 58,
-      "evidenceScore": 4.32,
+      "evidenceScore": 4.24,
       "evidenceCount": 3,
       "quote": {
         "code": "603019",
@@ -2194,264 +2528,16 @@
         "floatMarketCap": 120483000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:56+00:00",
+        "updatedAt": "2026-06-07T10:47:36+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-688362",
-      "name": "甬矽电子",
-      "code": "688362",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 4.32,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "688362",
-        "name": "甬矽电子",
-        "price": 57.6,
-        "changePercent": -8.85,
-        "change": -5.59,
-        "high": 61.4,
-        "low": 57.42,
-        "open": 60.04,
-        "previousClose": 63.19,
-        "volume": 33465003,
-        "amount": 1991183886.0,
-        "volumeRatio": 0.92,
-        "turnoverRate": 8.15,
-        "amplitude": 6.3,
-        "peRatio": 282.37,
-        "pbRatio": 9.07,
-        "marketCap": 23644000000.0,
-        "floatMarketCap": 23644000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:01+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-688170",
-      "name": "德龙激光",
-      "code": "688170",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 4.32,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "688170",
-        "name": "德龙激光",
-        "price": 80.15,
-        "changePercent": 6.72,
-        "change": 5.05,
-        "high": 83.22,
-        "low": 72.01,
-        "open": 73.0,
-        "previousClose": 75.1,
-        "volume": 11361536,
-        "amount": 891180427.0,
-        "volumeRatio": 1.18,
-        "turnoverRate": 10.99,
-        "amplitude": 14.93,
-        "peRatio": 493.5,
-        "pbRatio": 6.72,
-        "marketCap": 8284000000.0,
-        "floatMarketCap": 8284000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:35+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-603186",
-      "name": "华正新材",
-      "code": "603186",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 4.32,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "603186",
-        "name": "华正新材",
-        "price": 123.66,
-        "changePercent": 0.07,
-        "change": 0.09,
-        "high": 129.5,
-        "low": 118.12,
-        "open": 120.6,
-        "previousClose": 123.57,
-        "volume": 14949400,
-        "amount": 1872084179.0,
-        "volumeRatio": 0.97,
-        "turnoverRate": 9.53,
-        "amplitude": 9.21,
-        "peRatio": 67.03,
-        "pbRatio": 8.35,
-        "marketCap": 19389000000.0,
-        "floatMarketCap": 19389000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:31+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-301511",
-      "name": "德福科技",
-      "code": "301511",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 4.32,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "301511",
-        "name": "德福科技",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
-      },
-      "quoteStatus": "unavailable"
-    },
-    {
-      "companyId": "auto-300373",
-      "name": "扬杰科技",
-      "code": "300373",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 4.32,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "300373",
-        "name": "扬杰科技",
-        "price": 102.87,
-        "changePercent": -2.49,
-        "change": -2.63,
-        "high": 108.66,
-        "low": 101.31,
-        "open": 104.19,
-        "previousClose": 105.5,
-        "volume": 22664300,
-        "amount": 2379389434.0,
-        "volumeRatio": 0.73,
-        "turnoverRate": 4.18,
-        "amplitude": 6.97,
-        "peRatio": 40.78,
-        "pbRatio": 5.8,
-        "marketCap": 55894000000.00001,
-        "floatMarketCap": 55770000000.00001,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:53+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-301338",
-      "name": "凯格精机",
-      "code": "301338",
+      "companyId": "auto-300285",
+      "name": "国瓷材料",
+      "code": "300285",
       "sectors": [
         "pcb"
       ],
@@ -2473,176 +2559,27 @@
       "evidenceScore": 4.24,
       "evidenceCount": 3,
       "quote": {
-        "code": "301338",
-        "name": "凯格精机",
-        "price": 258.03,
-        "changePercent": 1.51,
-        "change": 3.85,
-        "high": 269.95,
-        "low": 237.0,
-        "open": 246.18,
-        "previousClose": 254.18,
-        "volume": 6087000,
-        "amount": 1549145209.0,
-        "volumeRatio": 0.95,
-        "turnoverRate": 7.85,
-        "amplitude": 12.96,
-        "peRatio": 125.65,
-        "pbRatio": 16.17,
-        "marketCap": 27454000000.000004,
-        "floatMarketCap": 20004000000.0,
+        "code": "300285",
+        "name": "国瓷材料",
+        "price": 65.18,
+        "changePercent": 1.84,
+        "change": 1.18,
+        "high": 67.6,
+        "low": 60.4,
+        "open": 62.11,
+        "previousClose": 64.0,
+        "volume": 140630900,
+        "amount": 9014988854.0,
+        "volumeRatio": 1.1,
+        "turnoverRate": 16.47,
+        "amplitude": 11.25,
+        "peRatio": 105.36,
+        "pbRatio": 9.14,
+        "marketCap": 64988000000.0,
+        "floatMarketCap": 55641999999.99999,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:26+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-603773",
-      "name": "沃格光电",
-      "code": "603773",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.9
-        }
-      ],
-      "score": 73,
-      "evidenceScore": 4.16,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "603773",
-        "name": "沃格光电",
-        "price": 132.4,
-        "changePercent": 8.17,
-        "change": 10.0,
-        "high": 134.64,
-        "low": 122.3,
-        "open": 122.3,
-        "previousClose": 122.4,
-        "volume": 35775300,
-        "amount": 4746754702.0,
-        "volumeRatio": 1.07,
-        "turnoverRate": 15.92,
-        "amplitude": 10.08,
-        "peRatio": -160.49,
-        "pbRatio": 28.18,
-        "marketCap": 29755000000.0,
-        "floatMarketCap": 29745000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:13+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "slhj",
-      "name": "申菱环境",
-      "code": "301018",
-      "sectors": [
-        "power"
-      ],
-      "sectorNames": [
-        "电力设备与液冷"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "power",
-          "nodeId": "power",
-          "role": "供配电与液冷"
-        }
-      ],
-      "score": 71,
-      "evidenceScore": 4.08,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "301018",
-        "name": "申菱环境",
-        "price": 97.47,
-        "changePercent": -5.36,
-        "change": -5.52,
-        "high": 102.99,
-        "low": 96.43,
-        "open": 101.61,
-        "previousClose": 102.99,
-        "volume": 12746500,
-        "amount": 1269037918.0,
-        "volumeRatio": 1.04,
-        "turnoverRate": 4.51,
-        "amplitude": 6.37,
-        "peRatio": 191.05,
-        "pbRatio": 13.49,
-        "marketCap": 36481000000.0,
-        "floatMarketCap": 27567000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:21+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "hhkj",
-      "name": "宏和科技",
-      "code": "603256",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB"
-        }
-      ],
-      "score": 64,
-      "evidenceScore": 4.08,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "603256",
-        "name": "宏和科技",
-        "price": 196.06,
-        "changePercent": 0.54,
-        "change": 1.05,
-        "high": 210.49,
-        "low": 190.1,
-        "open": 192.0,
-        "previousClose": 195.01,
-        "volume": 17362500,
-        "amount": 3505438702.0,
-        "volumeRatio": 0.9,
-        "turnoverRate": 1.97,
-        "amplitude": 10.46,
-        "peRatio": 569.77,
-        "pbRatio": 63.99,
-        "marketCap": 177353000000.0,
-        "floatMarketCap": 172479000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:57+00:00",
+        "updatedAt": "2026-06-07T10:49:00+00:00",
         "status": "ok",
         "stale": false
       },
@@ -2670,7 +2607,7 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 4.08,
+      "evidenceScore": 4.2,
       "evidenceCount": 2,
       "quote": {
         "code": "688820",
@@ -2693,7 +2630,158 @@
         "floatMarketCap": 29964000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:33+00:00",
+        "updatedAt": "2026-06-07T10:48:13+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "gxkj",
+      "name": "光迅科技",
+      "code": "002281",
+      "sectors": [
+        "optical"
+      ],
+      "sectorNames": [
+        "光通信与CPO"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块"
+        }
+      ],
+      "score": 74,
+      "evidenceScore": 4.16,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "002281",
+        "name": "光迅科技",
+        "price": 227.58,
+        "changePercent": 3.18,
+        "change": 7.02,
+        "high": 238.67,
+        "low": 218.11,
+        "open": 219.96,
+        "previousClose": 220.56,
+        "volume": 73610400,
+        "amount": 16977951553.0,
+        "volumeRatio": 1.14,
+        "turnoverRate": 9.44,
+        "amplitude": 9.32,
+        "peRatio": 177.19,
+        "pbRatio": 17.75,
+        "marketCap": 183583000000.0,
+        "floatMarketCap": 177503000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:42:12+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-605111",
+      "name": "新洁能",
+      "code": "605111",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.16,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "605111",
+        "name": "新洁能",
+        "price": 60.08,
+        "changePercent": -5.8,
+        "change": -3.7,
+        "high": 63.68,
+        "low": 59.88,
+        "open": 62.6,
+        "previousClose": 63.78,
+        "volume": 27495600,
+        "amount": 1693334646.0,
+        "volumeRatio": 0.88,
+        "turnoverRate": 6.62,
+        "amplitude": 5.96,
+        "peRatio": 65.68,
+        "pbRatio": 5.75,
+        "marketCap": 24953000000.0,
+        "floatMarketCap": 24953000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:44:40+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-000021",
+      "name": "深科技",
+      "code": "000021",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.16,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "000021",
+        "name": "深科技",
+        "price": 38.13,
+        "changePercent": -3.91,
+        "change": -1.55,
+        "high": 39.3,
+        "low": 37.68,
+        "open": 38.68,
+        "previousClose": 39.68,
+        "volume": 136265300,
+        "amount": 5246077065.0,
+        "volumeRatio": 0.74,
+        "turnoverRate": 8.66,
+        "amplitude": 4.08,
+        "peRatio": 50.07,
+        "pbRatio": 4.49,
+        "marketCap": 60030999999.99999,
+        "floatMarketCap": 60022000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:04+00:00",
         "status": "ok",
         "stale": false
       },
@@ -2742,7 +2830,415 @@
         "floatMarketCap": 328909000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:51+00:00",
+        "updatedAt": "2026-06-07T10:42:49+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-688362",
+      "name": "甬矽电子",
+      "code": "688362",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 4.04,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "688362",
+        "name": "甬矽电子",
+        "price": 57.6,
+        "changePercent": -8.85,
+        "change": -5.59,
+        "high": 61.4,
+        "low": 57.42,
+        "open": 60.04,
+        "previousClose": 63.19,
+        "volume": 33465003,
+        "amount": 1991183886.0,
+        "volumeRatio": 0.92,
+        "turnoverRate": 8.15,
+        "amplitude": 6.3,
+        "peRatio": 282.37,
+        "pbRatio": 9.07,
+        "marketCap": 23644000000.0,
+        "floatMarketCap": 23644000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:47:42+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-603083",
+      "name": "剑桥科技",
+      "code": "603083",
+      "sectors": [
+        "optical"
+      ],
+      "sectorNames": [
+        "光通信与CPO"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块",
+          "evidenceIds": [],
+          "confidence": 0.64
+        }
+      ],
+      "score": 58,
+      "evidenceScore": 3.96,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "603083",
+        "name": "剑桥科技",
+        "price": 192.02,
+        "changePercent": -5.95,
+        "change": -12.15,
+        "high": 214.3,
+        "low": 190.0,
+        "open": 206.85,
+        "previousClose": 204.17,
+        "volume": 34001700,
+        "amount": 6894959373.0,
+        "volumeRatio": 0.91,
+        "turnoverRate": 12.34,
+        "amplitude": 11.9,
+        "peRatio": 201.81,
+        "pbRatio": 9.47,
+        "marketCap": 70711000000.0,
+        "floatMarketCap": 52917999999.99999,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:48:04+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-002364",
+      "name": "中恒电气",
+      "code": "002364",
+      "sectors": [
+        "power"
+      ],
+      "sectorNames": [
+        "电力设备与液冷"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "power",
+          "nodeId": "power",
+          "role": "供配电与液冷",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 3.96,
+      "evidenceCount": 3,
+      "quote": {
+        "code": "002364",
+        "name": "中恒电气",
+        "price": 52.95,
+        "changePercent": -1.38,
+        "change": -0.74,
+        "high": 57.37,
+        "low": 52.25,
+        "open": 52.95,
+        "previousClose": 53.69,
+        "volume": 48256800,
+        "amount": 2641133224.0,
+        "volumeRatio": 0.94,
+        "turnoverRate": 8.65,
+        "amplitude": 9.54,
+        "peRatio": 227.76,
+        "pbRatio": 11.93,
+        "marketCap": 29841000000.000004,
+        "floatMarketCap": 29552000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:46:56+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-600330",
+      "name": "天通股份",
+      "code": "600330",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.9
+        }
+      ],
+      "score": 73,
+      "evidenceScore": 3.52,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "600330",
+        "name": "天通股份",
+        "price": 29.42,
+        "changePercent": -1.18,
+        "change": -0.35,
+        "high": 32.16,
+        "low": 29.15,
+        "open": 29.47,
+        "previousClose": 29.77,
+        "volume": 187950200,
+        "amount": 5743916336.0,
+        "volumeRatio": 1.04,
+        "turnoverRate": 15.24,
+        "amplitude": 10.11,
+        "peRatio": -142.31,
+        "pbRatio": 4.68,
+        "marketCap": 36288000000.0,
+        "floatMarketCap": 36288000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:43:56+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-600460",
+      "name": "士兰微",
+      "code": "600460",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 2.9,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "600460",
+        "name": "士兰微",
+        "price": 33.95,
+        "changePercent": -3.88,
+        "change": -1.37,
+        "high": 35.44,
+        "low": 33.68,
+        "open": 34.7,
+        "previousClose": 35.32,
+        "volume": 93926300,
+        "amount": 3240596776.0,
+        "volumeRatio": 0.78,
+        "turnoverRate": 5.64,
+        "amplitude": 4.98,
+        "peRatio": 123.13,
+        "pbRatio": 4.63,
+        "marketCap": 56495000000.00001,
+        "floatMarketCap": 56495000000.00001,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:44:59+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-603773",
+      "name": "沃格光电",
+      "code": "603773",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.9
+        }
+      ],
+      "score": 73,
+      "evidenceScore": 2.88,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "603773",
+        "name": "沃格光电",
+        "price": 132.4,
+        "changePercent": 8.17,
+        "change": 10.0,
+        "high": 134.64,
+        "low": 122.3,
+        "open": 122.3,
+        "previousClose": 122.4,
+        "volume": 35775300,
+        "amount": 4746754702.0,
+        "volumeRatio": 1.07,
+        "turnoverRate": 15.92,
+        "amplitude": 10.08,
+        "peRatio": -160.49,
+        "pbRatio": 28.18,
+        "marketCap": 29755000000.0,
+        "floatMarketCap": 29745000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:44:03+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-688170",
+      "name": "德龙激光",
+      "code": "688170",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 2.88,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "688170",
+        "name": "德龙激光",
+        "price": 80.15,
+        "changePercent": 6.72,
+        "change": 5.05,
+        "high": 83.22,
+        "low": 72.01,
+        "open": 73.0,
+        "previousClose": 75.1,
+        "volume": 11361536,
+        "amount": 891180427.0,
+        "volumeRatio": 1.18,
+        "turnoverRate": 10.99,
+        "amplitude": 14.93,
+        "peRatio": 493.5,
+        "pbRatio": 6.72,
+        "marketCap": 8284000000.0,
+        "floatMarketCap": 8284000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:15+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-603936",
+      "name": "博敏电子",
+      "code": "603936",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 2.88,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "603936",
+        "name": "博敏电子",
+        "price": 21.44,
+        "changePercent": -1.06,
+        "change": -0.23,
+        "high": 22.55,
+        "low": 20.62,
+        "open": 21.3,
+        "previousClose": 21.67,
+        "volume": 53541800,
+        "amount": 1159175717.0,
+        "volumeRatio": 0.92,
+        "turnoverRate": 8.49,
+        "amplitude": 8.91,
+        "peRatio": -438.28,
+        "pbRatio": 3.14,
+        "marketCap": 13836000000.000002,
+        "floatMarketCap": 13516000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:49:07+00:00",
         "status": "ok",
         "stale": false
       },
@@ -2770,8 +3266,8 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 4.04,
-      "evidenceCount": 3,
+      "evidenceScore": 2.88,
+      "evidenceCount": 2,
       "quote": {
         "code": "600941",
         "name": "XD中国移",
@@ -2793,16 +3289,16 @@
         "floatMarketCap": 87866000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:39+00:00",
+        "updatedAt": "2026-06-07T10:48:19+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-300285",
-      "name": "国瓷材料",
-      "code": "300285",
+      "companyId": "auto-301511",
+      "name": "德福科技",
+      "code": "301511",
       "sectors": [
         "pcb"
       ],
@@ -2821,27 +3317,34 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 4.04,
-      "evidenceCount": 3,
+      "evidenceScore": 2.88,
+      "evidenceCount": 2,
       "quote": {
-        "code": "300285",
-        "name": "国瓷材料",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
+        "code": "301511",
+        "name": "德福科技",
+        "price": 119.5,
+        "changePercent": -2.3,
+        "change": -2.81,
+        "high": 125.0,
+        "low": 115.1,
+        "open": 117.73,
+        "previousClose": 122.31,
+        "volume": 34089000,
+        "amount": 4103096798.0,
+        "volumeRatio": 0.74,
+        "turnoverRate": 9.1,
+        "amplitude": 8.09,
+        "peRatio": 311.84,
+        "pbRatio": 18.4,
+        "marketCap": 75323000000.0,
+        "floatMarketCap": 44768000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:49:20+00:00",
+        "status": "ok",
+        "stale": false
       },
-      "quoteStatus": "unavailable"
+      "quoteStatus": "ok"
     },
     {
       "companyId": "auto-301217",
@@ -2865,375 +3368,39 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 3.96,
-      "evidenceCount": 3,
+      "evidenceScore": 2.88,
+      "evidenceCount": 2,
       "quote": {
         "code": "301217",
         "name": "铜冠铜箔",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
-      },
-      "quoteStatus": "unavailable"
-    },
-    {
-      "companyId": "auto-300223",
-      "name": "北京君正",
-      "code": "300223",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 3.96,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "300223",
-        "name": "北京君正",
-        "price": 139.36,
-        "changePercent": -7.35,
-        "change": -11.05,
-        "high": 146.84,
-        "low": 138.6,
-        "open": 145.0,
-        "previousClose": 150.41,
-        "volume": 36304500,
-        "amount": 5192949484.0,
-        "volumeRatio": 0.85,
-        "turnoverRate": 8.63,
-        "amplitude": 5.48,
-        "peRatio": 108.24,
-        "pbRatio": 5.32,
-        "marketCap": 67247000000.0,
-        "floatMarketCap": 58611000000.0,
+        "price": 111.26,
+        "changePercent": 1.38,
+        "change": 1.51,
+        "high": 116.66,
+        "low": 107.0,
+        "open": 107.01,
+        "previousClose": 109.75,
+        "volume": 31096800,
+        "amount": 3485365469.0,
+        "volumeRatio": 0.83,
+        "turnoverRate": 3.75,
+        "amplitude": 8.8,
+        "peRatio": 561.58,
+        "pbRatio": 16.77,
+        "marketCap": 92236000000.0,
+        "floatMarketCap": 92236000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:40+00:00",
+        "updatedAt": "2026-06-07T10:49:15+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-000021",
-      "name": "深科技",
-      "code": "000021",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 3.96,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "000021",
-        "name": "深科技",
-        "price": 38.13,
-        "changePercent": -3.91,
-        "change": -1.55,
-        "high": 39.3,
-        "low": 37.68,
-        "open": 38.68,
-        "previousClose": 39.68,
-        "volume": 136265300,
-        "amount": 5246077065.0,
-        "volumeRatio": 0.74,
-        "turnoverRate": 8.66,
-        "amplitude": 4.08,
-        "peRatio": 50.07,
-        "pbRatio": 4.49,
-        "marketCap": 60030999999.99999,
-        "floatMarketCap": 60022000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:23+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-688478",
-      "name": "晶升股份",
-      "code": "688478",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.9
-        }
-      ],
-      "score": 73,
-      "evidenceScore": 3.76,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "688478",
-        "name": "晶升股份",
-        "price": 57.91,
-        "changePercent": -2.79,
-        "change": -1.66,
-        "high": 62.05,
-        "low": 56.06,
-        "open": 58.0,
-        "previousClose": 59.57,
-        "volume": 7420946,
-        "amount": 433998299.0,
-        "volumeRatio": 0.91,
-        "turnoverRate": 5.36,
-        "amplitude": 10.06,
-        "peRatio": -179.83,
-        "pbRatio": 5.35,
-        "marketCap": 8013000000.0,
-        "floatMarketCap": 8013000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:55+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-300661",
-      "name": "圣邦股份",
-      "code": "300661",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 3.76,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "300661",
-        "name": "圣邦股份",
-        "price": 107.74,
-        "changePercent": -4.87,
-        "change": -5.51,
-        "high": 112.5,
-        "low": 106.5,
-        "open": 112.16,
-        "previousClose": 113.25,
-        "volume": 16659900,
-        "amount": 1825157730.0,
-        "volumeRatio": 0.64,
-        "turnoverRate": 2.78,
-        "amplitude": 5.3,
-        "peRatio": 109.45,
-        "pbRatio": 12.51,
-        "marketCap": 66871000000.0,
-        "floatMarketCap": 64539000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:02+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-002185",
-      "name": "华天科技",
-      "code": "002185",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 3.76,
-      "evidenceCount": 3,
-      "quote": {
-        "code": "002185",
-        "name": "华天科技",
-        "price": 18.08,
-        "changePercent": -6.13,
-        "change": -1.18,
-        "high": 19.16,
-        "low": 17.89,
-        "open": 18.98,
-        "previousClose": 19.26,
-        "volume": 408868000,
-        "amount": 7554410325.0,
-        "volumeRatio": 0.65,
-        "turnoverRate": 12.31,
-        "amplitude": 6.59,
-        "peRatio": 73.65,
-        "pbRatio": 3.35,
-        "marketCap": 60087000000.0,
-        "floatMarketCap": 60074000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:56+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-603002",
-      "name": "宏昌电子",
-      "code": "603002",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 3.32,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "603002",
-        "name": "宏昌电子",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
-      },
-      "quoteStatus": "unavailable"
-    },
-    {
-      "companyId": "auto-002384",
-      "name": "东山精密",
-      "code": "002384",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 3.32,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "002384",
-        "name": "东山精密",
-        "price": null,
-        "changePercent": null,
-        "change": null,
-        "high": null,
-        "low": null,
-        "open": null,
-        "previousClose": null,
-        "marketCap": null,
-        "floatMarketCap": null,
-        "source": "unavailable",
-        "updatedAt": "2026-06-06T10:39:22+00:00",
-        "status": "unavailable",
-        "stale": true,
-        "error": "quote_pending_refresh"
-      },
-      "quoteStatus": "unavailable"
-    },
-    {
-      "companyId": "gxkj",
-      "name": "光迅科技",
-      "code": "002281",
+      "companyId": "auto-300757",
+      "name": "罗博特科",
+      "code": "300757",
       "sectors": [
         "optical"
       ],
@@ -3246,136 +3413,87 @@
         {
           "sectorId": "optical",
           "nodeId": "optical",
-          "role": "高速光模块"
+          "role": "高速光模块",
+          "evidenceIds": [],
+          "confidence": 0.6
         }
       ],
-      "score": 74,
-      "evidenceScore": 3.1,
+      "score": 56,
+      "evidenceScore": 2.88,
       "evidenceCount": 2,
       "quote": {
-        "code": "002281",
-        "name": "光迅科技",
-        "price": 227.58,
-        "changePercent": 3.18,
-        "change": 7.02,
-        "high": 238.67,
-        "low": 218.11,
-        "open": 219.96,
-        "previousClose": 220.56,
-        "volume": 73610400,
-        "amount": 16977951553.0,
-        "volumeRatio": 1.14,
-        "turnoverRate": 9.44,
-        "amplitude": 9.32,
-        "peRatio": 177.19,
-        "pbRatio": 17.75,
-        "marketCap": 183583000000.0,
-        "floatMarketCap": 177503000000.0,
+        "code": "300757",
+        "name": "罗博特科",
+        "price": 648.98,
+        "changePercent": -5.35,
+        "change": -36.66,
+        "high": 704.01,
+        "low": 641.8,
+        "open": 677.0,
+        "previousClose": 685.64,
+        "volume": 8660300,
+        "amount": 5818447134.0,
+        "volumeRatio": 0.98,
+        "turnoverRate": 5.33,
+        "amplitude": 9.07,
+        "peRatio": -1375.35,
+        "pbRatio": 66.91,
+        "marketCap": 108774000000.0,
+        "floatMarketCap": 105503000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:14+00:00",
+        "updatedAt": "2026-06-07T10:44:07+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-300672",
-      "name": "国科微",
-      "code": "300672",
+      "companyId": "auto-000811",
+      "name": "冰轮环境",
+      "code": "000811",
       "sectors": [
-        "package"
+        "power"
       ],
       "sectorNames": [
-        "先进封装与测试"
+        "电力设备与液冷"
       ],
       "sectorCount": 1,
       "appearances": 1,
       "dependencyRefs": [
         {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
+          "sectorId": "power",
+          "nodeId": "power",
+          "role": "供配电与液冷",
           "evidenceIds": [],
-          "confidence": 0.9
+          "confidence": 0.6
         }
       ],
-      "score": 73,
+      "score": 56,
       "evidenceScore": 2.88,
       "evidenceCount": 2,
       "quote": {
-        "code": "300672",
-        "name": "国科微",
-        "price": 299.0,
-        "changePercent": -5.84,
-        "change": -18.56,
-        "high": 315.29,
-        "low": 297.0,
-        "open": 310.0,
-        "previousClose": 317.56,
-        "volume": 9592700,
-        "amount": 2931304075.0,
-        "volumeRatio": 0.76,
-        "turnoverRate": 4.56,
-        "amplitude": 5.76,
-        "peRatio": -282.42,
-        "pbRatio": 16.83,
-        "marketCap": 64914000000.0,
-        "floatMarketCap": 62891000000.0,
+        "code": "000811",
+        "name": "冰轮环境",
+        "price": 31.04,
+        "changePercent": -2.14,
+        "change": -0.68,
+        "high": 32.1,
+        "low": 30.56,
+        "open": 31.43,
+        "previousClose": 31.72,
+        "volume": 24927100,
+        "amount": 779531254.0,
+        "volumeRatio": 0.74,
+        "turnoverRate": 2.55,
+        "amplitude": 4.85,
+        "peRatio": 52.4,
+        "pbRatio": 4.72,
+        "marketCap": 30807000000.0,
+        "floatMarketCap": 30369000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:32:50+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-002579",
-      "name": "中京电子",
-      "code": "002579",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.9
-        }
-      ],
-      "score": 73,
-      "evidenceScore": 2.88,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "002579",
-        "name": "中京电子",
-        "price": 18.69,
-        "changePercent": -9.32,
-        "change": -1.92,
-        "high": 19.9,
-        "low": 18.55,
-        "open": 19.58,
-        "previousClose": 20.61,
-        "volume": 174557700,
-        "amount": 3335940398.0,
-        "volumeRatio": 0.8,
-        "turnoverRate": 29.92,
-        "amplitude": 6.55,
-        "peRatio": 436.55,
-        "pbRatio": 4.77,
-        "marketCap": 11450000000.0,
-        "floatMarketCap": 10904000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:00+00:00",
+        "updatedAt": "2026-06-07T10:46:39+00:00",
         "status": "ok",
         "stale": false
       },
@@ -3424,218 +3542,16 @@
         "floatMarketCap": 256157000000.00003,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:42+00:00",
+        "updatedAt": "2026-06-07T10:42:39+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-688766",
-      "name": "普冉股份",
-      "code": "688766",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 2.8,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "688766",
-        "name": "普冉股份",
-        "price": 396.0,
-        "changePercent": -7.34,
-        "change": -31.35,
-        "high": 421.0,
-        "low": 393.0,
-        "open": 404.0,
-        "previousClose": 427.35,
-        "volume": 6340989,
-        "amount": 2580958603.0,
-        "volumeRatio": 0.92,
-        "turnoverRate": 4.28,
-        "amplitude": 6.55,
-        "peRatio": 133.19,
-        "pbRatio": 21.9,
-        "marketCap": 58627000000.0,
-        "floatMarketCap": 58627000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:08+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-688234",
-      "name": "天岳先进",
-      "code": "688234",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 2.8,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "688234",
-        "name": "天岳先进",
-        "price": 130.93,
-        "changePercent": -5.87,
-        "change": -8.17,
-        "high": 138.97,
-        "low": 129.94,
-        "open": 137.62,
-        "previousClose": 139.1,
-        "volume": 16464618,
-        "amount": 2206274069.0,
-        "volumeRatio": 0.87,
-        "turnoverRate": 3.83,
-        "amplitude": 6.49,
-        "peRatio": -228.78,
-        "pbRatio": 8.92,
-        "marketCap": 63451000000.0,
-        "floatMarketCap": 56262000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:47+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-002364",
-      "name": "中恒电气",
-      "code": "002364",
-      "sectors": [
-        "power"
-      ],
-      "sectorNames": [
-        "电力设备与液冷"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "power",
-          "nodeId": "power",
-          "role": "供配电与液冷",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 2.8,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "002364",
-        "name": "中恒电气",
-        "price": 52.95,
-        "changePercent": -1.38,
-        "change": -0.74,
-        "high": 57.37,
-        "low": 52.25,
-        "open": 52.95,
-        "previousClose": 53.69,
-        "volume": 48256800,
-        "amount": 2641133224.0,
-        "volumeRatio": 0.94,
-        "turnoverRate": 8.65,
-        "amplitude": 9.54,
-        "peRatio": 227.76,
-        "pbRatio": 11.93,
-        "marketCap": 29841000000.000004,
-        "floatMarketCap": 29552000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:14+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "cdkj",
-      "name": "长电科技",
-      "code": "600584",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装"
-        }
-      ],
-      "score": 76,
-      "evidenceScore": 2.72,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "600584",
-        "name": "长电科技",
-        "price": 75.65,
-        "changePercent": -5.53,
-        "change": -4.43,
-        "high": 80.42,
-        "low": 75.08,
-        "open": 79.66,
-        "previousClose": 80.08,
-        "volume": 205371200,
-        "amount": 15961191020.0,
-        "volumeRatio": 0.73,
-        "turnoverRate": 11.48,
-        "amplitude": 6.67,
-        "peRatio": 81.94,
-        "pbRatio": 4.71,
-        "marketCap": 135369000000.0,
-        "floatMarketCap": 135369000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:20+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-002138",
-      "name": "顺络电子",
-      "code": "002138",
+      "companyId": "hhkj",
+      "name": "宏和科技",
+      "code": "603256",
       "sectors": [
         "pcb"
       ],
@@ -3648,238 +3564,34 @@
         {
           "sectorId": "pcb",
           "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
+          "role": "高多层PCB"
         }
       ],
-      "score": 56,
-      "evidenceScore": 2.72,
+      "score": 64,
+      "evidenceScore": 2.8,
       "evidenceCount": 2,
       "quote": {
-        "code": "002138",
-        "name": "顺络电子",
-        "price": 55.61,
-        "changePercent": 10.01,
-        "change": 5.06,
-        "high": 55.61,
-        "low": 48.8,
-        "open": 51.2,
-        "previousClose": 50.55,
-        "volume": 81117700,
-        "amount": 4303363809.0,
-        "volumeRatio": 1.39,
-        "turnoverRate": 10.72,
-        "amplitude": 13.47,
-        "peRatio": 46.43,
-        "pbRatio": 7.06,
-        "marketCap": 44839000000.0,
-        "floatMarketCap": 42069000000.0,
+        "code": "603256",
+        "name": "宏和科技",
+        "price": 196.06,
+        "changePercent": 0.54,
+        "change": 1.05,
+        "high": 210.49,
+        "low": 190.1,
+        "open": 192.0,
+        "previousClose": 195.01,
+        "volume": 17362500,
+        "amount": 3505438702.0,
+        "volumeRatio": 0.9,
+        "turnoverRate": 1.97,
+        "amplitude": 10.46,
+        "peRatio": 569.77,
+        "pbRatio": 63.99,
+        "marketCap": 177353000000.0,
+        "floatMarketCap": 172479000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:35+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-000070",
-      "name": "特发信息",
-      "code": "000070",
-      "sectors": [
-        "power"
-      ],
-      "sectorNames": [
-        "电力设备与液冷"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "power",
-          "nodeId": "power",
-          "role": "供配电与液冷",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 2.72,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "000070",
-        "name": "特发信息",
-        "price": 19.92,
-        "changePercent": 7.5,
-        "change": 1.39,
-        "high": 20.38,
-        "low": 18.54,
-        "open": 18.54,
-        "previousClose": 18.53,
-        "volume": 178681600,
-        "amount": 3600229530.0,
-        "volumeRatio": 2.69,
-        "turnoverRate": 20.86,
-        "amplitude": 9.93,
-        "peRatio": -35.3,
-        "pbRatio": 21.44,
-        "marketCap": 17298000000.0,
-        "floatMarketCap": 17066000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:09+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "tfwd",
-      "name": "通富微电",
-      "code": "002156",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装"
-        }
-      ],
-      "score": 75,
-      "evidenceScore": 2.6,
-      "evidenceCount": 2,
-      "quote": {
-        "code": "002156",
-        "name": "通富微电",
-        "price": 66.84,
-        "changePercent": -5.99,
-        "change": -4.26,
-        "high": 71.01,
-        "low": 66.37,
-        "open": 70.8,
-        "previousClose": 71.1,
-        "volume": 147987900,
-        "amount": 10162891081.0,
-        "volumeRatio": 0.83,
-        "turnoverRate": 9.75,
-        "amplitude": 6.53,
-        "peRatio": 70.13,
-        "pbRatio": 6.53,
-        "marketCap": 101436000000.0,
-        "floatMarketCap": 101427000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:31:25+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-301021",
-      "name": "英诺激光",
-      "code": "301021",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 1.74,
-      "evidenceCount": 1,
-      "quote": {
-        "code": "301021",
-        "name": "英诺激光",
-        "price": 94.81,
-        "changePercent": -2.66,
-        "change": -2.59,
-        "high": 101.0,
-        "low": 94.08,
-        "open": 99.0,
-        "previousClose": 97.4,
-        "volume": 9177400,
-        "amount": 895198016.0,
-        "volumeRatio": 0.84,
-        "turnoverRate": 6.01,
-        "amplitude": 7.1,
-        "peRatio": 217.21,
-        "pbRatio": 13.86,
-        "marketCap": 14494000000.0,
-        "floatMarketCap": 14478000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:10+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-002916",
-      "name": "深南电路",
-      "code": "002916",
-      "sectors": [
-        "pcb"
-      ],
-      "sectorNames": [
-        "PCB与高速材料"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "pcb",
-          "nodeId": "pcb",
-          "role": "高多层PCB",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 1.74,
-      "evidenceCount": 1,
-      "quote": {
-        "code": "002916",
-        "name": "深南电路",
-        "price": 373.0,
-        "changePercent": -5.18,
-        "change": -20.38,
-        "high": 392.86,
-        "low": 370.49,
-        "open": 382.01,
-        "previousClose": 393.38,
-        "volume": 13190100,
-        "amount": 5024719337.0,
-        "volumeRatio": 0.8,
-        "turnoverRate": 1.98,
-        "amplitude": 5.69,
-        "peRatio": 69.91,
-        "pbRatio": 15.44,
-        "marketCap": 254075000000.0,
-        "floatMarketCap": 247973999999.99997,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:37:14+00:00",
+        "updatedAt": "2026-06-07T10:42:53+00:00",
         "status": "ok",
         "stale": false
       },
@@ -3907,8 +3619,8 @@
         }
       ],
       "score": 58,
-      "evidenceScore": 1.44,
-      "evidenceCount": 1,
+      "evidenceScore": 2.8,
+      "evidenceCount": 2,
       "quote": {
         "code": "688498",
         "name": "源杰科技",
@@ -3930,7 +3642,511 @@
         "floatMarketCap": 162306000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:36:38+00:00",
+        "updatedAt": "2026-06-07T10:47:18+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-301338",
+      "name": "凯格精机",
+      "code": "301338",
+      "sectors": [
+        "pcb"
+      ],
+      "sectorNames": [
+        "PCB与高速材料"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "pcb",
+          "nodeId": "pcb",
+          "role": "高多层PCB",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 2.8,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "301338",
+        "name": "凯格精机",
+        "price": 258.03,
+        "changePercent": 1.51,
+        "change": 3.85,
+        "high": 269.95,
+        "low": 237.0,
+        "open": 246.18,
+        "previousClose": 254.18,
+        "volume": 6087000,
+        "amount": 1549145209.0,
+        "volumeRatio": 0.95,
+        "turnoverRate": 7.85,
+        "amplitude": 12.96,
+        "peRatio": 125.65,
+        "pbRatio": 16.17,
+        "marketCap": 27454000000.000004,
+        "floatMarketCap": 20004000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:46:04+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "tfwd",
+      "name": "通富微电",
+      "code": "002156",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装"
+        }
+      ],
+      "score": 75,
+      "evidenceScore": 2.72,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "002156",
+        "name": "通富微电",
+        "price": 66.84,
+        "changePercent": -5.99,
+        "change": -4.26,
+        "high": 71.01,
+        "low": 66.37,
+        "open": 70.8,
+        "previousClose": 71.1,
+        "volume": 147987900,
+        "amount": 10162891081.0,
+        "volumeRatio": 0.83,
+        "turnoverRate": 9.75,
+        "amplitude": 6.53,
+        "peRatio": 70.13,
+        "pbRatio": 6.53,
+        "marketCap": 101436000000.0,
+        "floatMarketCap": 101427000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:42:22+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-688478",
+      "name": "晶升股份",
+      "code": "688478",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.9
+        }
+      ],
+      "score": 73,
+      "evidenceScore": 2.72,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "688478",
+        "name": "晶升股份",
+        "price": 57.91,
+        "changePercent": -2.79,
+        "change": -1.66,
+        "high": 62.05,
+        "low": 56.06,
+        "open": 58.0,
+        "previousClose": 59.57,
+        "volume": 7420946,
+        "amount": 433998299.0,
+        "volumeRatio": 0.91,
+        "turnoverRate": 5.36,
+        "amplitude": 10.06,
+        "peRatio": -179.83,
+        "pbRatio": 5.35,
+        "marketCap": 8013000000.0,
+        "floatMarketCap": 8013000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:43:44+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-300223",
+      "name": "北京君正",
+      "code": "300223",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 2.6,
+      "evidenceCount": 2,
+      "quote": {
+        "code": "300223",
+        "name": "北京君正",
+        "price": 139.36,
+        "changePercent": -7.35,
+        "change": -11.05,
+        "high": 146.84,
+        "low": 138.6,
+        "open": 145.0,
+        "previousClose": 150.41,
+        "volume": 36304500,
+        "amount": 5192949484.0,
+        "volumeRatio": 0.85,
+        "turnoverRate": 8.63,
+        "amplitude": 5.48,
+        "peRatio": 108.24,
+        "pbRatio": 5.32,
+        "marketCap": 67247000000.0,
+        "floatMarketCap": 58611000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:21+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-300661",
+      "name": "圣邦股份",
+      "code": "300661",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 2.16,
+      "evidenceCount": 1,
+      "quote": {
+        "code": "300661",
+        "name": "圣邦股份",
+        "price": 107.74,
+        "changePercent": -4.87,
+        "change": -5.51,
+        "high": 112.5,
+        "low": 106.5,
+        "open": 112.16,
+        "previousClose": 113.25,
+        "volume": 16659900,
+        "amount": 1825157730.0,
+        "volumeRatio": 0.64,
+        "turnoverRate": 2.78,
+        "amplitude": 5.3,
+        "peRatio": 109.45,
+        "pbRatio": 12.51,
+        "marketCap": 66871000000.0,
+        "floatMarketCap": 64539000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:43+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-300442",
+      "name": "润泽科技",
+      "code": "300442",
+      "sectors": [
+        "domestic"
+      ],
+      "sectorNames": [
+        "国产算力与生态"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "domestic",
+          "nodeId": "domestic",
+          "role": "国产AI算力",
+          "evidenceIds": [],
+          "confidence": 0.64
+        }
+      ],
+      "score": 58,
+      "evidenceScore": 1.44,
+      "evidenceCount": 1,
+      "quote": {
+        "code": "300442",
+        "name": "润泽科技",
+        "price": 78.17,
+        "changePercent": -4.41,
+        "change": -3.61,
+        "high": 81.0,
+        "low": 77.94,
+        "open": 81.0,
+        "previousClose": 81.78,
+        "volume": 33480900,
+        "amount": 2659304021.0,
+        "volumeRatio": 0.83,
+        "turnoverRate": 2.05,
+        "amplitude": 3.74,
+        "peRatio": 24.56,
+        "pbRatio": 8.94,
+        "marketCap": 127757000000.0,
+        "floatMarketCap": 127538000000.00002,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:47:29+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-688766",
+      "name": "普冉股份",
+      "code": "688766",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 1.44,
+      "evidenceCount": 1,
+      "quote": {
+        "code": "688766",
+        "name": "普冉股份",
+        "price": 396.0,
+        "changePercent": -7.34,
+        "change": -31.35,
+        "high": 421.0,
+        "low": 393.0,
+        "open": 404.0,
+        "previousClose": 427.35,
+        "volume": 6340989,
+        "amount": 2580958603.0,
+        "volumeRatio": 0.92,
+        "turnoverRate": 4.28,
+        "amplitude": 6.55,
+        "peRatio": 133.19,
+        "pbRatio": 21.9,
+        "marketCap": 58627000000.0,
+        "floatMarketCap": 58627000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:45:49+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "xys",
+      "name": "新易盛",
+      "code": "300502",
+      "sectors": [
+        "optical"
+      ],
+      "sectorNames": [
+        "光通信与CPO"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "optical",
+          "nodeId": "optical",
+          "role": "高速光模块"
+        }
+      ],
+      "score": 84,
+      "evidenceScore": 1.36,
+      "evidenceCount": 1,
+      "quote": {
+        "code": "300502",
+        "name": "新易盛",
+        "price": 748.0,
+        "changePercent": -3.6,
+        "change": -27.94,
+        "high": 818.38,
+        "low": 730.0,
+        "open": 790.0,
+        "previousClose": 775.94,
+        "volume": 44176500,
+        "amount": 34165078019.0,
+        "volumeRatio": 1.3,
+        "turnoverRate": 4.93,
+        "amplitude": 11.39,
+        "peRatio": 69.36,
+        "pbRatio": 36.5,
+        "marketCap": 744931000000.0,
+        "floatMarketCap": 670124000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:42:01+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "auto-688234",
+      "name": "天岳先进",
+      "code": "688234",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装",
+          "evidenceIds": [],
+          "confidence": 0.6
+        }
+      ],
+      "score": 56,
+      "evidenceScore": 1.16,
+      "evidenceCount": 1,
+      "quote": {
+        "code": "688234",
+        "name": "天岳先进",
+        "price": 130.93,
+        "changePercent": -5.87,
+        "change": -8.17,
+        "high": 138.97,
+        "low": 129.94,
+        "open": 137.62,
+        "previousClose": 139.1,
+        "volume": 16464618,
+        "amount": 2206274069.0,
+        "volumeRatio": 0.87,
+        "turnoverRate": 3.83,
+        "amplitude": 6.49,
+        "peRatio": -228.78,
+        "pbRatio": 8.92,
+        "marketCap": 63451000000.0,
+        "floatMarketCap": 56262000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:44:30+00:00",
+        "status": "ok",
+        "stale": false
+      },
+      "quoteStatus": "ok"
+    },
+    {
+      "companyId": "cdkj",
+      "name": "长电科技",
+      "code": "600584",
+      "sectors": [
+        "package"
+      ],
+      "sectorNames": [
+        "先进封装与测试"
+      ],
+      "sectorCount": 1,
+      "appearances": 1,
+      "dependencyRefs": [
+        {
+          "sectorId": "package",
+          "nodeId": "package",
+          "role": "先进封装"
+        }
+      ],
+      "score": 76,
+      "evidenceScore": 0,
+      "evidenceCount": 0,
+      "quote": {
+        "code": "600584",
+        "name": "长电科技",
+        "price": 75.65,
+        "changePercent": -5.53,
+        "change": -4.43,
+        "high": 80.42,
+        "low": 75.08,
+        "open": 79.66,
+        "previousClose": 80.08,
+        "volume": 205371200,
+        "amount": 15961191020.0,
+        "volumeRatio": 0.73,
+        "turnoverRate": 11.48,
+        "amplitude": 6.67,
+        "peRatio": 81.94,
+        "pbRatio": 4.71,
+        "marketCap": 135369000000.0,
+        "floatMarketCap": 135369000000.0,
+        "change60d": null,
+        "source": "tencent",
+        "updatedAt": "2026-06-07T10:42:17+00:00",
         "status": "ok",
         "stale": false
       },
@@ -3958,8 +4174,8 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 1.44,
-      "evidenceCount": 1,
+      "evidenceScore": 0,
+      "evidenceCount": 0,
       "quote": {
         "code": "688416",
         "name": "恒烁股份",
@@ -3981,16 +4197,16 @@
         "floatMarketCap": 9416000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:52+00:00",
+        "updatedAt": "2026-06-07T10:45:31+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-688401",
-      "name": "路维光电",
-      "code": "688401",
+      "companyId": "auto-603186",
+      "name": "华正新材",
+      "code": "603186",
       "sectors": [
         "pcb"
       ],
@@ -4009,39 +4225,39 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 1.44,
-      "evidenceCount": 1,
+      "evidenceScore": 0,
+      "evidenceCount": 0,
       "quote": {
-        "code": "688401",
-        "name": "路维光电",
-        "price": 73.02,
-        "changePercent": 0.44,
-        "change": 0.32,
-        "high": 77.68,
-        "low": 69.63,
-        "open": 71.14,
-        "previousClose": 72.7,
-        "volume": 7977805,
-        "amount": 588325057.0,
-        "volumeRatio": 0.81,
-        "turnoverRate": 4.13,
-        "amplitude": 11.07,
-        "peRatio": 52.09,
-        "pbRatio": 8.44,
-        "marketCap": 14118000000.0,
-        "floatMarketCap": 14118000000.0,
+        "code": "603186",
+        "name": "华正新材",
+        "price": 123.66,
+        "changePercent": 0.07,
+        "change": 0.09,
+        "high": 129.5,
+        "low": 118.12,
+        "open": 120.6,
+        "previousClose": 123.57,
+        "volume": 14949400,
+        "amount": 1872084179.0,
+        "volumeRatio": 0.97,
+        "turnoverRate": 9.53,
+        "amplitude": 9.21,
+        "peRatio": 67.03,
+        "pbRatio": 8.35,
+        "marketCap": 19389000000.0,
+        "floatMarketCap": 19389000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:20+00:00",
+        "updatedAt": "2026-06-07T10:46:10+00:00",
         "status": "ok",
         "stale": false
       },
       "quoteStatus": "ok"
     },
     {
-      "companyId": "auto-603738",
-      "name": "泰晶科技",
-      "code": "603738",
+      "companyId": "auto-300814",
+      "name": "中富电路",
+      "code": "300814",
       "sectors": [
         "optical"
       ],
@@ -4060,183 +4276,30 @@
         }
       ],
       "score": 56,
-      "evidenceScore": 1.44,
-      "evidenceCount": 1,
+      "evidenceScore": 0,
+      "evidenceCount": 0,
       "quote": {
-        "code": "603738",
-        "name": "泰晶科技",
-        "price": 44.49,
-        "changePercent": -1.9,
-        "change": -0.86,
-        "high": 46.15,
-        "low": 43.98,
-        "open": 44.6,
-        "previousClose": 45.35,
-        "volume": 35138100,
-        "amount": 1580518686.0,
-        "volumeRatio": 0.75,
-        "turnoverRate": 9.11,
-        "amplitude": 4.79,
-        "peRatio": 257.86,
-        "pbRatio": 9.44,
-        "marketCap": 17168000000.0,
-        "floatMarketCap": 17168000000.0,
+        "code": "300814",
+        "name": "中富电路",
+        "price": 157.79,
+        "changePercent": 2.04,
+        "change": 3.15,
+        "high": 166.6,
+        "low": 147.0,
+        "open": 154.51,
+        "previousClose": 154.64,
+        "volume": 11498500,
+        "amount": 1821318270.0,
+        "volumeRatio": 0.97,
+        "turnoverRate": 6.01,
+        "amplitude": 12.67,
+        "peRatio": 793.61,
+        "pbRatio": 18.44,
+        "marketCap": 30206000000.0,
+        "floatMarketCap": 30206000000.0,
         "change60d": null,
         "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:41+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-300757",
-      "name": "罗博特科",
-      "code": "300757",
-      "sectors": [
-        "optical"
-      ],
-      "sectorNames": [
-        "光通信与CPO"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "optical",
-          "nodeId": "optical",
-          "role": "高速光模块",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 1.44,
-      "evidenceCount": 1,
-      "quote": {
-        "code": "300757",
-        "name": "罗博特科",
-        "price": 648.98,
-        "changePercent": -5.35,
-        "change": -36.66,
-        "high": 704.01,
-        "low": 641.8,
-        "open": 677.0,
-        "previousClose": 685.64,
-        "volume": 8660300,
-        "amount": 5818447134.0,
-        "volumeRatio": 0.98,
-        "turnoverRate": 5.33,
-        "amplitude": 9.07,
-        "peRatio": -1375.35,
-        "pbRatio": 66.91,
-        "marketCap": 108774000000.0,
-        "floatMarketCap": 105503000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:33:19+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-300316",
-      "name": "晶盛机电",
-      "code": "300316",
-      "sectors": [
-        "package"
-      ],
-      "sectorNames": [
-        "先进封装与测试"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "package",
-          "nodeId": "package",
-          "role": "先进封装",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 1.44,
-      "evidenceCount": 1,
-      "quote": {
-        "code": "300316",
-        "name": "晶盛机电",
-        "price": 48.89,
-        "changePercent": -0.24,
-        "change": -0.12,
-        "high": 50.22,
-        "low": 46.23,
-        "open": 48.48,
-        "previousClose": 49.01,
-        "volume": 37902200,
-        "amount": 1827283919.0,
-        "volumeRatio": 1.13,
-        "turnoverRate": 3.08,
-        "amplitude": 8.14,
-        "peRatio": 154.5,
-        "pbRatio": 3.76,
-        "marketCap": 64023000000.0,
-        "floatMarketCap": 60211000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:34:29+00:00",
-        "status": "ok",
-        "stale": false
-      },
-      "quoteStatus": "ok"
-    },
-    {
-      "companyId": "auto-000811",
-      "name": "冰轮环境",
-      "code": "000811",
-      "sectors": [
-        "power"
-      ],
-      "sectorNames": [
-        "电力设备与液冷"
-      ],
-      "sectorCount": 1,
-      "appearances": 1,
-      "dependencyRefs": [
-        {
-          "sectorId": "power",
-          "nodeId": "power",
-          "role": "供配电与液冷",
-          "evidenceIds": [],
-          "confidence": 0.6
-        }
-      ],
-      "score": 56,
-      "evidenceScore": 1.44,
-      "evidenceCount": 1,
-      "quote": {
-        "code": "000811",
-        "name": "冰轮环境",
-        "price": 31.04,
-        "changePercent": -2.14,
-        "change": -0.68,
-        "high": 32.1,
-        "low": 30.56,
-        "open": 31.43,
-        "previousClose": 31.72,
-        "volume": 24927100,
-        "amount": 779531254.0,
-        "volumeRatio": 0.74,
-        "turnoverRate": 2.55,
-        "amplitude": 4.85,
-        "peRatio": 52.4,
-        "pbRatio": 4.72,
-        "marketCap": 30807000000.0,
-        "floatMarketCap": 30369000000.0,
-        "change60d": null,
-        "source": "tencent",
-        "updatedAt": "2026-06-06T10:35:57+00:00",
+        "updatedAt": "2026-06-07T10:44:12+00:00",
         "status": "ok",
         "stale": false
       },
