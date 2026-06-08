@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""V2 live data cache entrypoint."""
+"""Live data cache entrypoint."""
 
 from __future__ import annotations
 
@@ -30,7 +30,7 @@ def run_fetcher(script: str, repo_root: Path, symbols: str, limit: int, etfs: st
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Manage V2 live cache placeholders.")
+    parser = argparse.ArgumentParser(description="Manage live cache files.")
     parser.add_argument("--repo-root", default=str(DEFAULT_REPO_ROOT))
     parser.add_argument("--symbols", default="", help="Comma-separated symbols for live fetchers")
     parser.add_argument("--etfs", default="", help="Comma-separated ETF codes for ETF holding refresh")

@@ -1,6 +1,6 @@
 # Scoring
 
-## V1 Snapshot Score
+## Snapshot Score
 
 Use `scripts/pick.py` output as the source of truth. The score is a research-ranking score, not a trading signal.
 
@@ -34,9 +34,9 @@ speculative_candidate:
   Candidate-pool lead that needs official/financial verification before promotion.
 ```
 
-## V2 Live Score
+## Live Score
 
-V2 must separate conviction from timing:
+The live score must separate conviction from timing:
 
 ```text
 Fundamental Bottleneck Score:

@@ -51,7 +51,7 @@ python skills/ai-bottleneck-stock-picker/scripts/pick.py candidates --sector pcb
 python skills/ai-bottleneck-stock-picker/scripts/pick.py evidence --company 300308 --limit 10
 ```
 
-For V2 live-overlay research, refresh the cache first, then query with `--live`:
+For real-time research, refresh the live cache first, then query with `--live`:
 
 ```bash
 python skills/ai-bottleneck-stock-picker/scripts/refresh_live.py init
@@ -76,7 +76,7 @@ Use `--repo-root` only when the repository is not at the default path.
 
 Read `references/scoring.md` when explaining scores.
 Read `references/bottleneck-thesis.md` when explaining the AI bottleneck logic.
-Read `references/data-contracts.md` when implementing V2 live news, financials, ETF holdings, or technicals.
+Read `references/data-contracts.md` when implementing live news, financials, ETF holdings, or technicals.
 Read `references/output-format.md` for answer templates.
 
 ## Guardrails
@@ -102,4 +102,4 @@ gh run list --workflow refresh-data.yml --limit 3
 
 If a refresh returns zero evidence or zero candidates, do not overwrite or trust it. Investigate provider health first.
 
-V2 live cache refresh also fails open: provider errors must keep the previous `.cache/ai-bottleneck-stock-picker/*.json` payload where possible. Treat missing live news, financials, ETF holdings, or technicals as a data limitation, not as negative evidence.
+Live cache refresh also fails open: provider errors must keep the previous `.cache/ai-bottleneck-stock-picker/*.json` payload where possible. Treat missing live news, financials, ETF holdings, or technicals as a data limitation, not as negative evidence.

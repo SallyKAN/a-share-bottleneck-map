@@ -348,7 +348,7 @@ def live_score_block(
     return {
         "fundamentalBottleneckScore": round(fundamental, 2),
         "tradingTimingScore": round(timing, 2),
-        "v2CompositeScore": round(composite, 2),
+        "compositeScore": round(composite, 2),
         "finalLabel": label,
     }
 
@@ -636,7 +636,7 @@ def etf(snapshot: Snapshot, query: str | None, limit: int) -> dict[str, Any]:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="AI bottleneck stock picker snapshot query.")
     parser.add_argument("--repo-root", default=str(DEFAULT_REPO_ROOT), help="a-share-bottleneck-map repository root")
-    parser.add_argument("--live", action="store_true", help="Overlay V2 live news, financials, ETF holdings, and technicals caches")
+    parser.add_argument("--live", action="store_true", help="Use live news, financials, ETF holdings, and technicals caches")
     sub = parser.add_subparsers(dest="command", required=True)
 
     def add_live_option(command_parser: argparse.ArgumentParser) -> None:
@@ -644,7 +644,7 @@ def parse_args() -> argparse.Namespace:
             "--live",
             action="store_true",
             default=argparse.SUPPRESS,
-            help="Overlay V2 live news, financials, ETF holdings, and technicals caches",
+            help="Use live news, financials, ETF holdings, and technicals caches",
         )
 
     health_parser = sub.add_parser("health")

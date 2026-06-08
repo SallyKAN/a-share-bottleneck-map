@@ -1,6 +1,6 @@
-# V2 Data Contracts
+# Data Contracts
 
-V2 adds live overlays on top of the committed snapshot. Do not write live data back to `data/*.json` by default.
+Live data is cached separately from the committed snapshot. Do not write live data back to `data/*.json` by default.
 
 Recommended cache directory:
 
@@ -137,9 +137,9 @@ Never let technicals override a weak bottleneck/financial thesis.
 High conviction + bad timing is a valid output.
 ```
 
-## pick.py --live Output Overlay
+## pick.py --live Output
 
-When `pick.py` runs with `--live`, company results keep the V1 `stockPickerScore` and add:
+When `pick.py` runs with `--live`, company results keep the deterministic `stockPickerScore` and add:
 
 ```json
 {
@@ -151,7 +151,7 @@ When `pick.py` runs with `--live`, company results keep the V1 `stockPickerScore
   "liveScores": {
     "fundamentalBottleneckScore": 0.0,
     "tradingTimingScore": 0.0,
-    "v2CompositeScore": 0.0,
+    "compositeScore": 0.0,
     "finalLabel": "High Conviction / Good Timing"
   }
 }
@@ -160,7 +160,7 @@ When `pick.py` runs with `--live`, company results keep the V1 `stockPickerScore
 Rules:
 
 ```text
-Keep V1 score deterministic and explain V2 as an overlay.
+Keep stockPickerScore deterministic and explain live fields as current-data context.
 fundamentalBottleneckScore is thesis strength.
 tradingTimingScore is timing/crowding only.
 Missing live cache means limited data, not a bearish signal.

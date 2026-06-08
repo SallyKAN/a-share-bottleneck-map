@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch V2 financial confirmation cache via daily_stock_analysis."""
+"""Fetch financial confirmation cache via daily_stock_analysis."""
 
 from __future__ import annotations
 

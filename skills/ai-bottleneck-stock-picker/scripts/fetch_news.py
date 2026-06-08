@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch V2 live news via daily_stock_analysis SearchService."""
+"""Fetch live news via daily_stock_analysis SearchService."""
 
 from __future__ import annotations
 

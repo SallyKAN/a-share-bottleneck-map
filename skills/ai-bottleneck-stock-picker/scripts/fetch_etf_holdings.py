@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch V2 ETF holdings cache.
+"""Fetch ETF holdings cache.
 
 Uses akshare when available. If no provider is available, keeps previous cache.
 """
