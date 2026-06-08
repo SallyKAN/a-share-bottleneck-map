@@ -51,6 +51,17 @@ python skills/ai-bottleneck-stock-picker/scripts/pick.py candidates --sector pcb
 python skills/ai-bottleneck-stock-picker/scripts/pick.py evidence --company 300308 --limit 10
 ```
 
+For V2 live-overlay research, refresh the cache first, then query with `--live`:
+
+```bash
+python skills/ai-bottleneck-stock-picker/scripts/refresh_live.py init
+python skills/ai-bottleneck-stock-picker/scripts/refresh_live.py all --symbols 300308,601138 --etfs 512480,159995 --limit 10
+python skills/ai-bottleneck-stock-picker/scripts/refresh_live.py status
+python skills/ai-bottleneck-stock-picker/scripts/pick.py top --live --limit 10
+python skills/ai-bottleneck-stock-picker/scripts/pick.py company 300308 --live
+python skills/ai-bottleneck-stock-picker/scripts/pick.py etf semiconductor --live
+```
+
 Use `--repo-root` only when the repository is not at the default path.
 
 ## Strategy
@@ -61,6 +72,7 @@ Use `--repo-root` only when the repository is not at the default path.
 4. Split outputs into `core_pick`, `watchlist`, and `speculative_or_wait`.
 5. Give disconfirming evidence and next verification questions.
 6. Add ETF alternatives only after checking ETF holdings; do not infer from ETF name alone.
+7. With `--live`, separate conviction from timing: use `liveScores.fundamentalBottleneckScore` for thesis strength and `liveScores.tradingTimingScore` for entry/crowding context.
 
 Read `references/scoring.md` when explaining scores.
 Read `references/bottleneck-thesis.md` when explaining the AI bottleneck logic.
@@ -89,3 +101,5 @@ gh run list --workflow refresh-data.yml --limit 3
 ```
 
 If a refresh returns zero evidence or zero candidates, do not overwrite or trust it. Investigate provider health first.
+
+V2 live cache refresh also fails open: provider errors must keep the previous `.cache/ai-bottleneck-stock-picker/*.json` payload where possible. Treat missing live news, financials, ETF holdings, or technicals as a data limitation, not as negative evidence.

@@ -1,85 +1,54 @@
 #!/usr/bin/env python3
-"""V2 live data cache entrypoint.
-
-This first implementation creates/inspects live cache files and defines the
-command contract for future provider-specific fetchers.
-"""
+"""V2 live data cache entrypoint."""
 
 from __future__ import annotations
 
 import argparse
-import json
-from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+import subprocess
+import sys
+
+from live_cache import DEFAULT_REPO_ROOT, init_caches, status
 
 
-SKILL_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_REPO_ROOT = SKILL_ROOT.parents[1]
-CACHE_NAMES = ("live_news", "financials", "etf_holdings", "technicals")
-
-
-def now_iso() -> str:
-    return datetime.now(timezone.utc).isoformat(timespec="seconds")
-
-
-def cache_dir(repo_root: Path) -> Path:
-    return repo_root / ".cache" / "ai-bottleneck-stock-picker"
-
-
-def cache_path(repo_root: Path, name: str) -> Path:
-    return cache_dir(repo_root) / f"{name}.json"
-
-
-def empty_payload(name: str) -> dict[str, Any]:
+def run_fetcher(script: str, repo_root: Path, symbols: str, limit: int, etfs: str = "") -> dict:
+    script_path = Path(__file__).resolve().parent / script
+    cmd = [sys.executable, str(script_path), "--repo-root", str(repo_root)]
+    if symbols:
+        cmd.extend(["--symbols", symbols])
+    if etfs:
+        cmd.extend(["--etfs", etfs])
+    if limit:
+        cmd.extend(["--limit", str(limit)])
+    result = subprocess.run(cmd, text=True, capture_output=True, check=False)
     return {
-        "source": "not_configured",
-        "updatedAt": None,
-        "cacheName": name,
-        "items": [],
-        "warnings": ["live provider not implemented yet"],
+        "script": script,
+        "returncode": result.returncode,
+        "stdout": result.stdout[-4000:],
+        "stderr": result.stderr[-4000:],
     }
-
-
-def read_cache(repo_root: Path, name: str) -> dict[str, Any]:
-    path = cache_path(repo_root, name)
-    if not path.exists():
-        return empty_payload(name)
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
-def init_cache(repo_root: Path) -> dict[str, Any]:
-    directory = cache_dir(repo_root)
-    directory.mkdir(parents=True, exist_ok=True)
-    created = []
-    for name in CACHE_NAMES:
-        path = cache_path(repo_root, name)
-        if not path.exists():
-            path.write_text(json.dumps(empty_payload(name), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-            created.append(str(path))
-    return {"updatedAt": now_iso(), "cacheDir": str(directory), "created": created}
-
-
-def status(repo_root: Path) -> dict[str, Any]:
-    payload = {"updatedAt": now_iso(), "cacheDir": str(cache_dir(repo_root)), "caches": {}}
-    for name in CACHE_NAMES:
-        data = read_cache(repo_root, name)
-        payload["caches"][name] = {
-            "exists": cache_path(repo_root, name).exists(),
-            "source": data.get("source"),
-            "updatedAt": data.get("updatedAt"),
-            "itemCount": len(data.get("items", [])),
-            "warnings": data.get("warnings", []),
-        }
-    return payload
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Manage V2 live cache placeholders.")
     parser.add_argument("--repo-root", default=str(DEFAULT_REPO_ROOT))
+    parser.add_argument("--symbols", default="", help="Comma-separated symbols for live fetchers")
+    parser.add_argument("--etfs", default="", help="Comma-separated ETF codes for ETF holding refresh")
+    parser.add_argument("--limit", type=int, default=20, help="Max symbols/items per fetcher")
     sub = parser.add_subparsers(dest="command", required=True)
-    sub.add_parser("init")
-    sub.add_parser("status")
+
+    def add_shared_options(command_parser: argparse.ArgumentParser) -> None:
+        command_parser.add_argument("--repo-root", default=argparse.SUPPRESS)
+        command_parser.add_argument("--symbols", default=argparse.SUPPRESS, help="Comma-separated symbols for live fetchers")
+        command_parser.add_argument("--etfs", default=argparse.SUPPRESS, help="Comma-separated ETF codes for ETF holding refresh")
+        command_parser.add_argument("--limit", type=int, default=argparse.SUPPRESS, help="Max symbols/items per fetcher")
+
+    init_parser = sub.add_parser("init")
+    add_shared_options(init_parser)
+    status_parser = sub.add_parser("status")
+    add_shared_options(status_parser)
+    all_parser = sub.add_parser("all")
+    add_shared_options(all_parser)
     return parser.parse_args()
 
 
@@ -87,11 +56,25 @@ def main() -> int:
     args = parse_args()
     repo_root = Path(args.repo_root).resolve()
     if args.command == "init":
-        payload = init_cache(repo_root)
+        payload = init_caches(repo_root)
     elif args.command == "status":
         payload = status(repo_root)
+    elif args.command == "all":
+        init_caches(repo_root)
+        payload = {
+            "repoRoot": str(repo_root),
+            "results": [
+                run_fetcher("fetch_technicals.py", repo_root, args.symbols, args.limit),
+                run_fetcher("fetch_news.py", repo_root, args.symbols, args.limit),
+                run_fetcher("fetch_financials.py", repo_root, args.symbols, args.limit),
+                run_fetcher("fetch_etf_holdings.py", repo_root, "", args.limit, etfs=args.etfs),
+            ],
+            "status": status(repo_root),
+        }
     else:
         raise AssertionError(args.command)
+    import json
+
     print(json.dumps(payload, ensure_ascii=False, indent=2))
     return 0
 
