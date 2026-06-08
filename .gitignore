@@ -4,3 +4,4 @@ dist/
 __pycache__/
 .codex
 .agent-memory.db
+.cache/

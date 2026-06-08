@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI Bottleneck Stock Picker"
+  short_description: "Find A-share AI bottleneck watchlists"
+  default_prompt: "Use $ai-bottleneck-stock-picker to build a research watchlist of A-share AI infrastructure bottleneck stocks."
+
+policy:
+  allow_implicit_invocation: true
