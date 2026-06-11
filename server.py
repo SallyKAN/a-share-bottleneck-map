@@ -197,8 +197,8 @@ def main() -> int:
     port = 5173
     server = ThreadingHTTPServer((host, port), AppHandler)
     print(f"Serving A股AI扩张瓶颈地图 on http://{host}:{port}/")
-    print("POST /api/refresh-quotes will refresh data/quotes.json via daily_stock_analysis.")
-    print("POST /api/refresh-evidence will refresh data/evidence.json via daily_stock_analysis SearchService.")
+    print("POST /api/refresh-quotes will refresh data/quotes.json via independent providers.")
+    print("POST /api/refresh-evidence will refresh data/evidence.json via independent search providers.")
     print("POST /api/refresh-candidates and /api/refresh-ranking update the research system snapshots.")
     try:
         server.serve_forever()

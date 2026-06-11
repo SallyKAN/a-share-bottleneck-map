@@ -14,7 +14,7 @@ npm run build
 然后使用项目服务启动：
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python server.py
+python server.py
 ```
 
 然后访问：
@@ -54,18 +54,18 @@ GitHub Actions 定时刷新见 `.github/workflows/refresh-data.yml`。默认每�
 POST /api/refresh-quotes
 ```
 
-本地服务会调用 `scripts/refresh_quotes.py` 的刷新逻辑，复用 `/home/snape/github/daily_stock_analysis` 的 `DataFetcherManager` 获取真实行情并写入 `data/quotes.json`。
+本地服务会调用 `scripts/refresh_quotes.py` 的刷新逻辑，通过本仓库内置的独立 provider 获取真实行情并写入 `data/quotes.json`。当前优先使用东方财富，失败时回退到腾讯行情接口；不需要额外的 `daily_stock_analysis` checkout。
 
 也可以在命令行单次刷新：
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_quotes
+python -m scripts.refresh_quotes
 ```
 
 旧的循环模式仍可用，但当前推荐通过页面按钮触发：
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_quotes --loop --interval-hours 12
+python -m scripts.refresh_quotes --loop --interval-hours 12
 ```
 
 ## 刷新候选池与排名
@@ -76,7 +76,7 @@ POST /api/refresh-quotes
 POST /api/refresh-candidates
 ```
 
-本地服务会复用 DSA 的 `stocks.index.json` 和 `SearchService`，按产业链关键词发现 A 股候选公司，写入 `data/candidate_pool.json`，并把达到规则阈值的候选晋级到 `data/companies.json`。当前晋级规则是规则先行，不使用 LLM 主导。
+本地服务会使用内置独立 provider 和本地快照，按产业链关键词发现/维护 A 股候选公司，写入 `data/candidate_pool.json`，并把达到规则阈值的候选晋级到 `data/companies.json`。当前晋级规则是规则先行，不使用 LLM 主导。没有搜索 API key 时，会使用本地公司池和公告 fallback，避免生成空候选池。
 
 页面上点击 `刷新排名` 会请求：
 
@@ -98,14 +98,14 @@ POST /api/refresh-ranking
 POST /api/refresh-evidence
 ```
 
-本地服务会调用 `scripts/refresh_evidence.py`，复用 `/home/snape/github/daily_stock_analysis` 的 `SearchService` 搜索公告、新闻、研报、业绩和风险线索，并把真实搜索结果写入 `data/evidence.json`。如果未配置 Bocha、Tavily、Brave、SerpAPI、MiniMax 或 SearXNG，接口会直接返回错误，不生成假证据。
+本地服务会调用 `scripts/refresh_evidence.py`，通过内置独立 provider 搜索公告、新闻、业绩和风险线索，并把真实搜索结果写入 `data/evidence.json`。配置 `AI_PICKER_SERPAPI_API_KEY` 或 `AI_PICKER_BRAVE_API_KEY` 后会使用搜索 API；未配置时使用东方财富公告 fallback，不生成假证据。
 
 默认会覆盖 `data/companies.json` 中的全部公司；命令行调试时可以用 `--max-companies` 临时抽样，页面按钮不做公司数量限制。
 
 也可以在命令行单次刷新：
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_evidence
+python -m scripts.refresh_evidence
 ```
 
 ## 校验
@@ -114,7 +114,7 @@ POST /api/refresh-evidence
 npm run build
 node --check app.js
 node scripts/validate-data.mjs
-/home/snape/github/daily_stock_analysis/.venv/bin/python -c 'import ast, pathlib; files=["server.py","scripts/dsa_bridge.py","scripts/json_utils.py","scripts/refresh_quotes.py","scripts/refresh_evidence.py","scripts/refresh_candidates.py","scripts/refresh_ranking.py"]; [compile(ast.parse(pathlib.Path(f).read_text()), f, "exec") for f in files]; print("python syntax ok")'
+python -c 'import ast, pathlib; files=["server.py","scripts/dsa_bridge.py","scripts/json_utils.py","scripts/refresh_quotes.py","scripts/refresh_evidence.py","scripts/refresh_candidates.py","scripts/refresh_ranking.py"]; [compile(ast.parse(pathlib.Path(f).read_text()), f, "exec") for f in files]; print("python syntax ok")'
 ```
 
 ## 内容边界

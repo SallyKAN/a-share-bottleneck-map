@@ -23,7 +23,7 @@ npm run build
 For the local full server:
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python server.py
+python server.py
 ```
 
 Then open:
@@ -37,9 +37,9 @@ http://127.0.0.1:5173/
 For low-cost operations, use GitHub Actions or a small VPS to run:
 
 ```bash
-/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_quotes
-/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_evidence
-/home/snape/github/daily_stock_analysis/.venv/bin/python -m scripts.refresh_candidates
+python -m scripts.refresh_quotes
+python -m scripts.refresh_evidence
+python -m scripts.refresh_candidates
 node scripts/validate-data.mjs
 npm run build
 ```
@@ -57,37 +57,14 @@ Default schedule:
 - Scheduled runs refresh candidates, quotes, evidence, and ranking.
 - Manual runs refresh the same full snapshot set.
 
-Required repository variable:
+Optional search provider secrets for richer evidence refresh:
 
 ```text
-DSA_REPOSITORY
+AI_PICKER_SERPAPI_API_KEY
+AI_PICKER_BRAVE_API_KEY
 ```
 
-Set it to the GitHub repository that contains `daily_stock_analysis`, for example:
-
-```text
-SallyKAN/daily_stock_analysis
-```
-
-If that repository is private, add a repository secret with read access:
-
-```text
-DSA_REPO_TOKEN
-```
-
-Required search provider secrets for evidence refresh:
-
-```text
-ANSPIRE_API_KEYS
-BOCHA_API_KEYS
-TAVILY_API_KEYS
-BRAVE_API_KEYS
-SERPAPI_API_KEYS
-MINIMAX_API_KEYS
-SEARXNG_BASE_URLS
-```
-
-Single-key secret names such as `BOCHA_API_KEY` are also accepted by the workflow and mapped to the `*_API_KEYS` environment variables expected by `daily_stock_analysis`.
+Without search API keys, the refresh scripts use independent built-in fallbacks such as 东方财富公告, 东方财富财务, 腾讯行情, and local snapshots. The refresh pipeline no longer requires a separate `daily_stock_analysis` repository.
 
 Vercel will redeploy automatically after the action commits refreshed `data/*.json` to `main`.
 

@@ -23,7 +23,7 @@ This is a research skill. Do not output buy/sell instructions or position sizing
 Repository root:
 
 ```text
-/home/snape/github/a-share-bottleneck-map
+Current a-share-bottleneck-map checkout
 ```
 
 Snapshot files:
@@ -62,6 +62,9 @@ python skills/ai-bottleneck-stock-picker/scripts/pick.py company 300308 --live
 python skills/ai-bottleneck-stock-picker/scripts/pick.py etf semiconductor --live
 ```
 
+Live providers are implemented inside this skill. They do not require the
+separate `daily_stock_analysis` repository.
+
 Use `--repo-root` only when the repository is not at the default path.
 
 ## Strategy
@@ -77,7 +80,10 @@ Use `--repo-root` only when the repository is not at the default path.
 Read `references/scoring.md` when explaining scores.
 Read `references/bottleneck-thesis.md` when explaining the AI bottleneck logic.
 Read `references/data-contracts.md` when implementing live news, financials, ETF holdings, or technicals.
-Read `references/output-format.md` for answer templates.
+Read `references/output-format.md` for answer templates. For broad stock-picking
+or validation requests, default to the structured research report format rather
+than a loose bullet list. Use the shorter templates only when the user asks for a
+single company, sector, ETF, or quick answer.
 
 ## Guardrails
 

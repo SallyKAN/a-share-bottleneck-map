@@ -12,7 +12,7 @@ Recommended cache directory:
 
 ```json
 {
-  "source": "Anspire/SearchService",
+  "source": "eastmoney_notice_fallback|serpapi|brave|independent_news_providers",
   "updatedAt": "2026-06-08T10:00:00+08:00",
   "items": [
     {
@@ -43,7 +43,7 @@ Risk news must be preserved even when positive news exists.
 
 ```json
 {
-  "source": "financial-provider",
+  "source": "eastmoney_financial + quotes.json fallback",
   "updatedAt": "2026-06-08T10:00:00+08:00",
   "items": [
     {
@@ -78,7 +78,7 @@ Financials must be treated as confirmation, not initial theme discovery.
 
 ```json
 {
-  "source": "etf-provider",
+  "source": "independent_etf_holdings",
   "updatedAt": "2026-06-08T10:00:00+08:00",
   "items": [
     {
@@ -109,7 +109,7 @@ ETF alternatives reduce single-stock risk but dilute bottleneck purity.
 
 ```json
 {
-  "source": "quote-provider",
+  "source": "quotes.json",
   "updatedAt": "2026-06-08T10:00:00+08:00",
   "items": [
     {

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Refresh A-share quote snapshot from daily_stock_analysis data providers.
+"""Refresh A-share quote snapshot from independent data providers.
 
-This script reads data/companies.json, fetches realtime quotes through
-daily_stock_analysis's DataFetcherManager, and atomically rewrites
-data/quotes.json for the static frontend.
+This script reads data/companies.json, fetches realtime quotes through the
+local independent provider bridge, and atomically rewrites data/quotes.json for
+the static frontend.
 """
 
 from __future__ import annotations
@@ -125,7 +125,7 @@ def refresh_once(*, sleep_seconds: float = 0.25) -> dict[str, Any]:
             time.sleep(sleep_seconds)
 
     payload = {
-        "source": "daily_stock_analysis.DataFetcherManager",
+        "source": "independent.EastmoneyQuoteProvider",
         "updatedAt": _now_iso(),
         "refreshIntervalHours": 12,
         "itemCount": len(items),

@@ -24,13 +24,6 @@ jobs:
         with:
           path: website
 
-      - name: Checkout daily_stock_analysis
-        uses: actions/checkout@v6
-        with:
-          repository: ${{ vars.DSA_REPOSITORY }}
-          token: ${{ secrets.DSA_REPO_TOKEN || github.token }}
-          path: daily_stock_analysis
-
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -56,46 +49,30 @@ jobs:
             sleep $((attempt * 15))
           done
 
-      - name: Install DSA Python dependencies
-        working-directory: daily_stock_analysis
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then
-            python -m pip install -r requirements.txt
-          elif [ -f pyproject.toml ]; then
-            python -m pip install .
-          fi
-
       - name: Refresh quotes
         working-directory: website
-        env:
-          DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
         run: python -m scripts.refresh_quotes --sleep-seconds 0.05
 
       - name: Refresh candidates
         working-directory: website
         env:
-          DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
           ANSPIRE_API_KEYS: ${{ secrets.ANSPIRE_API_KEYS || secrets.ANSPIRE_API_KEY }}
           BOCHA_API_KEYS: ${{ secrets.BOCHA_API_KEYS || secrets.BOCHA_API_KEY }}
           TAVILY_API_KEYS: ${{ secrets.TAVILY_API_KEYS || secrets.TAVILY_API_KEY }}
           BRAVE_API_KEYS: ${{ secrets.BRAVE_API_KEYS || secrets.BRAVE_API_KEY }}
           SERPAPI_API_KEYS: ${{ secrets.SERPAPI_API_KEYS || secrets.SERPAPI_API_KEY }}
           MINIMAX_API_KEYS: ${{ secrets.MINIMAX_API_KEYS || secrets.MINIMAX_API_KEY }}
-          SEARXNG_BASE_URLS: ${{ secrets.SEARXNG_BASE_URLS || secrets.SEARXNG_URL }}
         run: python -m scripts.refresh_candidates --max-candidates 300 --max-promoted-per-sector 30 --max-queries-per-sector 4
 
       - name: Refresh evidence
         working-directory: website
         env:
-          DSA_ROOT: ${{ github.workspace }}/daily_stock_analysis
           ANSPIRE_API_KEYS: ${{ secrets.ANSPIRE_API_KEYS || secrets.ANSPIRE_API_KEY }}
           BOCHA_API_KEYS: ${{ secrets.BOCHA_API_KEYS || secrets.BOCHA_API_KEY }}
           TAVILY_API_KEYS: ${{ secrets.TAVILY_API_KEYS || secrets.TAVILY_API_KEY }}
           BRAVE_API_KEYS: ${{ secrets.BRAVE_API_KEYS || secrets.BRAVE_API_KEY }}
           SERPAPI_API_KEYS: ${{ secrets.SERPAPI_API_KEYS || secrets.SERPAPI_API_KEY }}
           MINIMAX_API_KEYS: ${{ secrets.MINIMAX_API_KEYS || secrets.MINIMAX_API_KEY }}
-          SEARXNG_BASE_URLS: ${{ secrets.SEARXNG_BASE_URLS || secrets.SEARXNG_URL }}
         run: python -m scripts.refresh_evidence --max-searches 4 --results-per-dimension 2 --sleep-seconds 0.1
 
       - name: Refresh ranking

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh research evidence from daily_stock_analysis search providers."""
+"""Refresh research evidence from independent search providers."""
 
 from __future__ import annotations
 
@@ -178,7 +178,7 @@ def refresh_evidence_once(
     service = get_search_service()
     if not service.is_available:
         raise RuntimeError(
-            "daily_stock_analysis 搜索服务不可用：未配置 Bocha/Tavily/Brave/SerpAPI/MiniMax/SearXNG。"
+            "独立搜索服务不可用：请检查网络或配置 AI_PICKER_SERPAPI_API_KEY / AI_PICKER_BRAVE_API_KEY。"
         )
 
     items: list[dict[str, Any]] = []
@@ -228,7 +228,7 @@ def refresh_evidence_once(
 
     write_json_atomic(EVIDENCE_FILE, items)
     return {
-        "source": "daily_stock_analysis.SearchService",
+        "source": "independent.SearchService",
         "updatedAt": _now_iso(),
         "companyCount": len(selected),
         "itemCount": len(items),

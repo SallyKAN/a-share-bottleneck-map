@@ -1,6 +1,6 @@
 # 动态真实数据方案
 
-目标：复用 `~/github/daily_stock_analysis` 的行情、基本面、新闻搜索和大模型分析能力，把当前静态 JSON 原型升级为真实数据驱动的 A 股供应链瓶颈研究系统。
+目标：使用本仓库内置的独立 provider，把静态 JSON 原型升级为真实数据驱动的 A 股供应链瓶颈研究系统。刷新链路不依赖外部 `daily_stock_analysis` checkout。
 
 ## 总体架构
 
@@ -9,116 +9,87 @@ a-share-bottleneck-map
   前端展示
   data/*.json 静态快照
   scripts/*.py 数据刷新脚本
+  skills/ai-bottleneck-stock-picker/scripts/providers
         |
         v
-daily_stock_analysis 复用层
-  DataFetcherManager
-  StockTrendAnalyzer
-  SearchService
-  GeminiAnalyzer / Agent tools
+独立 provider
+  行情: 东方财富 -> 腾讯 fallback
+  财务: 东方财富财务 -> quotes.json fallback
+  新闻/公告: SerpAPI/Brave(可选) -> 东方财富公告 fallback
+  ETF持仓: 东方财富基金持仓 -> akshare(可选) fallback
         |
         v
-真实数据源
-  efinance / akshare / tushare / pytdx / baostock
-  搜索服务: Bocha / Tavily / Anspire / Brave / SerpAPI / SearXNG
-  LLM: LiteLLM 配置的模型
+data/*.json 快照
 ```
 
-一阶段保持静态部署能力：刷新脚本生成 `data/quotes.json`、`data/evidence.json`、`data/companies.json` 等快照，前端只读取 JSON。二阶段再加 FastAPI + SQLite。
+一阶段保持静态部署能力：刷新脚本生成 `data/quotes.json`、`data/evidence.json`、`data/companies.json`、`data/candidate_pool.json`、`data/ranking.json` 等快照，前端只读取 JSON。二阶段再考虑 API 服务和数据库。
 
-## 复用 DSA 能力
+## Provider 能力
 
-### 行情与基础数据
+### 行情
 
-复用：
-
-- `data_provider.DataFetcherManager`
-- `get_realtime_quote(code)`
-- `get_daily_data(code, days=90)`
-- `get_chip_distribution(code)`
-- `get_fundamental_context(code)`
+- `scripts.refresh_quotes`
+- 优先东方财富实时行情接口。
+- 东方财富失败时回退腾讯行情接口。
+- 单标的失败时保留上一版 quote，并标记 `stale`。
 
 输出到：
 
 - `data/quotes.json`
-- `data/technicals.json`
-- `data/fundamentals.json`
-- `data/chips.json`
 
-### 技术面
+### 新闻与证据
 
-复用：
+- `scripts.refresh_evidence`
+- 配置 `AI_PICKER_SERPAPI_API_KEY` 或 `AI_PICKER_BRAVE_API_KEY` 时使用搜索 API。
+- 没有搜索 API key 时使用东方财富公告 fallback。
+- 证据保留 URL、发布日期、来源层级、情绪、风险标记和 `needsReview`。
 
-- `src.stock_analyzer.StockTrendAnalyzer`
+输出到：
 
-流程：
+- `data/evidence.json`
 
-1. `DataFetcherManager.get_daily_data(code, days=90)` 获取 K 线。
-2. `StockTrendAnalyzer.analyze(df, code)` 生成趋势、均线、MACD、RSI、买点评分。
-3. 写入 `data/technicals.json`。
+### 候选池
 
-### 新闻与产业证据
+- `scripts.refresh_candidates`
+- 使用本地公司池和行业映射作为 seed。
+- 可选搜索 API 增强新候选发现。
+- 可选 `akshare` 概念板块增强，但不是运行前置依赖。
+- 刷新返回 0 时不覆盖旧候选池。
 
-复用：
+输出到：
 
-- `src.search_service.SearchService`
-- `src.agent.tools.search_tools.search_comprehensive_intel`
+- `data/candidate_pool.json`
+- 必要时追加 `data/companies.json`
 
-流程：
+### 财务与 ETF
 
-1. 对每个 `company + sector` 生成搜索 query。
-2. 拉取最新新闻、风险、业绩预期、行业趋势。
-3. 保存原始搜索结果。
-4. 用 LLM 抽取为结构化证据。
-5. 写入 `data/evidence.json`。
+这些能力主要服务 `ai-bottleneck-stock-picker --live`：
 
-### LLM 分析
+- 财务：东方财富财务接口 + `quotes.json` 估值 fallback。
+- ETF：东方财富基金持仓页解析，检查持仓后再计算瓶颈纯度。
 
-复用：
+输出到：
 
-- `src.analyzer.GeminiAnalyzer`
-- LiteLLM 配置、fallback、usage 记录逻辑
+- `.cache/ai-bottleneck-stock-picker/financials.json`
+- `.cache/ai-bottleneck-stock-picker/etf_holdings.json`
 
-建议不要直接复用 DSA 的单股交易报告 prompt，而是新增“供应链证据抽取 prompt”：
-
-```json
-{
-  "company": "沪电股份",
-  "sector": "PCB与高速材料",
-  "claim": "AI服务器PCB需求增长",
-  "evidence_type": "订单线索",
-  "sentiment": "positive",
-  "confidence": 0.78,
-  "risk_questions": ["是否消费电子周期反弹误判为AI订单"],
-  "source_title": "...",
-  "source_url": "...",
-  "source_date": "..."
-}
-```
-
-## 刷新脚本设计
-
-建议新增：
+## 刷新脚本
 
 ```text
 scripts/
   refresh_quotes.py
-  refresh_technicals.py
-  refresh_fundamentals.py
   refresh_evidence.py
-  refresh_all.py
+  refresh_candidates.py
+  refresh_ranking.py
 ```
 
-脚本通过 `PYTHONPATH=/home/snape/github/daily_stock_analysis` 导入 DSA 模块。
+常用命令：
 
-示例伪代码：
-
-```python
-from data_provider import DataFetcherManager
-
-manager = DataFetcherManager()
-quote = manager.get_realtime_quote("300308")
-payload = quote.to_dict()
+```bash
+python -m scripts.refresh_quotes
+python -m scripts.refresh_evidence
+python -m scripts.refresh_candidates
+python -m scripts.refresh_ranking
 ```
 
 ## 评分升级
@@ -128,41 +99,14 @@ payload = quote.to_dict()
 - `bottleneckStrength`: 仍以人工产业链节点为主，后续可由证据数量和依赖数量辅助修正。
 - `positionCertainty`: 由证据中“客户验证、订单、产能、产品占比”加权。
 - `evidenceQuality`: 公告/年报 > 投资者纪要 > 新闻 > 社媒。
-- `financialConversion`: 来自 `get_fundamental_context` 的增长、盈利、现金流。
+- `financialConversion`: 来自财报增长、盈利、现金流。
 - `valuationDiscipline`: 来自行情估值、涨幅、市值和拥挤度。
-- `riskControl`: 来自风险证据、筹码、技术面和减持/融资线索。
-
-## API 二阶段
-
-当静态 JSON 不够用时，加轻量后端：
-
-```text
-GET /api/sectors
-GET /api/companies
-GET /api/quotes
-GET /api/evidence
-POST /api/refresh/quotes
-POST /api/refresh/evidence
-POST /api/research/company/{code}
-```
-
-后端可以直接复用 DSA 的 `AnalysisService` 或底层组件：
-
-- 单股交易分析：`src.services.analysis_service.AnalysisService.analyze_stock`
-- 供应链研究分析：新增本项目自己的 `BottleneckResearchService`
-
-## 实施顺序
-
-1. 保持当前前端 JSON 驱动。
-2. 新增 `scripts/refresh_quotes.py`，用 DSA `DataFetcherManager` 更新 `quotes.json`。
-3. 新增 `scripts/refresh_technicals.py`，用 DSA `StockTrendAnalyzer` 更新 `technicals.json`。
-4. 新增 `scripts/refresh_evidence.py`，用 DSA `SearchService` + LLM 抽取证据。
-5. 把 `companies.json.metrics` 改成由刷新脚本生成，人工只维护基础卡位和依赖关系。
-6. 二阶段引入 FastAPI + SQLite。
+- `riskControl`: 来自风险证据、问询函、减持、诉讼等线索。
 
 ## 风险与边界
 
 - 股票价格必须展示数据时间和来源，避免误以为实时流。
 - 搜索结果必须保留 URL 和发布日期。
 - LLM 只能抽取和归类证据，不能直接生成买入结论。
-- 所有 AI 生成证据默认 `needs_review=true`，人工确认后再影响高权重评分。
+- 所有非官方高影响证据默认 `needsReview=true`，人工确认后再影响高权重评分。
+- Provider 失败时保留旧缓存或旧快照，不写空数据。

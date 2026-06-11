@@ -127,6 +127,11 @@ def _score_candidate(candidate: dict[str, Any]) -> int:
 
 
 def _search_query(service: Any, query: str, *, max_results: int = 5, days: int = 30) -> Any:
+    search = getattr(service, "search", None)
+    if callable(search):
+        response = search(query, max_results=max_results, days=days)
+        if getattr(response, "success", False):
+            return response
     for provider in getattr(service, "_providers", []):
         if not getattr(provider, "is_available", False):
             continue
@@ -272,12 +277,20 @@ def _discover_from_concept_boards(
     by_code: dict[str, dict[str, Any]],
     *,
     max_per_concept: int,
+    warnings: list[dict[str, str]],
     failures: list[dict[str, str]],
 ) -> None:
     try:
         import akshare as ak
     except Exception as exc:  # noqa: BLE001
-        failures.append({"sectorId": "all", "query": "akshare", "error": str(exc)})
+        warnings.append(
+            {
+                "sectorId": "all",
+                "query": "akshare",
+                "error": str(exc),
+                "impact": "optional concept-board enrichment skipped; local snapshot candidates were still used",
+            }
+        )
         return
 
     available = _load_concept_boards()
@@ -287,7 +300,14 @@ def _discover_from_concept_boards(
             try:
                 df = ak.stock_board_concept_cons_em(symbol=concept)
             except Exception as exc:  # noqa: BLE001
-                failures.append({"sectorId": sector["id"], "query": concept, "error": str(exc)})
+                warnings.append(
+                    {
+                        "sectorId": sector["id"],
+                        "query": concept,
+                        "error": str(exc),
+                        "impact": "optional concept-board enrichment skipped for this concept",
+                    }
+                )
                 continue
             if df is None or df.empty:
                 continue
@@ -309,6 +329,31 @@ def _discover_from_concept_boards(
                 )
 
 
+def _discover_from_local_snapshots(
+    candidates_by_key: dict[str, dict[str, Any]],
+    sectors: list[dict[str, Any]],
+    companies: list[dict[str, Any]],
+) -> None:
+    sector_by_id = {sector["id"]: sector for sector in sectors}
+    for company in companies:
+        code = str(company.get("code") or "")
+        name = str(company.get("name") or "")
+        if not code or not name:
+            continue
+        for sector_id in company.get("sectorIds") or []:
+            sector = sector_by_id.get(sector_id)
+            keyword = sector.get("title", sector_id) if sector else sector_id
+            _add_candidate(
+                candidates_by_key,
+                code=code,
+                name=name,
+                sector_id=sector_id,
+                keyword=keyword,
+                tier="local_snapshot",
+                evidence={"title": f"本地公司池已映射至：{keyword}", "url": "", "source": "data/companies.json"},
+            )
+
+
 def refresh_candidates_once(
     *,
     max_candidates: int = 300,
@@ -322,16 +367,20 @@ def refresh_candidates_once(
     by_code, stocks = _load_a_stock_index()
     service = get_search_service()
     if not getattr(service, "is_available", False):
-        raise RuntimeError("daily_stock_analysis 搜索服务不可用，无法刷新候选池。")
+        raise RuntimeError("独立搜索服务不可用，无法刷新候选池。")
 
     candidates_by_key: dict[str, dict[str, Any]] = {}
     failures: list[dict[str, str]] = []
+    warnings: list[dict[str, str]] = []
+
+    _discover_from_local_snapshots(candidates_by_key, sectors, companies)
 
     _discover_from_concept_boards(
         candidates_by_key,
         sectors,
         by_code,
         max_per_concept=max(10, max_promoted_per_sector),
+        warnings=warnings,
         failures=failures,
     )
 
@@ -342,14 +391,22 @@ def refresh_candidates_once(
             try:
                 response = _search_query(service, query, max_results=5, days=30)
             except Exception as exc:  # noqa: BLE001
-                failures.append({"sectorId": sector["id"], "query": query, "error": str(exc)})
+                warnings.append(
+                    {
+                        "sectorId": sector["id"],
+                        "query": query,
+                        "error": str(exc),
+                        "impact": "optional web-search enrichment skipped; local snapshot candidates were still used",
+                    }
+                )
                 continue
             if not getattr(response, "success", False):
-                failures.append(
+                warnings.append(
                     {
                         "sectorId": sector["id"],
                         "query": query,
                         "error": getattr(response, "error_message", "search failed"),
+                        "impact": "optional web-search enrichment returned no usable results",
                     }
                 )
                 continue
@@ -408,12 +465,14 @@ def refresh_candidates_once(
         _append_unavailable_quotes(promoted)
 
     payload = {
-        "source": "daily_stock_analysis.SearchService + stocks.index.json",
+        "source": "independent.SearchService + local stock index",
         "updatedAt": _now_iso(),
         "itemCount": len(candidates),
         "promotedCount": len(promoted),
         "failureCount": len(failures),
         "failures": failures,
+        "warningCount": len(warnings),
+        "warnings": warnings,
         "items": candidates,
     }
     if not candidates:
@@ -445,7 +504,7 @@ def main() -> int:
     )
     print(
         f"Refreshed {payload['itemCount']} candidates, promoted {payload['promotedCount']} "
-        f"({payload['failureCount']} failures)."
+        f"({payload['failureCount']} failures, {payload.get('warningCount', 0)} warnings)."
     )
     return 0
 
