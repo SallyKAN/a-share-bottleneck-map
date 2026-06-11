@@ -2643,5 +2643,37 @@
       "valuationDiscipline": 55,
       "riskControl": 55
     }
+  },
+  {
+    "id": "auto-688627",
+    "name": "精智达",
+    "code": "688627",
+    "sectorIds": [
+      "package"
+    ],
+    "role": "先进封装候选公司，需继续核验证据质量",
+    "dependencyRefs": [
+      {
+        "sectorId": "package",
+        "nodeId": "package",
+        "role": "先进封装",
+        "evidenceIds": [],
+        "confidence": 0.64
+      }
+    ],
+    "admission": {
+      "source": "auto_candidate_rules",
+      "score": 64,
+      "promotedAt": "2026-06-11T02:21:57+00:00",
+      "curated": false
+    },
+    "metrics": {
+      "bottleneckStrength": 64,
+      "positionCertainty": 59,
+      "evidenceQuality": 56,
+      "financialConversion": 50,
+      "valuationDiscipline": 55,
+      "riskControl": 55
+    }
   }
 ]
